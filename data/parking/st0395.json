@@ -1,0 +1,77 @@
+{
+  "station_id": "st0395",
+  "station_name": "大泉学園",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "西武スマイルパーク リズモ大泉学園駐車場",
+      "lat": 35.749551,
+      "lon": 139.587704,
+      "address": "東京都練馬区東大泉1-28-1",
+      "cc_class": "unlimited",
+      "displacement_note": "原付（50cc以下）車室21台・大型車室11台と情報源に明記",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 600,
+        "note": "最初2時間無料、以降1時間100円、入庫から24時間最大600円（繰返しあり）"
+      },
+      "capacity": 32,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.s-park.jp/list/bike?p=6",
+      "data_note": "s-park一覧ページの掲載値。施設はリズモ大泉学園の地下",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "パーク王 練馬第六大泉学園駅北口駐車場",
+      "lat": 35.750167,
+      "lon": 139.586549,
+      "address": "東京都練馬区東大泉1-30-13",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "1時間100円、24時間最大500円"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/37353",
+      "data_note": "バイク専用・ゲート式。運営は株式会社アイテック",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "大泉学園駅北第二自転車駐車場（バイク区画）",
+      "lat": 35.751267,
+      "lon": 139.585032,
+      "address": "東京都練馬区東大泉4-3-14",
+      "cc_class": "125",
+      "displacement_note": "原付のみ（練馬区営駐輪場のバイク区画）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は情報源で未確認"
+      },
+      "capacity": 28,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.city.nerima.tokyo.jp/jigyoshamuke/jigyosha/oshirase/bicycleparking.files/ichiran.pdf",
+      "data_note": "練馬区の一覧でバイク区画の存在を確認。台数・屋根はMapCycleの掲載値（2016年時点）",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
