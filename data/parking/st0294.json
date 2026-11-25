@@ -1,0 +1,54 @@
+{
+  "station_id": "st0294",
+  "station_name": "江戸川",
+  "ward": "江戸川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク江戸川区北小岩5丁目",
+      "lat": 35.740706,
+      "lon": 139.889654,
+      "address": "東京都江戸川区北小岩5-16-10",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク駐車可と明記（区画950mm×2,300mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額4,400円（税込）"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-46877.html",
+      "data_note": "江戸川駅徒歩10分（京成小岩駅徒歩8分）",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "小岩バイク駐車場1（日本バイクパーキング）",
+      "lat": 35.734002,
+      "lon": 139.88961,
+      "address": "東京都江戸川区東小岩6-19-2",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額6,000円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "http://bike-p.co.jp/",
+      "data_note": "運営会社の一覧ページの値（江戸川駅徒歩10分）",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "station_id": "st0296",
+  "station_name": "篠崎",
+  "ward": "江戸川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "篠崎ツインプレイス バイク駐車場（サミット駐車場）",
+      "lat": 35.705797,
+      "lon": 139.902735,
+      "address": "東京都江戸川区篠崎町7-20-9",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし。江戸川区公式では篠崎駅東駐輪場（1階）で原付・自動二輪の当日利用可",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降1時間ごと100円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "4:30-1:00",
+      "monthly": null,
+      "source_url": "https://bikepark.in/detail.cgi?ID=1325",
+      "data_note": "座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "篠崎バイク駐車場2（日本バイクパーキング）",
+      "lat": 35.705991,
+      "lon": 139.901932,
+      "address": "東京都江戸川区篠崎町7-16-15",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額3,500円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/",
+      "data_note": "運営会社の一覧ページの値（篠崎駅徒歩2分）",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "バイクパーク篠崎",
+      "lat": 35.706479,
+      "lon": 139.910464,
+      "address": "東京都江戸川区篠崎町2-59-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額15,400円（税込）＋管理費2,200円/月"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-48153.html",
+      "data_note": "篠崎駅から約1km",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

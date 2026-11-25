@@ -1,0 +1,77 @@
+{
+  "station_id": "st0298",
+  "station_name": "葛西",
+  "ward": "江戸川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "葛西駅東2号駐輪場",
+      "lat": 35.66339,
+      "lon": 139.876375,
+      "address": "東京都江戸川区東葛西6-19",
+      "cc_class": "unknown",
+      "displacement_note": "江戸川区公式で原付バイク・自動二輪の当日利用可と明記（排気量の上限は明記なし）。定期利用は原付のみ",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "当日利用は入庫後2時間無料。1日：原付210円・自動二輪320円"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "4:30-1:00",
+      "monthly": true,
+      "source_url": "https://www.city.edogawa.tokyo.jp/e058/kurashi/kotsu/churintaisaku/churinjo/kasai.html",
+      "data_note": "料金・台数はバイク専門サイト（2022年）の値。座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "葛西バイク駐車場2（日本バイクパーキング）",
+      "lat": 35.661689,
+      "lon": 139.870651,
+      "address": "東京都江戸川区中葛西5-31",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額7,500円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_detail.html?id=629",
+      "data_note": "座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "トミーバイクパーキング葛西駅前",
+      "lat": 35.663359,
+      "lon": 139.870415,
+      "address": "東京都江戸川区中葛西5-19",
+      "cc_class": "unknown",
+      "displacement_note": "特大サイズ区画（1,000mm×2,400mm）。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額8,800円（税込）"
+      },
+      "capacity": 4,
+      "roof": false,
+      "hours": "24時間（出し入れ自由）",
+      "monthly": true,
+      "source_url": "https://tomybikepark.com/parking/kasaiekimae",
+      "data_note": "掲載時点では満車。座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

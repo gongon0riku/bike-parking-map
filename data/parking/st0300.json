@@ -1,0 +1,76 @@
+{
+  "station_id": "st0300",
+  "station_name": "西葛西",
+  "ward": "江戸川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "西葛西駅西駐輪場",
+      "lat": 35.66455,
+      "lon": 139.855471,
+      "address": "東京都江戸川区西葛西6-2-13",
+      "cc_class": "unlimited",
+      "displacement_note": "集約サイトでは「126cc以上OK」。江戸川区公式でも自動二輪の当日利用可（定期利用は原付のみ）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "最初の2時間無料。1日1回料金：自動二輪410円・原付270円"
+      },
+      "capacity": 41,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://tokyo-bikepark.com/p/s288",
+      "data_note": "料金・台数は集約サイトの値（51cc以上35台・50cc以下6台）。座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "西葛西駅東2号駐輪場",
+      "lat": 35.664145,
+      "lon": 139.862073,
+      "address": "東京都江戸川区西葛西6-22-8",
+      "cc_class": "unknown",
+      "displacement_note": "51cc以上の区画45台・50cc以下15台。青色ナンバー車両は不可（s-parkの記載）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "最初の2時間無料。1日1回料金：51cc以上410円・50cc以下270円"
+      },
+      "capacity": 60,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.s-park.jp/map/bike/377",
+      "data_note": "座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "バイクパーク江戸川区西葛西3丁目",
+      "lat": 35.666319,
+      "lon": 139.85746,
+      "address": "東京都江戸川区西葛西3-12-17",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画13台",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額6,050円（税込）"
+      },
+      "capacity": 13,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/230234",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

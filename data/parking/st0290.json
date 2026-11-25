@@ -1,0 +1,76 @@
+{
+  "station_id": "st0290",
+  "station_name": "一之江",
+  "ward": "江戸川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "一之江駅北口駐輪場（1階）",
+      "lat": 35.687814,
+      "lon": 139.883482,
+      "address": "東京都江戸川区一之江3-5",
+      "cc_class": "unknown",
+      "displacement_note": "江戸川区公式で原付バイク・自動二輪の当日利用可と明記（排気量の上限は明記なし）。定期利用は原付のみ",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "当日利用：原付270円・自動二輪410円（1日1回、江戸川区公式の標準料金）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間（4:30-翌4:30）",
+      "monthly": true,
+      "source_url": "https://www.city.edogawa.tokyo.jp/e058/kurashi/kotsu/churintaisaku/churinjo/ichinoe.html",
+      "data_note": "座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク江戸川区一之江3丁目",
+      "lat": 35.686572,
+      "lon": 139.884823,
+      "address": "東京都江戸川区一之江3-2-28",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク駐車可と明記（区画900mm×2,300mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額3,300円（税込）"
+      },
+      "capacity": 14,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/190411",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "エコロパーク一之江第1駐車場",
+      "lat": 35.690464,
+      "lon": 139.882302,
+      "address": "東京都江戸川区一之江4-10",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク料金は公式ページのタブ内にあり未取得"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://service.ecolocity.co.jp/park/coin-parking/632/",
+      "data_note": "存在・バイク可・24時間は公式ページで確認。座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

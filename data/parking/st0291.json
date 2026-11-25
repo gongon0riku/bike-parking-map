@@ -1,0 +1,75 @@
+{
+  "station_id": "st0291",
+  "station_name": "京成小岩",
+  "ward": "江戸川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "京成小岩駅北駐輪場",
+      "lat": 35.742931,
+      "lon": 139.885646,
+      "address": "東京都江戸川区北小岩6丁目",
+      "cc_class": "unknown",
+      "displacement_note": "江戸川区公式で原付バイク・自動二輪の当日利用可と明記（排気量の上限は明記なし）。定期利用は原付のみ",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "当日利用は入庫後2時間無料。1日1回：原付270円・自動二輪410円。定期利用（原付）：月額3,770円（いずれも江戸川区公式の標準料金）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.edogawa.tokyo.jp/e058/kurashi/kotsu/churintaisaku/churinjo/keiseikoiwa.html",
+      "data_note": "座標は北小岩6丁目（北2号駐輪場付近）の精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "京成小岩バイク駐車場1（日本バイクパーキング）",
+      "lat": 35.741684,
+      "lon": 139.88681,
+      "address": "東京都江戸川区北小岩5-3-5",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額4,500円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-124630.html",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "バイクパーク江戸川区北小岩2丁目第三",
+      "lat": 35.739048,
+      "lon": 139.884141,
+      "address": "東京都江戸川区北小岩2-3-13",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画10台（1,200mm×2,300mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額3,300円（税込）"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/30835",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
