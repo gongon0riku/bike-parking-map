@@ -1,0 +1,31 @@
+{
+  "station_id": "st0052",
+  "station_name": "水天宮前",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "日本橋蛎殻町1丁目影山宅駐車場",
+      "lat": 35.6810656,
+      "lon": 139.7835686,
+      "address": "東京都中央区日本橋蛎殻町1-2-8",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 15,
+        "base_yen": 200,
+        "max_yen_per_day": 2000,
+        "note": "15分200円、当日最大2,000円（akippa予約制）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間（予約制）",
+      "monthly": false,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/%E4%B8%AD%E5%A4%AE%E5%8C%BA-1.html",
+      "checked_date": "2026-11-25",
+      "data_note": "日本二輪車普及安全協会の一覧に基づく"
+    }
+  ]
+}

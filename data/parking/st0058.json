@@ -1,0 +1,53 @@
+{
+  "station_id": "st0058",
+  "station_name": "銀座一丁目",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイク専用駐車場（akippa）",
+      "lat": 35.6755022,
+      "lon": 139.7670478,
+      "address": "東京都中央区銀座1-2-2",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量による制限はありません（JMPSA）。125cc専用区画と一般区画あり",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 1100,
+        "note": "予約制。小型用（125cc）区画は24時間最大880円、一般区画は1日1,100円〜"
+      },
+      "capacity": 13,
+      "roof": null,
+      "hours": "24時間（予約制）",
+      "monthly": false,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-30467.html",
+      "checked_date": "2026-11-25",
+      "data_note": "台数は小型用9台と一般4台の合計"
+    },
+    {
+      "id": "p002",
+      "name": "オープンレジデンシア銀座2丁目 バイク駐車場",
+      "lat": 35.6712133,
+      "lon": 139.7705256,
+      "address": "東京都中央区銀座2-16-16",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 L区画 月額16,500円（税込）・M区画 月額15,950円（税込）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "https://bike-parking.jp/area/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E4%B8%AD%E5%A4%AE%E5%8C%BA/%E6%96%B0%E5%AF%8C/",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

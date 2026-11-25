@@ -1,0 +1,77 @@
+{
+  "station_id": "st0057",
+  "station_name": "銀座",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "中央区営銀座地下二輪駐車場",
+      "lat": 35.6661061,
+      "lon": 139.7656536,
+      "address": "東京都中央区銀座7-17-12先",
+      "cc_class": "unknown",
+      "displacement_note": "駐車できる二輪車は全長2.7m以下（排気量の明記なし）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "1時間100円、9時間を超える場合は1,000円定額、1泊400円（19:00-翌9:00）。定期利用あり"
+      },
+      "capacity": 30,
+      "roof": true,
+      "hours": "時間制 5:00-22:00（定期利用は24時間）",
+      "monthly": true,
+      "source_url": "https://www.chuo-kanko.or.jp/pages/parking/124424",
+      "checked_date": "2026-11-25",
+      "data_note": "中央区営。台数30台（時間制9台・定期制21台）と利用時間は中央区観光協会の掲載値。料金は中央区公式ページの転載値"
+    },
+    {
+      "id": "p002",
+      "name": "タイムズ東急プラザ銀座 バイク駐車場",
+      "lat": 35.6721522,
+      "lon": 139.7624228,
+      "address": "東京都中央区銀座5-2-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 800,
+        "note": "2時間無料、以降1時間100円、24時間最大800円"
+      },
+      "capacity": 14,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38013",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（MotoHub、出典bikepark.in）の掲載値"
+    },
+    {
+      "id": "p003",
+      "name": "銀座四丁目公共駐車場",
+      "lat": 35.6713439,
+      "lon": 139.7658367,
+      "address": "東京都中央区銀座4-6-16",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク区画あり（大型18台・小型4台）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 150,
+        "max_yen_per_day": null,
+        "note": "30分150円"
+      },
+      "capacity": 22,
+      "roof": true,
+      "hours": "8:00-23:30",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/37592",
+      "checked_date": "2026-11-25",
+      "data_note": "銀座三越の地下3階。集約サイト（MotoHub、出典bikepark.in）の掲載値"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "station_id": "st0053",
+  "station_name": "浜町",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "中央区営浜町公園地下駐車場",
+      "lat": 35.6882539,
+      "lon": 139.789185,
+      "address": "東京都中央区日本橋浜町2-59-4",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上も可。全長2.7m以下の二輪車",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "1時間100円、9時間を超える場合は1,000円定額、夜間1泊300円（19:00-翌9:00）。定期月額8,000円"
+      },
+      "capacity": 37,
+      "roof": true,
+      "hours": "時間制 7:00-22:00（定期利用は24時間）",
+      "monthly": true,
+      "source_url": "https://tokyo-bikepark.com/p/s167",
+      "checked_date": "2026-11-25",
+      "data_note": "中央区営。台数37台（時間制8台・定期制29台）は中央区観光協会の掲載値。料金は集約サイトの掲載値。座標は街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク日本橋浜町3丁目",
+      "lat": 35.6853714,
+      "lon": 139.7902925,
+      "address": "東京都中央区日本橋浜町3-29-5",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク区画のみ（4台、950mm×2,300mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額7,700円（税込）"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "https://www.81989.jp/parking/detail/26530",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

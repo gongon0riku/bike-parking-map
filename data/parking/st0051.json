@@ -1,0 +1,54 @@
+{
+  "station_id": "st0051",
+  "station_name": "東銀座",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "GINZA SIX バイク駐車場",
+      "lat": 35.6694283,
+      "lon": 139.7641203,
+      "address": "東京都中央区銀座6-10-1",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上も可（幅1.1m・長さ2.3m以内）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 720,
+        "base_yen": 900,
+        "max_yen_per_day": null,
+        "note": "最初12時間まで900円"
+      },
+      "capacity": 29,
+      "roof": true,
+      "hours": "6:00-26:00",
+      "monthly": false,
+      "source_url": "https://tokyo-bikepark.com/p/s1012",
+      "checked_date": "2026-11-25",
+      "data_note": "施設公式ページでもバイク駐車場の存在と営業時間を確認。台数・料金・排気量条件は集約サイトの掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "NPC24H GINZA KABUKIZAパーキング",
+      "lat": 35.6697589,
+      "lon": 139.7680536,
+      "address": "東京都中央区銀座4-12-15",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし（区画サイズ6種、全長1,850-1,950mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額9,000円（税別）"
+      },
+      "capacity": 17,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-97791.html",
+      "checked_date": "2026-11-25",
+      "data_note": "東銀座駅直結・屋内。情報源の最終更新は2022年"
+    }
+  ]
+}

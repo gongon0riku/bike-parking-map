@@ -1,0 +1,76 @@
+{
+  "station_id": "st0042",
+  "station_name": "八丁堀",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "トミーバイクパーキング八丁堀",
+      "lat": 35.6770136,
+      "lon": 139.7784744,
+      "address": "東京都中央区八丁堀1-12-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし（車室1,000mm×2,400mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額12,100円（税込）"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間（月極・出し入れ自由）",
+      "monthly": true,
+      "source_url": "https://tomybikepark.com/parking/hatchobori",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は街区レベル。確認時点で満車"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク八丁堀3丁目",
+      "lat": 35.6753469,
+      "lon": 139.7756883,
+      "address": "東京都中央区八丁堀3-16-10",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク駐車可と明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額11,000円（税込）"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-78609.html",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "八丁堀4丁目バイク駐車場",
+      "lat": 35.6744469,
+      "lon": 139.7799939,
+      "address": "東京都中央区八丁堀4-14-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし（全幅850mm×全長2,400mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額11,000円（税込）"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-83494.html",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は街区レベル。情報源の最終更新は2021年"
+    }
+  ]
+}

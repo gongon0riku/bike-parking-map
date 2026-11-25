@@ -1,0 +1,54 @@
+{
+  "station_id": "st0040",
+  "station_name": "京橋",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "京橋エドグラン バイク置場",
+      "lat": 35.6775439,
+      "lon": 139.7694394,
+      "address": "東京都中央区京橋2-2-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 800,
+        "note": "100円/1時間、12時間最大800円"
+      },
+      "capacity": 15,
+      "roof": true,
+      "hours": "5:40-25:00",
+      "monthly": null,
+      "source_url": "https://www.edogrand.tokyo/access/",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・営業時間は施設公式ページ。台数15台は集約サイト（MotoHub）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "中央区営京橋プラザ二輪駐車場",
+      "lat": 35.6729967,
+      "lon": 139.7715172,
+      "address": "東京都中央区銀座1-25-3",
+      "cc_class": "unknown",
+      "displacement_note": "駐車できる二輪車は全長2.7m以下（排気量の明記なし）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "1時間100円、9時間を超える場合は1,000円定額、1泊300円（19:00-翌9:00）。定期月額8,000円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "7:00-22:00",
+      "monthly": true,
+      "source_url": "https://www.city.chuo.lg.jp/a0035/kurashi/koutsuu/parking/kurisuobike.html",
+      "checked_date": "2026-11-25",
+      "data_note": "中央区営。料金・利用時間は区公式ページの掲載値。台数10台は集約サイト（MotoHub）の掲載値。座標は街区レベル"
+    }
+  ]
+}

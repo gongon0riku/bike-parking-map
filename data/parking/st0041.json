@@ -1,0 +1,54 @@
+{
+  "station_id": "st0041",
+  "station_name": "人形町",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "名鉄協商パーキング 中央第1日本橋堀留町アグナス",
+      "lat": 35.6871619,
+      "lon": 139.7799603,
+      "address": "東京都中央区日本橋堀留町2-10-10",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量制限なし（現地レポート）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 900,
+        "note": "8:00-22:00 30分100円・24時間最大900円、22:00-8:00 1時間100円"
+      },
+      "capacity": 9,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://tme-chronicles.com/parking023/",
+      "checked_date": "2026-11-25",
+      "data_note": "個人ブログの現地レポートに基づく。座標は日本橋堀留町の町名レベル"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク日本橋人形町3丁目",
+      "lat": 35.6855794,
+      "lon": 139.7839131,
+      "address": "東京都中央区日本橋人形町3-4-1",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク区画のみ（4台）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額11,550円（税込）"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/190010",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は日本橋人形町の町名レベル"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0055",
+  "station_name": "築地市場",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "中央区営備前橋二輪駐車場",
+      "lat": 35.6665869,
+      "lon": 139.7736389,
+      "address": "東京都中央区築地7-1-15",
+      "cc_class": "unlimited",
+      "displacement_note": "大型まで可（全長2.7m以下）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用のみ 月額8,000円（区内在住・在勤者対象、2年更新・抽選あり）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "定期利用のみ",
+      "monthly": true,
+      "source_url": "https://www.city.chuo.lg.jp/a0035/faq/kurashi/koutsuu/0003.html",
+      "checked_date": "2026-11-25",
+      "data_note": "中央区営。存在・所在地・定期利用のみは区公式FAQで確認。月額は集約サイト（バイク置き場ナビ）の掲載値。座標は街区レベル"
+    }
+  ]
+}

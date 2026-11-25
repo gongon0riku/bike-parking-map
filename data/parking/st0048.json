@@ -1,0 +1,54 @@
+{
+  "station_id": "st0048",
+  "station_name": "日本橋",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "日本橋高島屋S.C.新館駐車場",
+      "lat": 35.6803625,
+      "lon": 139.7716808,
+      "address": "東京都中央区日本橋2-5-1",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量制限なし（現地レポート）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 180,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "最初2時間無料、以降3時間ごと300円"
+      },
+      "capacity": 11,
+      "roof": true,
+      "hours": "10:00-23:00",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38413",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（MotoHub、出典bikepark.in）および現地レポートに基づく。座標は日本橋の町名レベル"
+    },
+    {
+      "id": "p002",
+      "name": "日本橋兜町駐車場",
+      "lat": 35.6836656,
+      "lon": 139.7782408,
+      "address": "東京都中央区日本橋兜町1番13号先",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量制限なし（現地レポート）。幅1.0m・長さ2.4m以内",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "1時間100円。月極10,180円〜（集約サイト値）"
+      },
+      "capacity": 30,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.s-park.jp/map/bike/125",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数はs-parkの掲載値。首都高の高架下"
+    }
+  ]
+}

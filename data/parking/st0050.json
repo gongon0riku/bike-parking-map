@@ -1,0 +1,31 @@
+{
+  "station_id": "st0050",
+  "station_name": "東日本橋",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク東日本橋3丁目",
+      "lat": 35.6936817,
+      "lon": 139.7865378,
+      "address": "東京都中央区東日本橋3-4-14",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク駐車可能と明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額11,550円（税込）"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-47642.html",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は東日本橋の町名レベル"
+    }
+  ]
+}

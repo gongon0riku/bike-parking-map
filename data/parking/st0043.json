@@ -1,0 +1,54 @@
+{
+  "station_id": "st0043",
+  "station_name": "勝どき",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "トリトンスクエア駐輪場（バイク）",
+      "lat": 35.6569322,
+      "lon": 139.7829419,
+      "address": "東京都中央区晴海1-8-8",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "来場者無料"
+      },
+      "capacity": 50,
+      "roof": null,
+      "hours": "7:00-23:30",
+      "monthly": false,
+      "source_url": "https://motohub.jp/parking/37207",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（MotoHub、出典bikepark.in）の掲載値。NAVITIMEでも無料・50台・7:00-23:30を確認"
+    },
+    {
+      "id": "p002",
+      "name": "ラグゼナ勝どき バイク駐車場",
+      "lat": 35.657885,
+      "lon": 139.7736336,
+      "address": "東京都中央区勝どき3-16-2",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 L区画 月額22,000円（税込）"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "http://bike-parking.jp/area/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E4%B8%AD%E5%A4%AE%E5%8C%BA/%E5%8B%9D%E3%81%A9%E3%81%8D/",
+      "checked_date": "2026-11-25",
+      "data_note": "建物下のため雨に濡れにくいとの記載あり"
+    }
+  ]
+}
