@@ -26,6 +26,29 @@
       "source_url": "https://btimes.jp/tokyo/park/65924/",
       "checked_date": "2026-11-25",
       "data_note": "馬喰横山駅・馬喰町駅の双方から徒歩圏内"
+    },
+    {
+      "id": "p002",
+      "name": "名鉄協商 中央第11日本橋富沢町バイク",
+      "lat": 35.689596,
+      "lon": 139.783061,
+      "address": "東京都中央区日本橋富沢町14-6",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上OK（東京バイク駐車場マップの一覧に掲載）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "08:00-22:00は30分100円、22:00-08:00は60分100円、入庫より24時間最大1,000円。月極もあり（月額11,000円〜）"
+      },
+      "capacity": 10,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://mkp.jp/search/detail/008645-1/",
+      "data_note": "台数は運営会社公式の時間貸分（月極10台は別）。座標は掲載サービス（Google系）の値。住所ジオコードでは日本橋富沢町が解決できなかったため",
+      "checked_date": "2026-11-25"
     }
   ]
 }

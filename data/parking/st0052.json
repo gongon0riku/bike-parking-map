@@ -26,6 +26,29 @@
       "source_url": "https://www.jmpsa.or.jp/society/parking/area13/%E4%B8%AD%E5%A4%AE%E5%8C%BA-1.html",
       "checked_date": "2026-11-25",
       "data_note": "日本二輪車普及安全協会の一覧に基づく"
+    },
+    {
+      "id": "p002",
+      "name": "東京シティエアターミナル（T-CAT）バイク駐車場",
+      "lat": 35.681369,
+      "lon": 139.786698,
+      "address": "東京都中央区日本橋箱崎町42-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について公式ページに明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 900,
+        "note": "バイク：60分100円・1日最大900円。定期（月極）月額11,000円もあり（公式サイトでは空き待ち案内）"
+      },
+      "capacity": 30,
+      "roof": true,
+      "hours": "24時間（年中無休）",
+      "monthly": true,
+      "source_url": "https://www.tcat-hakozaki.co.jp/parking-others/",
+      "data_note": "本館1階のバイク駐車スペース。座標はNAVITIME掲載値",
+      "checked_date": "2026-11-25"
     }
   ]
 }

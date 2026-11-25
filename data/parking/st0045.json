@@ -1,0 +1,31 @@
+{
+  "station_id": "st0045",
+  "station_name": "小伝馬町",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコロパーク小伝馬町第5駐車場",
+      "lat": 35.69174,
+      "lon": 139.77943,
+      "address": "東京都中央区日本橋小伝馬町15-2",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 500,
+        "note": "バイク料金：60分200円、入庫から24時間まで最大500円（運営会社公式）"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://service.ecolocity.co.jp/park/coin-parking/5945/",
+      "data_note": "座標は掲載サービス（Google系）の値。住所ジオコードでは日本橋小伝馬町が解決できなかったため",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
