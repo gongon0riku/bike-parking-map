@@ -216,14 +216,21 @@ function renderAreaPanel() {
   listEl.className = "station-list";
 
   if (areaLevel === "pref") {
-    const btn = document.createElement("button");
-    btn.className = "station-row";
-    btn.innerHTML =
-      '<div class="station-main"><div class="station-name">東京都</div>' +
-      '<div class="station-sub">対象は23区の駅です</div></div>' +
-      '<span class="station-arrow">›</span>';
-    btn.addEventListener("click", () => { areaLevel = "ward"; renderAreaPanel(); });
-    listEl.appendChild(btn);
+    // 対象エリアが増えたときも使えるよう、都道府県も50音リストで表示する
+    const prefs = [{ name: "東京都", yomi: "とうきょうと", note: "対象は23区の駅です" }];
+    panel.appendChild(buildKanaList(prefs, p => p.yomi, (p) => {
+      const btn = document.createElement("button");
+      btn.className = "station-row";
+      btn.innerHTML =
+        '<div class="station-main"><div class="station-name"></div>' +
+        '<div class="station-sub"></div></div>' +
+        '<span class="station-arrow">›</span>';
+      btn.querySelector(".station-name").textContent = p.name;
+      btn.querySelector(".station-sub").textContent = p.note;
+      btn.addEventListener("click", () => { areaLevel = "ward"; renderAreaPanel(); });
+      return btn;
+    }));
+    return;
   } else if (areaLevel === "ward") {
     panel.appendChild(areaBackRow("都道府県を選ぶ", () => { areaLevel = "pref"; renderAreaPanel(); }));
     const wards = [...new Set(stations.map(s => s.ward))]
