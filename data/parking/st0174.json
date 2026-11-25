@@ -1,0 +1,31 @@
+{
+  "station_id": "st0174",
+  "station_name": "北千束",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "トミーバイクパーキング北千束",
+      "lat": 35.607194,
+      "lon": 139.693942,
+      "address": "東京都大田区北千束2-23-11",
+      "cc_class": "unknown",
+      "displacement_note": "中サイズ区画（幅1,000mm×縦2,400mm）。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額6,600円（税込）"
+      },
+      "capacity": 1,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://tomybikepark.com/parking/kita-senzoku",
+      "data_note": "運営会社公式ページの値。確認時点では満車表示",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

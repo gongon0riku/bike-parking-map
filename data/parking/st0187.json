@@ -1,0 +1,31 @@
+{
+  "station_id": "st0187",
+  "station_name": "武蔵新田",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーキング千鳥",
+      "lat": 35.568692,
+      "lon": 139.694655,
+      "address": "東京都大田区千鳥",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "予約制（軒先パーキング）。料金は予約サイトで確認が必要"
+      },
+      "capacity": 2,
+      "roof": false,
+      "hours": "6:00-23:00",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13111/6110_nkskp/",
+      "data_note": "軒先パーキングの掲載情報（マピオン経由）。住所は町名レベル。武蔵新田駅から約230m、千鳥町駅からも徒歩10分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

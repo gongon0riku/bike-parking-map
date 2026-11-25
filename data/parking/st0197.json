@@ -1,0 +1,54 @@
+{
+  "station_id": "st0197",
+  "station_name": "羽田空港第1ターミナル",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "羽田空港P1駐車場（自動二輪車）",
+      "lat": 35.5482692,
+      "lon": 139.7860992,
+      "address": "東京都大田区羽田空港3-3-3",
+      "cc_class": "unlimited",
+      "displacement_note": "自動二輪車の駐車可。公式案内では幅1.75m以下の二輪車が対象で、排気量の制限は明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 30,
+        "base_yen": 50,
+        "max_yen_per_day": 500,
+        "note": "入場から30分以内無料、以降30分毎50円、24時間以内500円（1日上限500円）"
+      },
+      "capacity": 80,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://tokyo-haneda.com/site_resource/access/pdf/rules_p1.pdf",
+      "data_note": "料金は東京国際空港第一駐車場管理規程（2025年8月1日改定）の自動二輪車料金。台数80台は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "羽田空港P2駐車場（自動二輪車）",
+      "lat": 35.5505581,
+      "lon": 139.7844075,
+      "address": "東京都大田区羽田空港3-3-5",
+      "cc_class": "unlimited",
+      "displacement_note": "自動二輪車の駐車可。公式案内では幅1.75m以下の二輪車が対象で、排気量の制限は明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 30,
+        "base_yen": 50,
+        "max_yen_per_day": 500,
+        "note": "入場から30分以内無料、以降30分毎50円、24時間以内500円（1日上限500円）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://tokyo-haneda.com/en/access/parking/index.html",
+      "data_note": "二輪車の駐車可は空港公式の駐車場案内で確認。料金は第1駐車場と同一体系（集約サイト掲載も同額帯）",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

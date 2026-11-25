@@ -1,0 +1,77 @@
+{
+  "station_id": "st0201",
+  "station_name": "蒲田",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "アロマ地下自転車駐車場（大田区営）",
+      "lat": 35.561361,
+      "lon": 139.718451,
+      "address": "東京都大田区蒲田5-37",
+      "cc_class": "unknown",
+      "displacement_note": "50cc以下（集約サイトの掲載情報）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用：1日200円（原付）。定期利用もあり"
+      },
+      "capacity": 64,
+      "roof": true,
+      "hours": "5:30-翌1:00",
+      "monthly": true,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/jrkamata_higashi/aroma_chika.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値。料金・排気量条件は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "蒲田駅東口陸橋下自転車駐車場（大田区営）",
+      "lat": 35.559434,
+      "lon": 139.715216,
+      "address": "東京都大田区蒲田5-13先",
+      "cc_class": "125",
+      "displacement_note": "原付二種（125cc以下、全長2.0m・全幅0.8m以下）の受入れを試行中（区の試行）。従来は原付のみ",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "24時間毎200円"
+      },
+      "capacity": 16,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/jrkamata_higashi/kamataekihigashi_rikkyou.html",
+      "data_note": "原付二種の受入れ試行は現地掲示（区の案内）で確認。台数は大田区オープンデータ（2022年8月確認）の値（集約サイトでは20台）",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "蒲田駅西口環八下自転車駐車場（大田区営）",
+      "lat": 35.559521,
+      "lon": 139.71428,
+      "address": "東京都大田区新蒲田1-1",
+      "cc_class": "unknown",
+      "displacement_note": "50cc以下（集約サイトの掲載情報）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用のみ：24時間毎200円（原付）"
+      },
+      "capacity": 33,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/jrkamata_nishi/kamaeki_nishiguchi_kan.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値。料金・排気量条件は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

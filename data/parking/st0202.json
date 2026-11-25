@@ -1,0 +1,31 @@
+{
+  "station_id": "st0202",
+  "station_name": "蓮沼",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "蓮沼自転車駐車場（大田区営）",
+      "lat": 35.562724,
+      "lon": 139.708953,
+      "address": "東京都大田区西蒲田7-38先",
+      "cc_class": "unknown",
+      "displacement_note": "原付（30台）・自動二輪（20台）の区画あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用：原付1日200円・自動二輪1日300円。定期利用もあり"
+      },
+      "capacity": 50,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/toukyuu_ikegamisen/hasunuma.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値。料金は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

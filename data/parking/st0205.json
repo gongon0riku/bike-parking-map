@@ -1,0 +1,31 @@
+{
+  "station_id": "st0205",
+  "station_name": "雑色",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "雑色駅西口自転車駐車場（大田区営）",
+      "lat": 35.549713,
+      "lon": 139.714634,
+      "address": "東京都大田区仲六郷2-29",
+      "cc_class": "unknown",
+      "displacement_note": "原付（15台）・自動二輪（7台）の区画あり。自動二輪は一時利用のみ",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は未確認（区公式ページで確認が必要）"
+      },
+      "capacity": 22,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/keikyuu_honsen/zoushikiekinishiguchi.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

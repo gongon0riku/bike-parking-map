@@ -1,0 +1,77 @@
+{
+  "station_id": "st0177",
+  "station_name": "大森",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "大森駅入新井自転車駐車場（大田区営）",
+      "lat": 35.585346,
+      "lon": 139.72617,
+      "address": "東京都大田区大森北4-27",
+      "cc_class": "unknown",
+      "displacement_note": "50cc以下（集約サイトの掲載情報）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用：1日200円（原付）。定期利用もあり"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/jroomori_higashi/oomorieki_iriaraijitensha.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値。料金・排気量条件は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "サイクルステーション大森駅前ビル駐輪場",
+      "lat": 35.58907,
+      "lon": 139.727509,
+      "address": "東京都大田区山王2丁目",
+      "cc_class": "125",
+      "displacement_note": "125cc以下（集約サイトの掲載情報）",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 360,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降6時間毎200円"
+      },
+      "capacity": 14,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-1307",
+      "data_note": "集約サイト（NAVITIME）の掲載値。住所は丁目レベル、営業時間は掲載なし",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "Luz大森駐輪場",
+      "lat": 35.586427,
+      "lon": 139.72872,
+      "address": "東京都大田区大森北1-10-14",
+      "cc_class": "unknown",
+      "displacement_note": "50cc以下（集約サイトの掲載情報）",
+      "fees": {
+        "free_minutes": 180,
+        "base_minutes": 180,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "3時間まで無料、以降3時間毎200円"
+      },
+      "capacity": 21,
+      "roof": true,
+      "hours": "4:30-25:30",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2459",
+      "data_note": "集約サイト（NAVITIME）の掲載値。Luz大森の地下駐輪場",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

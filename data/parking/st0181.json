@@ -1,0 +1,54 @@
+{
+  "station_id": "st0181",
+  "station_name": "平和島",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "平和島駅前国道下自転車駐車場（大田区営）",
+      "lat": 35.578435,
+      "lon": 139.735196,
+      "address": "東京都大田区大森北6-29先",
+      "cc_class": "unknown",
+      "displacement_note": "50cc以下（集約サイトの掲載情報）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用：1日200円（原付）。定期利用もあり"
+      },
+      "capacity": 16,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/keikyuu_honsen/heiwajima_kokudoushita.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値（集約サイトでは10台）。料金は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "ドン・キホーテ駐輪場（BIGFUN平和島）",
+      "lat": 35.5846708,
+      "lon": 139.7409703,
+      "address": "東京都大田区平和島1-1-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "駐輪料金は無料（集約サイトの掲載情報）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=06051.60&category=0812",
+      "data_note": "集約サイト（NAVITIME）の掲載値。平和島駅から徒歩約10分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

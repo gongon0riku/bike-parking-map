@@ -1,0 +1,54 @@
+{
+  "station_id": "st0178",
+  "station_name": "大森町",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "（バイク）大田区大森西5丁目月極駐車場",
+      "lat": 35.57201,
+      "lon": 139.7248575,
+      "address": "東京都大田区大森西5丁目",
+      "cc_class": "unknown",
+      "displacement_note": "バイク用月極区画（全長2,000mm×全幅1,000mm）。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額7,700円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://p-king.jp/detail/599499",
+      "data_note": "住所は丁目レベル（日本駐車場検索の掲載情報）。座標は丁目の代表点。大森町駅から徒歩2分",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "大田区大森東3丁目月極駐車場（バイク専用）",
+      "lat": 35.5699414,
+      "lon": 139.7364178,
+      "address": "東京都大田区大森東3丁目",
+      "cc_class": "unknown",
+      "displacement_note": "バイク専用月極。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額4,000円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://p-king.jp/detail/539895",
+      "data_note": "住所は丁目レベル（日本駐車場検索の掲載情報）。座標は丁目の代表点。大森町駅から徒歩7分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

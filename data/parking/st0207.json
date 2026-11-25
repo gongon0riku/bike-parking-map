@@ -1,0 +1,31 @@
+{
+  "station_id": "st0207",
+  "station_name": "馬込",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "馬込駅前自転車駐車場（大田区営）",
+      "lat": 35.595577,
+      "lon": 139.712134,
+      "address": "東京都大田区東馬込1-32先",
+      "cc_class": "unknown",
+      "displacement_note": "50cc以下（集約サイトの掲載情報）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用：1日200円（原付）。定期利用もあり"
+      },
+      "capacity": 24,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/asakusasen/magomeekimae.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値（住所は同データの表記。集約サイトでは東馬込1-30）。料金・排気量条件は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

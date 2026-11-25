@@ -1,0 +1,54 @@
+{
+  "station_id": "st0180",
+  "station_name": "天空橋",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "天空橋駅前自転車駐車場（大田区営）",
+      "lat": 35.548803,
+      "lon": 139.753266,
+      "address": "東京都大田区羽田空港1-1",
+      "cc_class": "unknown",
+      "displacement_note": "原付（15台）・自動二輪（13台）の区画あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用：原付1日200円・自動二輪1日300円。定期利用もあり"
+      },
+      "capacity": 28,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/keikyuu_kuukousen/tenkuubashi.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値（集約サイトでは原付20台・自動二輪10台との掲載もあり）。料金は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "HANEDA INNOVATION CITY バイク置場",
+      "lat": 35.5483764,
+      "lon": 139.7562744,
+      "address": "東京都大田区羽田空港1-1-4",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 700,
+        "note": "1時間毎100円、入庫後24時間最大700円"
+      },
+      "capacity": 16,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00000592&category=0812",
+      "data_note": "集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

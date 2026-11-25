@@ -1,0 +1,77 @@
+{
+  "station_id": "st0172",
+  "station_name": "京急蒲田",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "京急蒲田駅西口自転車駐車場",
+      "lat": 35.5613375,
+      "lon": 139.7222725,
+      "address": "東京都大田区蒲田4-16",
+      "cc_class": "unknown",
+      "displacement_note": "原付・自動二輪の区画あり（原付30台・自動二輪30台）。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は集約サイトに掲載なし（未確認）"
+      },
+      "capacity": 60,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00001715&category=0812",
+      "data_note": "台数・営業時間は集約サイト（NAVITIME）の掲載値。座標は住所の街区レベル",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "あすとウィズバイク駐車場",
+      "lat": 35.5615097,
+      "lon": 139.7237308,
+      "address": "東京都大田区蒲田4-10-14",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "1時間毎100円（営業時間内最大1,000円）"
+      },
+      "capacity": 9,
+      "roof": null,
+      "hours": "6:30-25:30",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00001715&category=0812",
+      "data_note": "集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "Kパーキング京急蒲田駅前駐輪場",
+      "lat": 35.559849,
+      "lon": 139.724124,
+      "address": "東京都大田区南蒲田1-20",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "最初の1時間無料、以降1時間毎200円。夜間（22:00-8:00）は1時間毎100円"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-3149",
+      "data_note": "集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

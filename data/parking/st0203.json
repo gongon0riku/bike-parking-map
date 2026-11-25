@@ -1,0 +1,31 @@
+{
+  "station_id": "st0203",
+  "station_name": "西馬込",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "西馬込みんちゅうバイク駐車場",
+      "lat": 35.5899075,
+      "lon": 139.7057256,
+      "address": "東京都大田区西馬込1-16-18",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "予約制（みんちゅうSHARE-LIN）。料金はサービス内で確認が必要"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "予約制",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02300.1009271&category=0812004",
+      "data_note": "集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0189",
+  "station_name": "沼部",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "沼部駅前バイク月極",
+      "lat": 35.582157,
+      "lon": 139.673541,
+      "address": "東京都大田区田園調布本町30-7",
+      "cc_class": "unknown",
+      "displacement_note": "区画サイズ：全幅1,000mm×全長2,000mm。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額7,700円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.at-parking.jp/search/tokyo/ota-ku/denenchofu-honcho/324493.html",
+      "data_note": "月極専門サイト（at-parking）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

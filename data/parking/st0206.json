@@ -1,0 +1,54 @@
+{
+  "station_id": "st0206",
+  "station_name": "雪が谷大塚",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "南雪谷1丁目アキッパ駐車場",
+      "lat": 35.5934022,
+      "lon": 139.6823647,
+      "address": "東京都大田区南雪谷1-6",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量による制限なし（集約サイトMotoHubの掲載情報）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 600,
+        "max_yen_per_day": 1000,
+        "note": "予約制（akippa）。600円/1時間、日額1,000円"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://motohub.jp/parking/48411",
+      "data_note": "集約サイト（MotoHub）の掲載値。座標は住所の街区レベル",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "SANパーク雪谷大塚町1",
+      "lat": 35.5911411,
+      "lon": 139.6783314,
+      "address": "東京都大田区雪谷大塚町16-12",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク月極区画あり（10台）。料金は未確認"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.navitime.co.jp/category/08/13111060000/",
+      "data_note": "集約サイト（NAVITIME）の掲載値。営業時間は掲載なし",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

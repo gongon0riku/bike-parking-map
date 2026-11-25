@@ -1,0 +1,31 @@
+{
+  "station_id": "st0171",
+  "station_name": "久が原",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "南久が原2丁目アキッパ駐車場",
+      "lat": 35.5755189,
+      "lon": 139.6861314,
+      "address": "東京都大田区南久が原2-26-7",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量による制限なし（集約サイトMotoHubの掲載情報）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 500,
+        "note": "予約制（akippa）。200円/1時間、日額500円"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://motohub.jp/parking/48657",
+      "data_note": "料金・条件は集約サイト（MotoHub）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
