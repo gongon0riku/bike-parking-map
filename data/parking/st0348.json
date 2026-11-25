@@ -1,0 +1,53 @@
+{
+  "station_id": "st0348",
+  "station_name": "モノレール浜松町",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "浜松町駅北口自転車等駐車場（港区立）",
+      "lat": 35.6564956,
+      "lon": 139.758405,
+      "address": "東京都港区海岸1-2-34",
+      "cc_class": "unknown",
+      "displacement_note": "港区立自転車等駐車場の対象は自転車と原動機付自転車（白ナンバー）と案内されている。125cc以下の明記はなく、原付二種の可否は不明",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 200,
+        "note": "原付：一時利用は最初の2時間無料、24時間まで200円。定期利用は月額2,200円"
+      },
+      "capacity": 15,
+      "roof": null,
+      "hours": "4:30-1:30",
+      "monthly": true,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60525-NCD00540B",
+      "data_note": "料金・台数は集約サイト（NAVITIME／MotoHub）の掲載値。港区は自動二輪車を区立自転車等駐車場の対象外と案内しているため、cc_classはunknownとした",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクタイムズ浜松町",
+      "lat": 35.6581928,
+      "lon": 139.7568661,
+      "address": "東京都港区浜松町1-16-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 800,
+        "note": "60分200円（夜間60分100円）、当日最大800円"
+      },
+      "capacity": 9,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://bikepark.in/detail.cgi?ID=1299",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

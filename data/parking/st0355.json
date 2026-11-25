@@ -1,0 +1,76 @@
+{
+  "station_id": "st0355",
+  "station_name": "品川",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "品川駅港南口自転車等駐車場（港区立）",
+      "lat": 35.6285842,
+      "lon": 139.7418264,
+      "address": "東京都港区港南2-14-6",
+      "cc_class": "unknown",
+      "displacement_note": "港区立自転車等駐車場の対象は自転車と原動機付自転車（白ナンバー）と案内されている。125cc以下の明記はなく、原付二種の可否は不明",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 200,
+        "note": "原付：一時利用は最初の2時間無料、1日200円。定期利用は月額2,700円"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "4:30-1:30",
+      "monthly": true,
+      "source_url": "https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/04.html",
+      "data_note": "港南ふれあい広場の地下。港区は自動二輪車を区立自転車等駐車場の対象外と案内しているため、cc_classはunknownとした",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "品川駅港南口公共駐車場",
+      "lat": 35.6292786,
+      "lon": 139.7414764,
+      "address": "東京都港区港南2-14-17",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイクは定期利用のみ。月額15,000円"
+      },
+      "capacity": 9,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "http://www.city.minato.tokyo.jp/koutsuuanzen/kankyo-machi/kotsu/chushajo/shinagawa.html",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "エコステーション21 京急品川駅前",
+      "lat": 35.6290064,
+      "lon": 139.7349208,
+      "address": "東京都港区高輪4-8-11",
+      "cc_class": "unlimited",
+      "displacement_note": "125cc以下13台・126cc以上25台と記載",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 360,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "300円/6時間"
+      },
+      "capacity": 38,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://tme-chronicles.com/parking006/",
+      "data_note": "料金・台数・排気量は個人ブログの掲載値で、運営会社公式の値ではない",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

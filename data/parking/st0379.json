@@ -1,0 +1,54 @@
+{
+  "station_id": "st0379",
+  "station_name": "高輪台",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク港区白金台2丁目",
+      "lat": 35.6338756,
+      "lon": 139.7307886,
+      "address": "東京都港区白金台2-10-2",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク4台分の区画と運営会社ページに明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額9,900円（税込）"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/190081",
+      "data_note": "高輪台駅徒歩4分",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "月極駐車場アーバンフジ白金台",
+      "lat": 35.6338894,
+      "lon": 139.7302136,
+      "address": "東京都港区白金台2-9-24",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額7,700円（税込）"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://bike-parking.jp/area/%E6%9D%B1%E4%BA%AC%E9%83%BD/%E6%B8%AF%E5%8C%BA/%E9%AB%98%E8%BC%AA/",
+      "data_note": "値は集約サイト（ニリーン）のエリア一覧ページの掲載値。高輪台駅徒歩4分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

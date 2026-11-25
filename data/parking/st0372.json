@@ -1,0 +1,53 @@
+{
+  "station_id": "st0372",
+  "station_name": "虎ノ門",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "虎ノ門ヒルズ時間貸バイク置場",
+      "lat": 35.6666306,
+      "lon": 139.7500158,
+      "address": "東京都港区虎ノ門1-23",
+      "cc_class": "unlimited",
+      "displacement_note": "集約サイトに排気量の制限なしと明記",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "30分100円、24時間最大1,000円"
+      },
+      "capacity": 50,
+      "roof": true,
+      "hours": "7:00-23:00",
+      "monthly": null,
+      "source_url": "https://tokyo-bikepark.com/p/s689",
+      "data_note": "値は集約サイト（tokyo-bikepark）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク港区西新橋1丁目",
+      "lat": 35.6684778,
+      "lon": 139.7519019,
+      "address": "東京都港区西新橋1-22-15",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク7台分の区画と運営会社ページに明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額13,750円（税込）"
+      },
+      "capacity": 7,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/29560",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

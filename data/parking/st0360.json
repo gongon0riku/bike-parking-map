@@ -1,0 +1,31 @@
+{
+  "station_id": "st0360",
+  "station_name": "日の出",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク港区芝1丁目",
+      "lat": 35.6495186,
+      "lon": 139.7542192,
+      "address": "東京都港区芝1-13-10",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク3台分の区画と運営会社ページに明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額11,000円（税込）"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/30058",
+      "data_note": "日の出駅徒歩6分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

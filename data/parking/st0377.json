@@ -1,0 +1,54 @@
+{
+  "station_id": "st0377",
+  "station_name": "青山一丁目",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "ウィン青山バイク駐車場",
+      "lat": 35.6714569,
+      "lon": 139.723915,
+      "address": "東京都港区南青山2-2-15",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 300,
+        "max_yen_per_day": 1500,
+        "note": "1時間ごとに300円、1日1,500円"
+      },
+      "capacity": 19,
+      "roof": null,
+      "hours": "8:00-23:00",
+      "monthly": null,
+      "source_url": "https://bikepark.in/detail_i.cgi?ID=424",
+      "data_note": "値は集約サイト（バイクを停めたい。）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク港区赤坂8丁目",
+      "lat": 35.6729458,
+      "lon": 139.7276122,
+      "address": "東京都港区赤坂8-1-9",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク10台分の区画と運営会社ページに明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額12,100円（税込）"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/25359",
+      "data_note": "青山一丁目駅徒歩4分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

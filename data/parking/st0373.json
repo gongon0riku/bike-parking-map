@@ -1,0 +1,54 @@
+{
+  "station_id": "st0373",
+  "station_name": "虎ノ門ヒルズ",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "虎ノ門ヒルズ時間貸バイク置場",
+      "lat": 35.6666306,
+      "lon": 139.7500158,
+      "address": "東京都港区虎ノ門1-23",
+      "cc_class": "unlimited",
+      "displacement_note": "集約サイトに排気量の制限なしと明記",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "30分100円、24時間最大1,000円"
+      },
+      "capacity": 50,
+      "roof": true,
+      "hours": "7:00-23:00",
+      "monthly": null,
+      "source_url": "https://tokyo-bikepark.com/p/s689",
+      "data_note": "値は集約サイト（tokyo-bikepark）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "エコロパーク虎ノ門第6",
+      "lat": 35.6669831,
+      "lon": 139.7458725,
+      "address": "東京都港区虎ノ門3-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 800,
+        "note": "1時間200円、24時間最大800円（月〜土）"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "8:00-22:00",
+      "monthly": null,
+      "source_url": "https://www.s-park.jp/list/bike?p=5",
+      "data_note": "値は集約サイト（s-park）の一覧ページの掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

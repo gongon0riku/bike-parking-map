@@ -1,0 +1,53 @@
+{
+  "station_id": "st0358",
+  "station_name": "御成門",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "御成門バイク駐車場3",
+      "lat": 35.6619722,
+      "lon": 139.7495742,
+      "address": "東京都港区西新橋3-25-35",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額13,000円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_detail.html?id=592",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "芝公園1丁目バイク月極駐車場",
+      "lat": 35.6588094,
+      "lon": 139.7523189,
+      "address": "東京都港区芝公園1丁目",
+      "cc_class": "unlimited",
+      "displacement_note": "大型車・ハイルーフ車入庫可能な機械式車室と集約サイトに記載",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額15,000円（税別）から"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://bikeru.jp/detail/1080319",
+      "data_note": "値は集約サイト（Bikeru）の掲載値。住所は丁目レベルのため座標は芝公園1丁目の代表点",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

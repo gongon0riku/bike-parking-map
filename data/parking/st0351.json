@@ -1,0 +1,77 @@
+{
+  "station_id": "st0351",
+  "station_name": "六本木",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TOKYO PUBLIC 六本木オートバイ駐車場",
+      "lat": 35.6657608,
+      "lon": 139.7382558,
+      "address": "東京都港区六本木3-1",
+      "cc_class": "unlimited",
+      "displacement_note": "集約サイトに126cc以上OKと記載",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "60分100円、24時間最大1,000円。定期利用は月額11,000円"
+      },
+      "capacity": 64,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.tmpc.or.jp/04_parking/result.html?cmid=0&pdid2=34",
+      "data_note": "料金・台数は運営会社（東京都道路整備保全公社）公式の値。排気量の条件は集約サイトの値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "六本木六丁目オートバイ専用駐車場",
+      "lat": 35.6620356,
+      "lon": 139.7302542,
+      "address": "東京都港区六本木6-2先",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "30分100円、12時間最大1,000円。定期利用は月額16,500円"
+      },
+      "capacity": 21,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.tmpc.or.jp/04_parking/result.html?cmid=739&pdid2=39",
+      "data_note": "首都高速3号線の高架下。料金・台数は運営会社（東京都道路整備保全公社）公式の値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "六本木ヒルズ お客様用バイク駐輪場",
+      "lat": 35.6616189,
+      "lon": 139.7295819,
+      "address": "東京都港区六本木6-4",
+      "cc_class": "unlimited",
+      "displacement_note": "ブログ記事に排気量制限なしと記載",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "30分100円、24時間最大1,000円"
+      },
+      "capacity": 63,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://tme-chronicles.com/parking008/",
+      "data_note": "料金・台数・排気量は個人ブログの掲載値で、施設公式の値ではない",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

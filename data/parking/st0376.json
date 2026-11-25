@@ -1,0 +1,54 @@
+{
+  "station_id": "st0376",
+  "station_name": "赤羽橋",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "赤羽橋バイク駐車場1",
+      "lat": 35.6557897,
+      "lon": 139.7408728,
+      "address": "東京都港区東麻布2-31",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額13,000円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-20580.html",
+      "data_note": "JMPSAの掲載情報は2018年時点のもの。運営会社の現行ページでは満車表示",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "TOKYO PUBLIC 一ノ橋オートバイ専用駐車場",
+      "lat": 35.6564953,
+      "lon": 139.7375617,
+      "address": "東京都港区東麻布3-8先",
+      "cc_class": "unknown",
+      "displacement_note": "車両制限はサイズのみで、排気量の明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 1000,
+        "note": "60分200円、12時間最大1,000円"
+      },
+      "capacity": 20,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60526-92",
+      "data_note": "首都高速都心環状線の高架下。値は公社データに基づく集約サイト（NAVITIME）の掲載値。個人ブログでは60分100円・12時間最大800円と記載があり相違する",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "station_id": "st0359",
+  "station_name": "新橋",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TOKYO PUBLIC 新橋三丁目オートバイ専用駐車場",
+      "lat": 35.6647361,
+      "lon": 139.7584464,
+      "address": "東京都港区新橋3-25先",
+      "cc_class": "unknown",
+      "displacement_note": "車両制限は長さ2.5m・幅1.0mのみで、排気量の明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 1000,
+        "note": "60分200円、12時間最大1,000円"
+      },
+      "capacity": 28,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.tmpc.or.jp/04_parking/result.html?cmid=2864&pdid2=51",
+      "data_note": "JR高架下。料金は運営会社（東京都道路整備保全公社）公式の値。業界団体の記事では60分100円と記載があり相違する",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "京急しんちか バイク駐輪場",
+      "lat": 35.6662172,
+      "lon": 139.7595425,
+      "address": "東京都港区新橋2-20-15",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 1000,
+        "note": "予約制。1日1,000円"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://btimes.jp/tokyo/park/59402/",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "エコロパーク西新橋2",
+      "lat": 35.6647806,
+      "lon": 139.7568964,
+      "address": "東京都港区新橋4丁目",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 800,
+        "note": "1時間200円、24時間最大800円"
+      },
+      "capacity": 27,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38038",
+      "data_note": "値は集約サイト（MotoHub）の掲載値。住所は丁目レベルのため座標は新橋4丁目の代表点",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

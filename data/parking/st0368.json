@@ -1,0 +1,54 @@
+{
+  "station_id": "st0368",
+  "station_name": "神谷町",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "虎ノ門3丁目時間貸バイク駐車場",
+      "lat": 35.6650525,
+      "lon": 139.7462336,
+      "address": "東京都港区虎ノ門3-7-20",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1時間200円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.s-park.jp/list/bike?p=5",
+      "data_note": "値は集約サイト（s-park）の一覧ページの掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "東京タワー駐輪場",
+      "lat": 35.6601925,
+      "lon": 139.745945,
+      "address": "東京都港区芝公園3-5",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 240,
+        "base_yen": 400,
+        "max_yen_per_day": null,
+        "note": "バイクは4時間ごとに400円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "6:00-23:30",
+      "monthly": null,
+      "source_url": "https://www.tokyotower.co.jp/access/",
+      "checked_date": "2026-11-25",
+      "data_note": "東京タワー公式サイトの値。神谷町駅から徒歩7分"
+    }
+  ]
+}

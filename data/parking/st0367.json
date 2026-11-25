@@ -1,0 +1,76 @@
+{
+  "station_id": "st0367",
+  "station_name": "白金高輪",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "白金高輪バイクイン",
+      "lat": 35.6420106,
+      "lon": 139.7299081,
+      "address": "東京都港区白金2丁目（国道1号線地下）",
+      "cc_class": "unlimited",
+      "displacement_note": "125cc以下と125cc超で料金区分があり、126cc以上も利用可",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 480,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "8時間ごとに300円（125cc以下）・400円（125cc超）"
+      },
+      "capacity": 26,
+      "roof": true,
+      "hours": "4:30-24:30",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-951",
+      "data_note": "値は集約サイト（NAVITIME）の掲載値。住所は丁目レベルのため座標は白金2丁目の代表点",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "白金高輪駅自転車駐車場（港区立）",
+      "lat": 35.6433747,
+      "lon": 139.7348122,
+      "address": "東京都港区高輪1-3-20先",
+      "cc_class": "unknown",
+      "displacement_note": "港区立自転車等駐車場の対象は自転車と原動機付自転車（白ナンバー）と案内されている。125cc以下の明記はなく、原付二種の可否は不明",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の料金は未確認"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "4:30-1:00",
+      "monthly": null,
+      "source_url": "https://www.city.minato.tokyo.jp/shisetsu/chushajo/chushajo/07.html",
+      "data_note": "区公式ページは自転車の料金のみ掲載。バイク一時利用ありは指定管理者（NCD）のページで確認。港区は自動二輪車を区立自転車等駐車場の対象外と案内しているため、cc_classはunknownとした",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "白金高輪バイク駐車場6",
+      "lat": 35.6448883,
+      "lon": 139.7307664,
+      "address": "東京都港区白金3-10-16",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額11,000円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/m/parking_detail.html?id=537",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
