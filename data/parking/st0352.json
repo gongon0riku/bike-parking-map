@@ -1,0 +1,31 @@
+{
+  "station_id": "st0352",
+  "station_name": "六本木一丁目",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "六本木三丁目オートバイ専用駐車場",
+      "lat": 35.6636775,
+      "lon": 139.7366642,
+      "address": "東京都港区六本木3-4先",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 900,
+        "note": "60分100円、12時間最大900円。月極は月額13,200円"
+      },
+      "capacity": 50,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-1397.html",
+      "data_note": "運営は東京都道路整備保全公社。値はJMPSAの掲載情報",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

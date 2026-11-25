@@ -1,0 +1,76 @@
+{
+  "station_id": "st0375",
+  "station_name": "赤坂",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "サイカパーク赤坂見附オートバイ駐車場",
+      "lat": 35.6769628,
+      "lon": 139.7363028,
+      "address": "東京都港区赤坂3-9先",
+      "cc_class": "unlimited",
+      "displacement_note": "運営会社ページに125cc以上も可と明記",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 700,
+        "note": "60分100円、12時間まで最大700円"
+      },
+      "capacity": 54,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.cyca.co.jp/case/detail/3",
+      "data_note": "運営会社（サイカパーキング）の事例ページの値で、料金は開設当時の表記。現行料金は集約サイトでも同額を確認",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "赤坂パーキングセンター",
+      "lat": 35.6705017,
+      "lon": 139.7363917,
+      "address": "東京都港区赤坂6-5-1",
+      "cc_class": "unlimited",
+      "displacement_note": "ブログ記事に排気量制限なしと記載",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 2000,
+        "note": "30分100円、最大2,000円。月極は月額19,200円"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://tme-chronicles.com/parking017/",
+      "data_note": "値は個人ブログの掲載値で、施設公式の値ではない",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "タイムズ赤坂第38内バイク駐車場（予約制）",
+      "lat": 35.6725572,
+      "lon": 139.7391778,
+      "address": "東京都港区赤坂2-6-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 550,
+        "note": "予約制。1日550円"
+      },
+      "capacity": 7,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://bikepark.in/detail.cgi?ID=3523",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

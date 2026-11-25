@@ -1,0 +1,54 @@
+{
+  "station_id": "st0370",
+  "station_name": "芝公園",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "芝公園駅自転車駐車場（港区立）",
+      "lat": 35.6535706,
+      "lon": 139.7499244,
+      "address": "東京都港区芝公園2-12",
+      "cc_class": "unknown",
+      "displacement_note": "港区立自転車等駐車場の対象は自転車と原動機付自転車（白ナンバー）と案内されている。125cc以下の明記はなく、原付二種の可否は不明",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の料金は未確認"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.ncd.co.jp/business/ps/parking/minato/shiba/",
+      "data_note": "指定管理者（NCD）のページでバイク一時利用ありと記載。原付の料金は確認できなかった。港区は自動二輪車を区立自転車等駐車場の対象外と案内しているため、cc_classはunknownとした",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "三田バイク駐車場1",
+      "lat": 35.6512186,
+      "lon": 139.7473608,
+      "address": "東京都港区芝3-31-4",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額11,000円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_list.html",
+      "data_note": "運営会社（日本バイクパーキング）の一覧ページの掲載値。芝公園駅徒歩4分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0356",
+  "station_name": "外苑前",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "AOYAMA M's TOWER PARKING",
+      "lat": 35.6688603,
+      "lon": 139.7168914,
+      "address": "東京都港区南青山2-27-18",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の記載なし（集約サイト）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 150,
+        "max_yen_per_day": 1000,
+        "note": "150円/30分、1日最大1,000円（入庫時前金制）"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "8:00-23:30",
+      "monthly": null,
+      "source_url": "https://tokyo-bikepark.com/p/j1106",
+      "data_note": "値は集約サイト（tokyo-bikepark）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "Oriental南青山バイクパーキング",
+      "lat": 35.6661103,
+      "lon": 139.7201969,
+      "address": "東京都港区南青山4-3-23",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額11,000円"
+      },
+      "capacity": 5,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-74961.html",
+      "data_note": "JMPSAの掲載情報は2021年時点のもの",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0353",
+  "station_name": "内幸町",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク千代田区内幸町2丁目",
+      "lat": 35.6708936,
+      "lon": 139.7535989,
+      "address": "東京都千代田区内幸町2-1-6",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク10台分の区画と運営会社ページに明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額11,550円（税込）"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/200499",
+      "data_note": "内幸町駅徒歩3分。所在地は千代田区",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "西新橋バイク駐車場1",
+      "lat": 35.6657472,
+      "lon": 139.7522742,
+      "address": "東京都港区西新橋2-21-6",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額14,500円"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_list.html",
+      "data_note": "運営会社（日本バイクパーキング）の一覧ページの掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

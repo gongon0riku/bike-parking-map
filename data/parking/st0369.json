@@ -1,0 +1,31 @@
+{
+  "station_id": "st0369",
+  "station_name": "竹芝",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "東京ポートシティ竹芝バイク置き場",
+      "lat": 35.6549986,
+      "lon": 139.7614956,
+      "address": "東京都港区海岸1-7-7",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク料金は公式サイトに未掲載"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "7:00-23:00",
+      "monthly": null,
+      "source_url": "https://tokyo-portcity-takeshiba.jp/access",
+      "data_note": "施設の存在は地図サービスの掲載で確認。公式サイトには駐輪場と自動車駐車場の案内のみで、バイク料金の掲載なし。営業時間は地図サービスの掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

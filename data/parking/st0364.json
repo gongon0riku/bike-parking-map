@@ -1,0 +1,53 @@
+{
+  "station_id": "st0364",
+  "station_name": "溜池山王",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "タイムズ赤坂第38内バイク駐車場（予約制）",
+      "lat": 35.6725572,
+      "lon": 139.7391778,
+      "address": "東京都港区赤坂2-6-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 550,
+        "note": "予約制。1日550円"
+      },
+      "capacity": 7,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://bikepark.in/detail.cgi?ID=3523",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク港区赤坂2丁目",
+      "lat": 35.6711906,
+      "lon": 139.7388361,
+      "address": "東京都港区赤坂2-17-67",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク6台分の区画と運営会社ページに明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額14,300円（税込）"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/190178",
+      "data_note": "溜池山王駅徒歩5分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

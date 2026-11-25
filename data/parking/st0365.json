@@ -1,0 +1,76 @@
+{
+  "station_id": "st0365",
+  "station_name": "田町",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "ムスブ田町バイク駐車場（田町ステーションタワーS）",
+      "lat": 35.6448614,
+      "lon": 139.7492114,
+      "address": "東京都港区芝浦3-1-21",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "30分100円"
+      },
+      "capacity": 14,
+      "roof": null,
+      "hours": "6:30-24:30",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-3067",
+      "data_note": "値は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "田町タワー駐車場バイク駐輪場",
+      "lat": 35.6468353,
+      "lon": 139.7484219,
+      "address": "東京都港区芝5-33-11",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "バイク30分100円、1日最大1,000円"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "6:30-24:00",
+      "monthly": null,
+      "source_url": "https://tamachi-towermall.com/access/",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "田町駅東口自転車等駐車場（港区立）",
+      "lat": 35.6442892,
+      "lon": 139.7482447,
+      "address": "東京都港区芝浦3-3先",
+      "cc_class": "unknown",
+      "displacement_note": "港区立自転車等駐車場の対象は自転車と原動機付自転車（白ナンバー）と案内されている。125cc以下の明記はなく、原付二種の可否は不明",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の料金は未確認"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "4:30-1:30",
+      "monthly": null,
+      "source_url": "https://www.ncd.co.jp/business/ps/parking/minato/shibaura/",
+      "data_note": "指定管理者（NCD）のページでバイク一時利用ありと記載。原付の料金は確認できなかった。港区は自動二輪車を区立自転車等駐車場の対象外と案内しているため、cc_classはunknownとした",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

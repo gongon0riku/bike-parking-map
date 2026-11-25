@@ -1,0 +1,54 @@
+{
+  "station_id": "st0350",
+  "station_name": "乃木坂",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TOKYO PUBLIC 乃木坂駅前オートバイ専用駐車場",
+      "lat": 35.6661994,
+      "lon": 139.7253181,
+      "address": "東京都港区六本木7-1先",
+      "cc_class": "unknown",
+      "displacement_note": "車両制限は長さ2.5m以内・幅1.0m以内のみで、排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。1か月13,200円"
+      },
+      "capacity": 27,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-1399.html",
+      "data_note": "運営は東京都道路整備保全公社。JMPSAの掲載情報は2021年6月時点のもの",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "東京ミッドタウン駐車場（バイク駐輪場）",
+      "lat": 35.6660967,
+      "lon": 139.7313264,
+      "address": "東京都港区赤坂9-7-1",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量の制限なしと集約サイト（s-park）に明記",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 400,
+        "max_yen_per_day": null,
+        "note": "30分ごとに400円（2024年4月に改定、公式お知らせ）。買い物金額に応じた割引あり"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.tokyo-midtown.com/jp/access/car-bike/",
+      "data_note": "料金・24時間営業は公式サイトで確認。排気量の制限なしは集約サイトの値。台数は情報源により43〜50台と幅があるため未記載",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

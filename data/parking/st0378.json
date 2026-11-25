@@ -1,0 +1,31 @@
+{
+  "station_id": "st0378",
+  "station_name": "高輪ゲートウェイ",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TAKANAWA GATEWAY CITY駐車場 バイクP1北",
+      "lat": 35.6349508,
+      "lon": 139.7389514,
+      "address": "東京都港区高輪2-21-21",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "バイク200円/時（集約サイトの値）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.takanawagateway-city.com/access/",
+      "data_note": "施設の存在とP1北の24時間営業は公式サイトで確認。バイク料金は集約サイト（MotoHub）の掲載値で、公式サイトには自動車料金のみ掲載",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

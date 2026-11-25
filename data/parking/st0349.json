@@ -1,0 +1,53 @@
+{
+  "station_id": "st0349",
+  "station_name": "三田",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "田町タワー駐車場バイク駐輪場",
+      "lat": 35.6468353,
+      "lon": 139.7484219,
+      "address": "東京都港区芝5-33-11",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "バイク30分100円、1日最大1,000円"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "6:30-24:00",
+      "monthly": null,
+      "source_url": "https://tamachi-towermall.com/access/",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "三田バイク駐車場3",
+      "lat": 35.6507464,
+      "lon": 139.7469275,
+      "address": "東京都港区芝3-40-2",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額11,000円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_list.html",
+      "data_note": "運営会社（日本バイクパーキング）の一覧ページの掲載値。三田駅徒歩5分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

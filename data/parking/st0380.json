@@ -1,0 +1,54 @@
+{
+  "station_id": "st0380",
+  "station_name": "麻布十番",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TOKYO PUBLIC 一ノ橋オートバイ専用駐車場",
+      "lat": 35.6564953,
+      "lon": 139.7375617,
+      "address": "東京都港区東麻布3-8先",
+      "cc_class": "unknown",
+      "displacement_note": "車両制限はサイズのみで、排気量の明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 1000,
+        "note": "60分200円、12時間最大1,000円"
+      },
+      "capacity": 20,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60526-92",
+      "data_note": "首都高速都心環状線の高架下。値は公社データに基づく集約サイト（NAVITIME）の掲載値。個人ブログでは60分100円・12時間最大800円と記載があり相違する",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "麻布十番駅自転車等駐車場（港区立）",
+      "lat": 35.6571558,
+      "lon": 139.73391,
+      "address": "東京都港区麻布十番1-4-14",
+      "cc_class": "unknown",
+      "displacement_note": "港区立自転車等駐車場の対象は自転車と原動機付自転車（白ナンバー）と案内されている。125cc以下の明記はなく、原付二種の可否は不明",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の料金は未確認"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.city.minato.tokyo.jp/shisetsu/cate011/cate001/index.html",
+      "data_note": "港区公式の駐輪場一覧に掲載。原付の料金・利用時間は確認できなかった。港区は自動二輪車を区立自転車等駐車場の対象外と案内しているため、cc_classはunknownとした",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

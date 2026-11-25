@@ -1,0 +1,77 @@
+{
+  "station_id": "st0354",
+  "station_name": "台場",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "アクアシティお台場 バイク置場",
+      "lat": 35.6278892,
+      "lon": 139.7734211,
+      "address": "東京都港区台場1-7-1",
+      "cc_class": "unlimited",
+      "displacement_note": "公式ページに二輪車（大型二輪車含む）利用可と明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク料金は公式ページに未掲載"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.aquacity.jp/facility/index.html",
+      "data_note": "自転車・バイク合わせて41台（公式ページ）。バイク専用台数・料金・営業時間は公式ページに未掲載",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "お台場海浜公園バイク駐輪場",
+      "lat": 35.629685,
+      "lon": 139.7749897,
+      "address": "東京都港区台場1-4-4",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 360,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "最初の1時間無料、以降6時間ごとに200円"
+      },
+      "capacity": 132,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.tptc.co.jp/park/01_02/access#p-cont07",
+      "data_note": "施設・運営（東京テレポートセンター）は公式ページで確認。料金と台数はブログ・集約サイト（MotoHub）の掲載値で、公式ページでは料金を確認できなかった。座標は台場1丁目の街区レベル",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "ダイバーシティ東京プラザ バイク駐輪場",
+      "lat": 35.6251197,
+      "lon": 139.7755433,
+      "address": "東京都江東区青海1-1-10",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は未確認"
+      },
+      "capacity": 60,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/station/st-004112",
+      "data_note": "台数は集約サイト（MotoHub）の掲載値。所在地は江東区青海で、台場駅から約500m",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

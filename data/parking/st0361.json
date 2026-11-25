@@ -1,0 +1,54 @@
+{
+  "station_id": "st0361",
+  "station_name": "汐留",
+  "ward": "港区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "汐留駐車場",
+      "lat": 35.66417,
+      "lon": 139.7605286,
+      "address": "東京都港区東新橋1丁目地先",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "自動二輪は定期利用のみ（時間貸しスペースなし）。定期料金は公式ページで未確認"
+      },
+      "capacity": 67,
+      "roof": true,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.shutoko-sv.jp/parking/shiodome",
+      "data_note": "運営会社（首都高速道路サービス）公式ページの値。住所は丁目レベルのため座標は東新橋1丁目の代表点",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "汐留バイク駐車場2",
+      "lat": 35.66265,
+      "lon": 139.7575158,
+      "address": "東京都港区東新橋2-5",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額12,000円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_list.html",
+      "data_note": "運営会社（日本バイクパーキング）の一覧ページの掲載値。汐留駅徒歩4分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
