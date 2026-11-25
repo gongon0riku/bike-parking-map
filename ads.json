@@ -1,0 +1,8 @@
+{
+  "_note": "Google AdSenseの設定ファイル。独自ドメイン取得とAdSense審査通過後、adsense_client（ca-pub-XXXX）と各スロットIDを設定すると広告が表示されます。未設定の間は広告枠は表示されません。",
+  "adsense_client": "",
+  "slots": {
+    "area_bottom": "",
+    "detail_bottom": ""
+  }
+}

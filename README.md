@@ -30,3 +30,16 @@ python3 -m http.server 8000
 ```
 
 地図表示：Leaflet + OpenStreetMap（© OpenStreetMap contributors）
+
+## 収益化（Google AdSense前提）
+
+- 広告枠は「エリア画面の下部」と「詳細画面の下部」に設置済みです。設定は `ads.json` で管理し、AdSenseのクライアントIDとスロットIDを設定するまでは何も表示されません
+- プライバシーポリシーは独立ページ（アプリ内フッターから遷移）として用意済みです
+- アフィリエイトリンクの枠も併設しています（設定は `affiliate.json`）
+
+### 公開から審査申請までの順番
+
+1. PRをマージしてCloudflare Pagesで公開する
+2. 独自ドメインを取得して接続する（**ユーザーの判断待ち・未取得**。〜.pages.dev のサブドメインではAdSenseに登録できません）
+3. 駐車場データをある程度揃える
+4. AdSenseに申請し、発行されたIDを `ads.json` に設定する（あわせて `ads.txt` を設置する）

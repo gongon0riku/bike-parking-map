@@ -178,6 +178,30 @@ function renderMapAndList(parkings) {
 }
 
 
+
+// ---------- 広告（Google AdSense） ----------
+let adsConfig = null;
+async function initAds() {
+  try {
+    const res = await fetch("ads.json");
+    adsConfig = await res.json();
+  } catch (e) { adsConfig = null; }
+  if (!adsConfig || !adsConfig.adsense_client) return; // 未設定なら広告枠は出さない
+  const script = document.createElement("script");
+  script.async = true;
+  script.crossOrigin = "anonymous";
+  script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" + adsConfig.adsense_client;
+  document.head.appendChild(script);
+  document.querySelectorAll(".ad-slot").forEach(slot => {
+    const slotId = adsConfig.slots[slot.dataset.adSlot];
+    if (!slotId) return;
+    slot.hidden = false;
+    slot.innerHTML = '<ins class="adsbygoogle" data-ad-client="' + adsConfig.adsense_client +
+      '" data-ad-slot="' + slotId + '" data-ad-format="auto" data-full-width-responsive="true"></ins>';
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  });
+}
+
 // ---------- アフィリエイト ----------
 let affiliateItems = [];
 function renderAffiliate() {
@@ -255,6 +279,7 @@ async function init() {
     const aRes = await fetch("affiliate.json");
     affiliateItems = (await aRes.json()).items || [];
   } catch (e) { affiliateItems = []; }
+  initAds();
   renderStationList("");
 
   $("#station-search").addEventListener("input", (e) => renderStationList(e.target.value));
