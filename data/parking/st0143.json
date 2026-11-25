@@ -1,0 +1,54 @@
+{
+  "station_id": "st0143",
+  "station_name": "戸越",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "大崎バイク駐車場3",
+      "lat": 35.619262,
+      "lon": 139.72126,
+      "address": "東京都品川区大崎4-11-1",
+      "cc_class": "unlimited",
+      "displacement_note": "超大型車室ありと運営会社ページに記載",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額8,500円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_detail.html?id=387",
+      "checked_date": "2026-11-25",
+      "data_note": "運営会社（日本バイクパーキング）公式ページに基づく。最寄り駅は大崎駅・戸越駅（各徒歩10分）と掲載"
+    },
+    {
+      "id": "p002",
+      "name": "地下鉄戸越駅第1区営自転車等駐車場",
+      "lat": 35.6154494,
+      "lon": 139.7164986,
+      "address": "東京都品川区平塚1丁目6番先",
+      "cc_class": "unknown",
+      "displacement_note": "品川区公式の区営自転車駐輪場一覧では「バイク」として受入。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用：月額の上限は屋根無3,300円／屋根有3,500円（施設により異なる）"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/bosai/bosai-zitensyataisaku/bosai-zitensyataisaku-tyusyazyoichiran/bosai-zitensyataisaku-tyusyazyoichiran-kuei/index.html",
+      "checked_date": "2026-11-25",
+      "data_note": "バイクは定期利用のみ1台（品川区公式の台数表）"
+    }
+  ]
+}

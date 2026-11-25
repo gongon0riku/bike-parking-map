@@ -1,0 +1,31 @@
+{
+  "station_id": "st0155",
+  "station_name": "青物横丁",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコステーション21 青物横丁京急ビル駐輪場",
+      "lat": 35.6095314,
+      "lon": 139.7427858,
+      "address": "東京都品川区南品川3-1-20",
+      "cc_class": "unlimited",
+      "displacement_note": "125cc以下の区画と、126cc以上も利用できる区画（駐輪番号201-210）あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1時間毎200円（126cc以上／125cc以下の区画201-210）。125cc以下の区画211-215は5時間毎200円"
+      },
+      "capacity": 19,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?address=13109&category=0812002001",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。所在地・24時間営業は京急公式の沿線駐輪場一覧に基づく"
+    }
+  ]
+}

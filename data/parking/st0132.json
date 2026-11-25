@@ -1,0 +1,31 @@
+{
+  "station_id": "st0132",
+  "station_name": "不動前",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "ニリーン ベルファース目黒",
+      "lat": 35.628856,
+      "lon": 139.714023,
+      "address": "東京都品川区西五反田3-16-1",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク可（入庫可能なバイク例に大型車を掲載）。区画サイズは全長2400mm×全幅1000mm",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額11,000円（税込）。LL区画"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://bike-parking.jp/parking/3513/?referer=G9532",
+      "checked_date": "2026-11-25",
+      "data_note": "運営会社（ニリーン）の物件ページに基づく。不動前駅徒歩6分・目黒駅徒歩10分と掲載"
+    }
+  ]
+}

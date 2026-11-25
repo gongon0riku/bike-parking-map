@@ -1,0 +1,77 @@
+{
+  "station_id": "st0134",
+  "station_name": "五反田",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "五反田駅区営自転車等駐車場",
+      "lat": 35.62731,
+      "lon": 139.72226,
+      "address": "東京都品川区西五反田2丁目2番～5番先、東五反田5丁目27番先",
+      "cc_class": "unknown",
+      "displacement_note": "品川区公式の区営自転車駐輪場一覧では「バイク」として受入。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 250,
+        "note": "当日利用：バイク1日250円（品川区の標準料金）。定期利用：月額の上限は屋根無3,300円／屋根有3,500円（施設により異なる）"
+      },
+      "capacity": 81,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/bosai/bosai-zitensyataisaku/bosai-zitensyataisaku-tyusyazyoichiran/bosai-zitensyataisaku-tyusyazyoichiran-kuei/index.html",
+      "checked_date": "2026-11-25",
+      "data_note": "バイク収容は定期48台・当日33台（品川区公式の台数表）。座標は西五反田側の代表地点"
+    },
+    {
+      "id": "p002",
+      "name": "クレアスバイクパーク パレステュディオ五反田",
+      "lat": 35.6256625,
+      "lon": 139.7229389,
+      "address": "東京都品川区西五反田1-2-2",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 1800,
+        "note": "30分毎100円、12時間まで1,000円、24時間まで1,800円"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?address=13109&category=0812002001",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。営業時間は未確認"
+    },
+    {
+      "id": "p003",
+      "name": "エコステーション21 五反田東急スクエア駐輪場",
+      "lat": 35.6255181,
+      "lon": 139.7244583,
+      "address": "東京都品川区東五反田2-1-2",
+      "cc_class": "125",
+      "displacement_note": "125cc以下（集約サイトに車種制限として明記）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 180,
+        "base_yen": 250,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降3時間毎250円"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?address=13109&category=0812002001",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・車種制限は集約サイト（NAVITIME）の掲載値。営業時間は未確認"
+    }
+  ]
+}
