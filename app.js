@@ -158,53 +158,51 @@ function kanaRowOf(yomi) {
   return "その他";
 }
 
-function renderStationPanel() {
-  const panel = $("#panel-station");
-  panel.innerHTML = "";
-  const sorted = [...stations].sort((a, b) => (a.yomi || a.name).localeCompare(b.yomi || b.name, "ja"));
-
-  // 行ジャンプバー（あ・か・さ…をタップでその行までスクロール）
+// 50音グループ＋ジャンプバー付きリストを作る（itemsはyomi順にソート済み前提）
+function buildKanaList(items, yomiOf, makeRow) {
+  const frag = document.createDocumentFragment();
   const heads = {};
   const jumpBar = document.createElement("div");
   jumpBar.className = "kana-jump";
-  for (const [label] of KANA_ROWS) {
-    if (!sorted.some(s => kanaRowOf(s.yomi) === label)) continue;
+  const labels = KANA_ROWS.map(([label]) => label);
+  if (items.some(it => kanaRowOf(yomiOf(it)) === "その他")) labels.push("その他");
+  for (const label of labels) {
+    if (!items.some(it => kanaRowOf(yomiOf(it)) === label)) continue;
     const b = document.createElement("button");
     b.className = "kana-jump-btn";
-    b.textContent = label.charAt(0);
+    b.textContent = label === "その他" ? "他" : label.charAt(0);
     b.addEventListener("click", () => {
       if (heads[label]) heads[label].scrollIntoView({ behavior: "smooth", block: "start" });
     });
     jumpBar.appendChild(b);
   }
-  if (sorted.some(s => kanaRowOf(s.yomi) === "その他")) {
-    const b = document.createElement("button");
-    b.className = "kana-jump-btn";
-    b.textContent = "他";
-    b.addEventListener("click", () => {
-      if (heads["その他"]) heads["その他"].scrollIntoView({ behavior: "smooth", block: "start" });
-    });
-    jumpBar.appendChild(b);
-  }
-  panel.appendChild(jumpBar);
+  frag.appendChild(jumpBar);
 
   let currentRow = null;
   let listEl = null;
-  for (const s of sorted) {
-    const row = kanaRowOf(s.yomi);
+  for (const it of items) {
+    const row = kanaRowOf(yomiOf(it));
     if (row !== currentRow) {
       currentRow = row;
       const head = document.createElement("div");
       head.className = "kana-head";
       head.textContent = row;
       heads[row] = head;
-      panel.appendChild(head);
+      frag.appendChild(head);
       listEl = document.createElement("div");
       listEl.className = "station-list";
-      panel.appendChild(listEl);
+      frag.appendChild(listEl);
     }
-    listEl.appendChild(stationRow(s));
+    listEl.appendChild(makeRow(it));
   }
+  return frag;
+}
+
+function renderStationPanel() {
+  const panel = $("#panel-station");
+  panel.innerHTML = "";
+  const sorted = [...stations].sort((a, b) => (a.yomi || a.name).localeCompare(b.yomi || b.name, "ja"));
+  panel.appendChild(buildKanaList(sorted, s => s.yomi, s => stationRow(s)));
 }
 
 // ----- 地名から探す（都道府県 → 区 → 駅） -----
@@ -228,8 +226,9 @@ function renderAreaPanel() {
     listEl.appendChild(btn);
   } else if (areaLevel === "ward") {
     panel.appendChild(areaBackRow("都道府県を選ぶ", () => { areaLevel = "pref"; renderAreaPanel(); }));
-    const wards = [...new Set(stations.map(s => s.ward))].sort((a, b) => a.localeCompare(b, "ja"));
-    for (const w of wards) {
+    const wards = [...new Set(stations.map(s => s.ward))]
+      .sort((a, b) => (WARD_YOMI[a] || a).localeCompare(WARD_YOMI[b] || b, "ja"));
+    panel.appendChild(buildKanaList(wards, w => WARD_YOMI[w] || w, (w) => {
       const inWard = stations.filter(s => s.ward === w);
       const btn = document.createElement("button");
       btn.className = "station-row";
@@ -240,20 +239,31 @@ function renderAreaPanel() {
       btn.querySelector(".station-name").textContent = w;
       btn.querySelector(".station-sub").textContent = inWard.length + "駅";
       btn.addEventListener("click", () => { areaLevel = "stations"; areaWard = w; renderAreaPanel(); });
-      listEl.appendChild(btn);
-    }
+      return btn;
+    }));
+    return;
   } else {
     panel.appendChild(areaBackRow("区を選ぶ", () => { areaLevel = "ward"; renderAreaPanel(); }));
-    const head = document.createElement("div");
-    head.className = "kana-head";
-    head.textContent = areaWard;
-    panel.appendChild(head);
+    const title = document.createElement("div");
+    title.className = "area-title";
+    title.textContent = areaWard;
+    panel.appendChild(title);
     const inWard = stations.filter(s => s.ward === areaWard)
       .sort((a, b) => (a.yomi || a.name).localeCompare(b.yomi || b.name, "ja"));
-    for (const s of inWard) listEl.appendChild(stationRow(s));
+    panel.appendChild(buildKanaList(inWard, s => s.yomi, s => stationRow(s)));
+    return;
   }
   panel.appendChild(listEl);
 }
+
+const WARD_YOMI = {
+  "千代田区": "ちよだ", "中央区": "ちゅうおう", "港区": "みなと", "新宿区": "しんじゅく",
+  "文京区": "ぶんきょう", "台東区": "たいとう", "墨田区": "すみだ", "江東区": "こうとう",
+  "品川区": "しながわ", "大田区": "おおた", "目黒区": "めぐろ", "世田谷区": "せたがや",
+  "渋谷区": "しぶや", "中野区": "なかの", "杉並区": "すぎなみ", "豊島区": "としま",
+  "北区": "きた", "荒川区": "あらかわ", "板橋区": "いたばし", "練馬区": "ねりま",
+  "足立区": "あだち", "葛飾区": "かつしか", "江戸川区": "えどがわ"
+};
 
 function areaBackRow(label, onClick) {
   const btn = document.createElement("button");
