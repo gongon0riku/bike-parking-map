@@ -1,0 +1,54 @@
+{
+  "station_id": "st0389",
+  "station_name": "都立大学",
+  "ward": "目黒区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "めぐろ区民キャンパス バイク駐車場",
+      "lat": 35.6214919,
+      "lon": 139.6727572,
+      "address": "東京都目黒区八雲1-1-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 0,
+        "note": "利用料金は無料"
+      },
+      "capacity": 11,
+      "roof": null,
+      "hours": "8:00-22:30",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00006556&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・営業時間は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "都立大学駅徒歩10分アキッパ駐車場【予約制：akippa】",
+      "lat": 35.6169814,
+      "lon": 139.6673417,
+      "address": "東京都目黒区八雲3-15-3",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量による制限はありませんと情報源に明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 400,
+        "max_yen_per_day": 1000,
+        "note": "400円/1時間、日額1,000円（予約制：akippa）"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://motohub.jp/parking/48401",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（MotoHub、出典：JMPSA）の掲載値"
+    }
+  ]
+}

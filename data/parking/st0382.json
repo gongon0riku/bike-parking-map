@@ -1,0 +1,54 @@
+{
+  "station_id": "st0382",
+  "station_name": "大岡山",
+  "ward": "目黒区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコステーション21 大岡山駅前駐輪場",
+      "lat": 35.607322,
+      "lon": 139.684846,
+      "address": "東京都目黒区大岡山2-10-1",
+      "cc_class": "125",
+      "displacement_note": "バイク用エリア（第二エリア）は原付用と情報源に掲載",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 480,
+        "base_yen": 250,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降8時間毎250円（原付・第二エリア）"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60525-NCD00435B",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME、提供情報：NCD）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "大岡山駅前第二駐輪場",
+      "lat": 35.606928,
+      "lon": 139.683334,
+      "address": "東京都目黒区大岡山2-10-1",
+      "cc_class": "125",
+      "displacement_note": "車種制限：125cc以下と情報源に明記",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 720,
+        "base_yen": 220,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降12時間毎220円"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2817",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（NAVITIME、提供情報：バイクを停めたい）の掲載値。p001と同一住所で、エリア違いの同一施設の可能性あり"
+    }
+  ]
+}

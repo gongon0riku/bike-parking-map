@@ -1,0 +1,31 @@
+{
+  "station_id": "st0387",
+  "station_name": "緑が丘",
+  "ward": "目黒区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "目黒区緑が丘2-15 原付バイク駐輪場",
+      "lat": 35.6084164,
+      "lon": 139.6734883,
+      "address": "東京都目黒区緑が丘2-15",
+      "cc_class": "125",
+      "displacement_note": "原付バイク用駐輪場と情報源に掲載",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は情報源で未確認"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/maps/poi?code=60516-d1074&from=pc.poi",
+      "checked_date": "2026-11-25",
+      "data_note": "存在と住所は集約サイト（NAVITIME）で確認。料金・台数・営業時間は未確認。座標は街区レベル"
+    }
+  ]
+}
