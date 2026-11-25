@@ -1,0 +1,31 @@
+{
+  "station_id": "st0079",
+  "station_name": "東十条",
+  "ward": "北区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "北区立十条駅西口自転車駐車場（バイク）",
+      "lat": 35.76062,
+      "lon": 139.721674,
+      "address": "東京都北区上十条2-27先",
+      "cc_class": "unknown",
+      "displacement_note": "情報源（NAVITIME）の料金区分は「原付」。50cc以下（原付一種）のみの可能性があり、125ccの可否は未確認",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 200,
+        "note": "一時利用（原付）24時間毎に200円"
+      },
+      "capacity": 23,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60525-NCD06653B",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・座標は集約サイト（NAVITIME、提供：NCD）の掲載値。東十条駅から約600mで、同駅周辺で最寄りのバイク可駐車場として登録"
+    }
+  ]
+}

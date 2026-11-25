@@ -1,0 +1,54 @@
+{
+  "station_id": "st0087",
+  "station_name": "田端",
+  "ward": "北区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "北区立田端駅前自転車駐車場（バイク）",
+      "lat": 35.738476,
+      "lon": 139.759282,
+      "address": "東京都北区田端6-1-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク料金は情報源に掲載なし"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "4:00-翌1:00",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=00004.13109000634&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "NAVITIMEの駐輪場一覧に[バイク]区画ありと掲載。バイクの料金・台数は未確認。営業時間は同施設の入出庫可能時間"
+    },
+    {
+      "id": "p002",
+      "name": "田端O邸駐車場（バイク・軽専用）",
+      "lat": 35.739567,
+      "lon": 139.757296,
+      "address": "東京都北区田端6-5-3",
+      "cc_class": "unknown",
+      "displacement_note": "オートバイ駐車可と情報源に明記（排気量の上限は明記なし）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は予約サイト（akippa）で確認"
+      },
+      "capacity": 1,
+      "roof": false,
+      "hours": "8:00-17:00",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13117/55069366_akipp/",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（マピオン電話帳、akippa連携）の掲載値。予約制・1台のみ"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0082",
+  "station_name": "浮間舟渡",
+  "ward": "北区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "浮間舟渡駅前第2駐輪場",
+      "lat": 35.791429,
+      "lon": 139.690905,
+      "address": "東京都板橋区舟渡1-11-1",
+      "cc_class": "125",
+      "displacement_note": "ミニバイク（125cc以下）と情報源に明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 1440,
+        "base_yen": 200,
+        "max_yen_per_day": 200,
+        "note": "バイク（ミニバイク）24時間毎200円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00281384&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。所在地は板橋区側（浮間舟渡駅前）"
+    }
+  ]
+}
