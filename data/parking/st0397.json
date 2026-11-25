@@ -1,0 +1,31 @@
+{
+  "station_id": "st0397",
+  "station_name": "小竹向原",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "小竹向原駅南自転車駐車場",
+      "lat": 35.742293,
+      "lon": 139.681582,
+      "address": "東京都板橋区向原2-36-9先",
+      "cc_class": "unknown",
+      "displacement_note": "バイクの収容台数の記載はあるが、排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイクの料金は未確認"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60525-NCD05288C",
+      "data_note": "板橋区の施設。台数・座標は集約サイト（NAVITIME、提供：NCD）の掲載値。なお練馬区立小竹向原駅自転車駐車場は区オープンデータで原付収容数0のため対象外",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

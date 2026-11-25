@@ -1,0 +1,54 @@
+{
+  "station_id": "st0392",
+  "station_name": "中村橋",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "練馬区立中村橋駅東自転車駐車場",
+      "lat": 35.737003,
+      "lon": 139.639471,
+      "address": "東京都練馬区中村北3-15-10",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用：2時間無料、無料時間を含め8時間まで200円、以降8時間毎に200円（集約サイトの掲載値）"
+      },
+      "capacity": 40,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値。料金は集約サイト（NAVITIME、提供：NCD）の掲載値。同サイトではバイク3台の区画表記もあり、台数は区オープンデータの原付収容数を採用",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "練馬区立中村橋駅西自転車駐車場",
+      "lat": 35.736616,
+      "lon": 139.635849,
+      "address": "東京都練馬区貫井1-36-26",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

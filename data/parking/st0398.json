@@ -1,0 +1,77 @@
+{
+  "station_id": "st0398",
+  "station_name": "平和台",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "練馬区立早宮第二自転車駐車場",
+      "lat": 35.756867,
+      "lon": 139.65201,
+      "address": "東京都練馬区早宮2-18-31",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値。平和台駅から約250m",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "練馬区立早宮自転車駐車場",
+      "lat": 35.756351,
+      "lon": 139.652216,
+      "address": "東京都練馬区早宮2-18-34",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値。平和台駅から約250m",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "特P【バイク・原付専用】北町6-36-14駐車場",
+      "lat": 35.758587,
+      "lon": 139.649634,
+      "address": "東京都練馬区北町6-36-14",
+      "cc_class": "unknown",
+      "displacement_note": "バイク・原付専用と情報源に明記。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 1440,
+        "base_yen": 700,
+        "max_yen_per_day": 700,
+        "note": "予約制（特P）。00:00-24:00 700円/24h"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/poi?spt=60048.310008210",
+      "data_note": "料金・座標は集約サイト（NAVITIME）の掲載値。屋内・事前予約制。平和台駅から徒歩7分（掲載値）",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

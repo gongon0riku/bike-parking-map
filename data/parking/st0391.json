@@ -1,0 +1,77 @@
+{
+  "station_id": "st0391",
+  "station_name": "上石神井",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "練馬区立上石神井駅北第三自転車駐車場",
+      "lat": 35.726521,
+      "lon": 139.593651,
+      "address": "東京都練馬区上石神井2-23-3",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 25,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "エコステーション21 西友上石神井店お客様駐輪場",
+      "lat": 35.7260228,
+      "lon": 139.5920636,
+      "address": "東京都練馬区上石神井1-2-44",
+      "cc_class": "125",
+      "displacement_note": "125cc以下と情報源に明記",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 240,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降4時間毎200円"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00022356&category=0812002",
+      "data_note": "西友上石神井店の利用者向け駐輪場。料金・台数・排気量制限は集約サイト（NAVITIME）の掲載値。営業時間は未確認",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "【バイク専用】グッドパーキング上石神井・早大学院南門前バイク駐車場",
+      "lat": 35.7305106,
+      "lon": 139.5933633,
+      "address": "東京都練馬区上石神井3-30-3",
+      "cc_class": "unknown",
+      "displacement_note": "バイク専用月極。排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用。月額賃料6,600円（アットパーキング掲載値）"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.at-parking.jp/search/tokyo/nerima-ku/kamishakujii/321932.html",
+      "data_note": "月極専門サイト（アットパーキング）の掲載値。上石神井駅から徒歩9分（掲載値）",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

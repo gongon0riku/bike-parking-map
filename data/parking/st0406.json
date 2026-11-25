@@ -1,0 +1,31 @@
+{
+  "station_id": "st0406",
+  "station_name": "練馬春日町",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "（バイク）練馬区春日町3丁目 月極駐車場",
+      "lat": 35.7484183,
+      "lon": 139.6424639,
+      "address": "東京都練馬区春日町3丁目",
+      "cc_class": "unknown",
+      "displacement_note": "バイク月極。排気量の上限について情報源に明記なし（車室サイズ：全長2,000〜2,500mm×全幅1,000mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用。月額賃料6,600円〜9,500円（車室により異なる）"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://p-king.jp/detail/576600",
+      "data_note": "集約サイト（日本駐車場検索）の掲載値。住所は丁目レベルまでしか公開されておらず、座標は春日町3丁目の代表点。練馬春日町駅から徒歩3分（掲載値）",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
