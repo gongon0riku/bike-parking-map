@@ -1,0 +1,77 @@
+{
+  "station_id": "st0385",
+  "station_name": "洗足",
+  "ward": "目黒区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "目黒区立洗足二丁目駐輪場",
+      "lat": 35.6105528,
+      "lon": 139.6933039,
+      "address": "東京都目黒区洗足2-18-11",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降24時間毎300円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "5:00-25:00",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00006556&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・営業時間は集約サイト（NAVITIME）の掲載値。営業時間は5:00-翌1:00とする掲載もあり"
+    },
+    {
+      "id": "p002",
+      "name": "洗足1-28-15駐車場【予約制：特P】",
+      "lat": 35.6126461,
+      "lon": 139.6935758,
+      "address": "東京都目黒区洗足1-28-15",
+      "cc_class": "125",
+      "displacement_note": "「原付専用」と情報源に掲載",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 700,
+        "note": "700円/24時間（予約制：特P）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/category/08_13110010000",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p003",
+      "name": "洗足駅徒歩4分バイク屋根付き駐車場【予約制：akippa】",
+      "lat": 35.6126461,
+      "lon": 139.6935758,
+      "address": "東京都目黒区洗足1-28-15",
+      "cc_class": "unknown",
+      "displacement_note": "オートバイまで駐車可と情報源に掲載（排気量の上限は明記なし）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク専用・予約制（akippa）。料金は集約サイトに掲載なし"
+      },
+      "capacity": 1,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13110/55093256_akipp/",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（マピオン／akippa）の掲載値。p002と同一住所で、別枠として掲載されているもの"
+    }
+  ]
+}

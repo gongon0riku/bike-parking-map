@@ -1,0 +1,54 @@
+{
+  "station_id": "st0388",
+  "station_name": "自由が丘",
+  "ward": "目黒区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "世田谷区立自由が丘駅第一自転車等駐車場",
+      "lat": 35.6063408,
+      "lon": 139.6670531,
+      "address": "東京都世田谷区奥沢5-42-14",
+      "cc_class": "125",
+      "displacement_note": "原付用（月ぎめ14台・日ぎめ9台）と世田谷区公式ページに掲載",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付：日ぎめ1日240円、月ぎめ1か月3,300円"
+      },
+      "capacity": 23,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4465.html",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は世田谷区公式ページの値（原付分、台数は月ぎめ・日ぎめの合計）。所在地は世田谷区（自由が丘駅前・区境）"
+    },
+    {
+      "id": "p002",
+      "name": "トミーバイクパーキング自由が丘",
+      "lat": 35.6111158,
+      "lon": 139.6661169,
+      "address": "東京都目黒区自由が丘2-20",
+      "cc_class": "unknown",
+      "displacement_note": "中サイズ（幅1000mm×縦2400mm）のみ。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額9,900円（税込）"
+      },
+      "capacity": 2,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://tomybikepark.com/parking/jiyugaoka",
+      "checked_date": "2026-11-25",
+      "data_note": "運営会社公式ページの値。調査時点では満車表示"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "station_id": "st0384",
+  "station_name": "池尻大橋",
+  "ward": "目黒区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "目黒区営池尻大橋駅北口駐輪場",
+      "lat": 35.6514394,
+      "lon": 139.6850386,
+      "address": "東京都目黒区大橋2-24-11",
+      "cc_class": "unknown",
+      "displacement_note": "50cc以下／51cc以上の料金区分あり（排気量の上限は情報源に明記なし）",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降24時間毎150円（50cc以下）・300円（51cc以上）"
+      },
+      "capacity": 25,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=00011.030309336&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "世田谷区立池尻大橋自転車等駐車場",
+      "lat": 35.650562,
+      "lon": 139.684587,
+      "address": "東京都世田谷区池尻3-2",
+      "cc_class": "125",
+      "displacement_note": "原付バイク用（日ぎめ30台）と世田谷区公式ページに掲載",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付：日ぎめ1回240円"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4452.html",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は世田谷区公式ページの値（原付分）。座標はNAVITIME掲載値"
+    },
+    {
+      "id": "p003",
+      "name": "クロスエアタワー駐車場",
+      "lat": 35.6514617,
+      "lon": 139.6884219,
+      "address": "東京都目黒区大橋1-5-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降1時間毎200円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "7:00-25:00",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2469",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

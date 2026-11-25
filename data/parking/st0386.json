@@ -1,0 +1,31 @@
+{
+  "station_id": "st0386",
+  "station_name": "祐天寺",
+  "ward": "目黒区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "アジュールテラス目黒祐天寺 バイク月極駐車場",
+      "lat": 35.6313972,
+      "lon": 139.6976186,
+      "address": "東京都目黒区中町1-12-6",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額9,900円〜11,000円（バイク月極）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.homes.co.jp/chintai/parking/tokyo/yutenji_05052-st/list/",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（ホームズ）の掲載値。マンション併設の月極バイク駐車場で、祐天寺駅から徒歩15分"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0381",
+  "station_name": "中目黒",
+  "ward": "目黒区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "中目黒5-25-2駐車場【予約制：特P】",
+      "lat": 35.6361136,
+      "lon": 139.6957086,
+      "address": "東京都目黒区中目黒5-25-2",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし（集約サイトの入庫可能バイク判定では大型車まで可と表示）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク専用・予約制（特P）。料金は集約サイトに掲載なし"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://motohub.jp/parking/47818",
+      "checked_date": "2026-11-25",
+      "data_note": "存在・台数・24時間利用可は集約サイト（MotoHub）の掲載値"
+    }
+  ]
+}

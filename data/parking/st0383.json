@@ -1,0 +1,54 @@
+{
+  "station_id": "st0383",
+  "station_name": "学芸大学",
+  "ward": "目黒区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "目黒区立学芸大学駅西口第二駐輪場",
+      "lat": 35.6281392,
+      "lon": 139.6829933,
+      "address": "東京都目黒区鷹番3-17-2",
+      "cc_class": "unknown",
+      "displacement_note": "一般原付（50cc以下）のみ28台。自動二輪車（50cc超）は駐輪不可と情報源に明記",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "最初の1時間無料、以降24時間150円（一般原付）"
+      },
+      "capacity": 28,
+      "roof": null,
+      "hours": "24時間（入庫は7:00-18:00）",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00006556&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。座標は街区レベル（鷹番3-17付近）"
+    },
+    {
+      "id": "p002",
+      "name": "アクトパーク学芸大学",
+      "lat": 35.6302164,
+      "lon": 139.6859447,
+      "address": "東京都目黒区鷹番3-9-6",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 40,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "40分毎100円（上限700円）、夜間（20:00-8:00）は90分毎100円（上限300円）"
+      },
+      "capacity": 11,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00006556&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。営業時間は情報源に明記なし"
+    }
+  ]
+}
