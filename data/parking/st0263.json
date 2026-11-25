@@ -1,0 +1,31 @@
+{
+  "station_id": "st0263",
+  "station_name": "永福町",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "【予約制】パラカ 杉並区永福第2",
+      "lat": 35.6781936,
+      "lon": 139.6360697,
+      "address": "東京都杉並区永福3-37",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "予約制。料金は予約ページで確認"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "不明",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00055009&category=0812004",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。座標は丁目レベル"
+    }
+  ]
+}

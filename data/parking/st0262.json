@@ -1,0 +1,31 @@
+{
+  "station_id": "st0262",
+  "station_name": "東高円寺",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイパーク東高円寺駐輪場",
+      "lat": 35.6977856,
+      "lon": 139.6573372,
+      "address": "東京都杉並区和田3-55-40",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上の料金も情報源に明記",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "いずれも1時間無料。125ccまで：12時間まで400円、24時間まで700円、以降24時間毎700円。126cc以上：12時間まで500円、24時間まで900円、以降24時間毎900円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=60018.A125&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

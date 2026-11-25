@@ -1,0 +1,54 @@
+{
+  "station_id": "st0254",
+  "station_name": "下井草",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "下井草南自転車駐車場（杉並区立）",
+      "lat": 35.7232792,
+      "lon": 139.6273328,
+      "address": "東京都杉並区下井草2-36-16",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上の料金も情報源に明記（1日400円）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "1日200円（125cc以下）、1日400円（126cc以上）。料金は翌日0時ごとに加算"
+      },
+      "capacity": 7,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-3690",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。集約サイトの別ページではミニバイク10台と記載"
+    },
+    {
+      "id": "p002",
+      "name": "エコステーション21 ティップネス下井草店駐輪場B",
+      "lat": 35.7234403,
+      "lon": 139.6247494,
+      "address": "東京都杉並区下井草2-40-17",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 240,
+        "base_minutes": 240,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "4時間無料、以降4時間毎300円"
+      },
+      "capacity": 12,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2940",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "station_id": "st0268",
+  "station_name": "阿佐ヶ谷",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "Parking in 阿佐ヶ谷駅西駐輪場",
+      "lat": 35.7047367,
+      "lon": 139.6335836,
+      "address": "東京都杉並区阿佐谷南3-55-1",
+      "cc_class": "unlimited",
+      "displacement_note": "自動二輪（126cc以上）の料金・台数も情報源に明記",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "最初の120分無料。その後8時間毎：125cc以下200円、126cc以上300円"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00055009&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値（バイク枠：ミニバイク23台・自動二輪7台）"
+    },
+    {
+      "id": "p002",
+      "name": "阿佐ヶ谷ダイヤ街・Dila駐輪場",
+      "lat": 35.7047256,
+      "lon": 139.6342558,
+      "address": "東京都杉並区阿佐谷南3-56",
+      "cc_class": "unknown",
+      "displacement_note": "小型・中型の料金区分のみで、排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 480,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降8時間毎200円（小型）、300円（中型）"
+      },
+      "capacity": 38,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00055009&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。住所は丁目レベル"
+    },
+    {
+      "id": "p003",
+      "name": "エコステーション21 西友阿佐ヶ谷店お客様駐輪場地下エリア",
+      "lat": 35.7055981,
+      "lon": 139.6368825,
+      "address": "東京都杉並区阿佐谷北1-5-6",
+      "cc_class": "125",
+      "displacement_note": "車種制限125cc以下と情報源に明記",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 240,
+        "base_yen": 220,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降4時間220円"
+      },
+      "capacity": 9,
+      "roof": true,
+      "hours": "6:00-24:00",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00055009&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

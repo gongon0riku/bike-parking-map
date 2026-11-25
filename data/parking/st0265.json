@@ -1,0 +1,54 @@
+{
+  "station_id": "st0265",
+  "station_name": "荻窪",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "荻窪タウンセブン・ルミネ荻窪駐輪場",
+      "lat": 35.7050975,
+      "lon": 139.6196122,
+      "address": "東京都杉並区上荻1-9-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "1時間100円、以降30分毎100円"
+      },
+      "capacity": 17,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02011.00000877&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "荻窪駅西口バイク駐車場",
+      "lat": 35.7045114,
+      "lon": 139.6169789,
+      "address": "東京都杉並区上荻1-10",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 480,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "8時間まで300円、以降8時間毎100円"
+      },
+      "capacity": 19,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02011.00000877&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。住所は番地レベルまで"
+    }
+  ]
+}

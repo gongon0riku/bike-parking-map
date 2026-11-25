@@ -1,0 +1,54 @@
+{
+  "station_id": "st0267",
+  "station_name": "西荻窪",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "Parking in 西荻窪駅前第2駐輪場",
+      "lat": 35.7035164,
+      "lon": 139.5974772,
+      "address": "東京都杉並区松庵3-26-26",
+      "cc_class": "125",
+      "displacement_note": "ミニバイク（125cc以下）と情報源に明記",
+      "fees": {
+        "free_minutes": 45,
+        "base_minutes": 300,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "最初の45分無料、以降5時間毎200円（バイク）"
+      },
+      "capacity": 9,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02011.00000877&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "エコステーション21 西荻窪駅南口駐輪場",
+      "lat": 35.7034414,
+      "lon": 139.6009606,
+      "address": "東京都杉並区西荻南3-14-7",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク料金は情報源で未取得"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02011.00000877&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}
