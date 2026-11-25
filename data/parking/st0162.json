@@ -1,0 +1,77 @@
+{
+  "station_id": "st0162",
+  "station_name": "押上",
+  "ward": "墨田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "東京スカイツリータウン バイク置き場",
+      "lat": 35.710052,
+      "lon": 139.810713,
+      "address": "東京都墨田区押上1-1-2",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量の上限なし。サイズ制限あり（スペース大：幅1,000mm×長さ2,400mmまで）。サイズを超える場合は自動車用立体駐車場を利用",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "最初の2時間無料、以降は自動二輪1時間300円（原付は1時間200円）"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "7:30-23:00（入庫は22:00まで）",
+      "monthly": null,
+      "source_url": "https://www.tokyo-skytree.jp/access/bicycle/",
+      "data_note": "公式サイトのバイク置き場案内。地下のゲート式",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "スカイツリータウン前バイク駐車場",
+      "lat": 35.712391,
+      "lon": 139.81487,
+      "address": "東京都墨田区押上2-26",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし（バイク・原付用）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用は24時間ごとに300円〜500円（区画による）"
+      },
+      "capacity": 26,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.churins.jp/churindata/617/",
+      "data_note": "運営会社（株式会社駐輪サービス）の掲載値。JMPSAの料金表記（220円/12時間）とは異なるため運営会社の料金を採用。座標は番地レベルのため数百mずれる場合がある",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "名鉄協商パーキング 墨田第4押上駅前",
+      "lat": 35.708116,
+      "lon": 139.814366,
+      "address": "東京都墨田区業平4-10-6",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上可と集約サイトに明記",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 600,
+        "note": "1時間100円、入庫から24時間最大600円（繰返しあり）"
+      },
+      "capacity": 5,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://motorbike-parking.com/%e6%8a%bc%e4%b8%8a%e9%a7%85/",
+      "data_note": "集約サイトの掲載値。時間貸5台のほか月極区画あり",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
