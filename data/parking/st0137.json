@@ -1,0 +1,77 @@
+{
+  "station_id": "st0137",
+  "station_name": "大井町",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "大井町駅西口区営自転車等駐車場",
+      "lat": 35.6069478,
+      "lon": 139.7327644,
+      "address": "東京都品川区大井1丁目7番9号",
+      "cc_class": "unknown",
+      "displacement_note": "品川区公式の区営自転車駐輪場一覧では「バイク」として受入。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 250,
+        "note": "当日利用：バイク1日250円（品川区の標準料金）。定期利用：月額の上限は屋根無3,300円／屋根有3,500円（施設により異なる）"
+      },
+      "capacity": 67,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/bosai/bosai-zitensyataisaku/bosai-zitensyataisaku-tyusyazyoichiran/bosai-zitensyataisaku-tyusyazyoichiran-kuei/index.html",
+      "checked_date": "2026-11-25",
+      "data_note": "バイク収容は定期5台・当日62台（品川区公式の台数表）。集約サイトでは60台・24時間毎250円と掲載"
+    },
+    {
+      "id": "p002",
+      "name": "OIMACHI TRACKS バイク駐輪場",
+      "lat": 35.6102258,
+      "lon": 139.7349108,
+      "address": "東京都品川区広町2-1-21",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 400,
+        "note": "30分無料、以降24時間400円"
+      },
+      "capacity": 72,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?address=13109&category=0812002001",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。座標は街区レベル"
+    },
+    {
+      "id": "p003",
+      "name": "サイクルパーキング大井町A駐輪場",
+      "lat": 35.608319,
+      "lon": 139.735913,
+      "address": "東京都品川区東大井5-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 360,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降6時間毎200円"
+      },
+      "capacity": 18,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-396",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイトの掲載値。バイク台数は情報源により18台（バイクを停めたい）／33台（NCD）と相違"
+    }
+  ]
+}

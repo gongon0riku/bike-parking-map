@@ -1,0 +1,31 @@
+{
+  "station_id": "st0144",
+  "station_name": "戸越公園",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "【バイク専用】グッドパーキング品川区戸越・中延第一バイク駐車場",
+      "lat": 35.606741,
+      "lon": 139.71699,
+      "address": "東京都品川区戸越6-20-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし（区画サイズは全長2,000mm×全幅1,600mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額5,500円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.at-parking.jp/search/tokyo/shinagawa-ku/togoshi/321929.html",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（アットパーキング）の掲載値。戸越公園駅徒歩5分・中延駅徒歩6分と掲載"
+    }
+  ]
+}

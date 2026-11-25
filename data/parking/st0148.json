@@ -1,0 +1,77 @@
+{
+  "station_id": "st0148",
+  "station_name": "武蔵小山",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "P&P武蔵小山駅前パーキング",
+      "lat": 35.6197519,
+      "lon": 139.7025775,
+      "address": "東京都品川区小山4-1-7",
+      "cc_class": "250",
+      "displacement_note": "バイク30台（250cc迄）と情報源に明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 480,
+        "base_yen": 200,
+        "max_yen_per_day": 500,
+        "note": "8時間200円、入庫後24時間最大500円（1回限り）"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00007964&category=0812002001",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・排気量条件は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "エコステーション21 エトモ武蔵小山駐輪場B",
+      "lat": 35.621161,
+      "lon": 139.705627,
+      "address": "東京都品川区小山3-5",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 480,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降8時間毎200円"
+      },
+      "capacity": 9,
+      "roof": null,
+      "hours": "9:30-23:00",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spt=60502.1921",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME、提供：バイクを停めたい）の掲載値"
+    },
+    {
+      "id": "p003",
+      "name": "エコステーション21 エトモ武蔵小山駐輪場A",
+      "lat": 35.62049,
+      "lon": 139.7043217,
+      "address": "東京都品川区小山3-4-8",
+      "cc_class": "unknown",
+      "displacement_note": "車種制限：50cc以下（集約サイトに明記）。51cc以上は利用不可",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 180,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降3時間毎200円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "7:00-24:00",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00007964&category=0812002001",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・車種制限は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0149",
+  "station_name": "目黒",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "JR東急目黒ビル駐輪場",
+      "lat": 35.6332669,
+      "lon": 139.7159258,
+      "address": "東京都品川区上大崎3-1-1",
+      "cc_class": "unknown",
+      "displacement_note": "バイク（原付含む）と現地料金表示に記載。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 600,
+        "note": "バイク（原付含む）24時間600円。2026年11月のリニューアル後の料金"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "4:30-25:30",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-394",
+      "checked_date": "2026-11-25",
+      "data_note": "営業時間は集約サイト（NAVITIME）の掲載値。料金は2026年11月のリニューアル後の現地表示を伝える報道・投稿に基づく（リニューアル前は1時間無料・以降3時間毎200円）"
+    }
+  ]
+}

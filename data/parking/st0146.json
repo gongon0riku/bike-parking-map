@@ -1,0 +1,54 @@
+{
+  "station_id": "st0146",
+  "station_name": "新馬場",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "新馬場駅区営自転車等駐車場",
+      "lat": 35.6145778,
+      "lon": 139.7434078,
+      "address": "東京都品川区南品川2丁目9番先",
+      "cc_class": "unknown",
+      "displacement_note": "品川区公式の区営自転車駐輪場一覧では「バイク」として受入。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 250,
+        "note": "当日利用：バイク1日250円（品川区の標準料金）。定期利用：月額の上限は屋根無3,300円／屋根有3,500円（施設により異なる）"
+      },
+      "capacity": 41,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/bosai/bosai-zitensyataisaku/bosai-zitensyataisaku-tyusyazyoichiran/bosai-zitensyataisaku-tyusyazyoichiran-kuei/index.html",
+      "checked_date": "2026-11-25",
+      "data_note": "バイク収容は定期36台・当日5台（品川区公式の台数表）"
+    },
+    {
+      "id": "p002",
+      "name": "エコステーション21 京急新馬場駐輪場",
+      "lat": 35.6176333,
+      "lon": 139.7413689,
+      "address": "東京都品川区北品川2-18-1",
+      "cc_class": "unlimited",
+      "displacement_note": "125cc以上のバイクも利用可（料金区分あり）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 520,
+        "note": "一時利用：125cc以下 1日260円／125cc以上 1日520円"
+      },
+      "capacity": 61,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.keikyu.co.jp/ride/kakueki/pdf/parking-bicycles.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "所在地・24時間営業は京急公式の沿線駐輪場一覧に基づく。台数・料金は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0138",
+  "station_name": "大井競馬場前",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "大井競馬場前駅自転車駐車場（区営）",
+      "lat": 35.59619,
+      "lon": 139.74703,
+      "address": "東京都品川区勝島1丁目4・5番先",
+      "cc_class": "unknown",
+      "displacement_note": "品川区公式の区営自転車駐輪場一覧では「バイク」として受入。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 250,
+        "note": "当日利用：バイク1日250円（品川区の標準料金）。定期利用：月額の上限は屋根無3,300円／屋根有3,500円（施設により異なる）"
+      },
+      "capacity": 19,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/bosai/bosai-zitensyataisaku/bosai-zitensyataisaku-tyusyazyoichiran/bosai-zitensyataisaku-tyusyazyoichiran-kuei/index.html",
+      "checked_date": "2026-11-25",
+      "data_note": "バイク収容は定期10台・当日9台（品川区公式の台数表）。座標は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

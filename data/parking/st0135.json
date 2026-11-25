@@ -1,0 +1,31 @@
+{
+  "station_id": "st0135",
+  "station_name": "北品川",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "【予約制】パラカ 北品川第5",
+      "lat": 35.617024,
+      "lon": 139.740309,
+      "address": "東京都品川区北品川3-7-28",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし（車両制限は幅1.00m・長さ2.00m）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 800,
+        "note": "60分200円、24時間最大800円。事前予約制"
+      },
+      "capacity": 4,
+      "roof": false,
+      "hours": "不明",
+      "monthly": false,
+      "source_url": "https://paraca.biz/parking/detail/4060",
+      "checked_date": "2026-11-25",
+      "data_note": "運営会社（パラカ）公式ページへのリンク・料金は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

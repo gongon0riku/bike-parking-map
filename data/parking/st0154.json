@@ -1,0 +1,54 @@
+{
+  "station_id": "st0154",
+  "station_name": "西小山",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "東急西小山駅（北）駐輪場",
+      "lat": 35.6159742,
+      "lon": 139.6992525,
+      "address": "東京都品川区小山5-21",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 720,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "12時間300円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00007964&category=0812002001",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。座標は街区レベル。営業時間は未確認"
+    },
+    {
+      "id": "p002",
+      "name": "東急西小山駅（南）駐輪場",
+      "lat": 35.6150658,
+      "lon": 139.6989858,
+      "address": "東京都品川区小山6丁目",
+      "cc_class": "unknown",
+      "displacement_note": "車種制限：50cc以下（集約サイトに明記）。51cc以上は利用不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 480,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "8時間毎300円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00007964&category=0812002001",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・車種制限は集約サイト（NAVITIME）の掲載値。座標は丁目レベルの代表地点。営業時間は未確認"
+    }
+  ]
+}

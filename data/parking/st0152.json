@@ -1,0 +1,31 @@
+{
+  "station_id": "st0152",
+  "station_name": "荏原町",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "トミーバイクパーキング荏原",
+      "lat": 35.613318,
+      "lon": 139.706342,
+      "address": "東京都品川区荏原6-10-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし（中サイズ区画：幅1000mm×長さ2400mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額7,700円（税込）"
+      },
+      "capacity": 1,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://tomybikepark.com/parking/ebara",
+      "checked_date": "2026-11-25",
+      "data_note": "運営会社（トミザワ）公式ページに基づく。荏原町駅から約1km。確認時点で満車表示"
+    }
+  ]
+}

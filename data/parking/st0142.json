@@ -1,0 +1,31 @@
+{
+  "station_id": "st0142",
+  "station_name": "天王洲アイル",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "天王洲アイル駅第2区営自転車等駐車場",
+      "lat": 35.6192753,
+      "lon": 139.7510622,
+      "address": "東京都品川区東品川2丁目4番先",
+      "cc_class": "unknown",
+      "displacement_note": "品川区公式の区営自転車駐輪場一覧では「バイク」として受入。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用：月額の上限は屋根無3,300円／屋根有3,500円（施設により異なる）"
+      },
+      "capacity": 100,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/bosai/bosai-zitensyataisaku/bosai-zitensyataisaku-tyusyazyoichiran/bosai-zitensyataisaku-tyusyazyoichiran-kuei/index.html",
+      "checked_date": "2026-11-25",
+      "data_note": "バイクは定期利用のみ100台（品川区公式の台数表）。座標は街区レベル"
+    }
+  ]
+}

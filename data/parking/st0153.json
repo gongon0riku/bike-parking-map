@@ -1,0 +1,54 @@
+{
+  "station_id": "st0153",
+  "station_name": "西大井",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "西大井駅区営自転車等駐車場",
+      "lat": 35.6023461,
+      "lon": 139.7220508,
+      "address": "東京都品川区二葉2丁目26番6号",
+      "cc_class": "unknown",
+      "displacement_note": "品川区公式の区営自転車駐輪場一覧では「バイク」として受入。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用：月額の上限は屋根無3,300円／屋根有3,500円（施設により異なる）"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/bosai/bosai-zitensyataisaku/bosai-zitensyataisaku-tyusyazyoichiran/bosai-zitensyataisaku-tyusyazyoichiran-kuei/index.html",
+      "checked_date": "2026-11-25",
+      "data_note": "バイクは定期利用のみ4台（品川区公式の台数表）"
+    },
+    {
+      "id": "p002",
+      "name": "エコステーション21 エスペランサ西大井駐輪場",
+      "lat": 35.60096,
+      "lon": 139.7227314,
+      "address": "東京都品川区西大井1-8-2",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク料金は情報源で未確認"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?address=13109&category=0812002001",
+      "checked_date": "2026-11-25",
+      "data_note": "存在・24時間営業は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

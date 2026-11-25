@@ -1,0 +1,77 @@
+{
+  "station_id": "st0147",
+  "station_name": "旗の台",
+  "ward": "品川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "旗の台駅第1区営自転車等駐車場",
+      "lat": 35.6061222,
+      "lon": 139.7045889,
+      "address": "東京都品川区旗の台2丁目6番先",
+      "cc_class": "unknown",
+      "displacement_note": "品川区公式の区営自転車駐輪場一覧では「バイク」として受入。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用：月額の上限は屋根無3,300円／屋根有3,500円（施設により異なる）"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/bosai/bosai-zitensyataisaku/bosai-zitensyataisaku-tyusyazyoichiran/bosai-zitensyataisaku-tyusyazyoichiran-kuei/index.html",
+      "checked_date": "2026-11-25",
+      "data_note": "バイクは定期利用のみ8台（品川区公式の台数表）。座標は街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "旗の台駅第2区営自転車等駐車場",
+      "lat": 35.605825,
+      "lon": 139.704398,
+      "address": "東京都品川区旗の台2丁目7番先",
+      "cc_class": "unknown",
+      "displacement_note": "品川区公式の区営自転車駐輪場一覧では「バイク」として受入。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 250,
+        "note": "当日利用：バイク1日250円（品川区の標準料金）"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/bosai/bosai-zitensyataisaku/bosai-zitensyataisaku-tyusyazyoichiran/bosai-zitensyataisaku-tyusyazyoichiran-kuei/index.html",
+      "checked_date": "2026-11-25",
+      "data_note": "バイクは当日利用のみ2台（品川区公式の台数表）。座標は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p003",
+      "name": "トミーバイクパーキング旗の台2",
+      "lat": 35.6085667,
+      "lon": 139.7012944,
+      "address": "東京都品川区旗の台6-8",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし（車室サイズは幅1000mm×長さ2400mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額7,150円（税込）"
+      },
+      "capacity": 20,
+      "roof": false,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://home.kingsoft.jp/news/pr/dreamnews/0000288741.html?from=recent_v2_pr",
+      "checked_date": "2026-11-25",
+      "data_note": "運営会社（トミザワ）の開設時プレスリリースに基づく。座標は街区レベル"
+    }
+  ]
+}
