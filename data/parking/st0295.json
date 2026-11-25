@@ -1,0 +1,77 @@
+{
+  "station_id": "st0295",
+  "station_name": "瑞江",
+  "ward": "江戸川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TSUTAYA瑞江店 自転車・バイク駐輪場",
+      "lat": 35.693405,
+      "lon": 139.895492,
+      "address": "東京都江戸川区瑞江4-50-12",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 400,
+        "note": "60分100円、当日24時まで最大400円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://motohub.jp/parking/13494",
+      "data_note": "料金・台数は集約サイト（2023年）の値。瑞江駅から約200m",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "瑞江駅東4号駐輪場",
+      "lat": 35.694636,
+      "lon": 139.898691,
+      "address": "東京都江戸川区南篠崎町3-6-7",
+      "cc_class": "125",
+      "displacement_note": "定期利用は原付バイクのみ（江戸川区公式）。当日利用はバイク不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期料金は未確認"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間（4:30-翌4:30）",
+      "monthly": true,
+      "source_url": "https://www.city.edogawa.tokyo.jp/e058/kurashi/kotsu/churintaisaku/churinjo/mizue.html",
+      "data_note": "JMPSAの2012年の掲載（時間貸300円/日・40台）とは江戸川区公式の現行案内が異なるため、区公式を優先した",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "瑞江バイク駐車場2（日本バイクパーキング）",
+      "lat": 35.693363,
+      "lon": 139.889073,
+      "address": "東京都江戸川区春江町3-21-8",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額4,000円"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-130666.html",
+      "data_note": "瑞江駅徒歩12分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "station_id": "st0292",
+  "station_name": "小岩",
+  "ward": "江戸川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "小岩駅東駐輪場",
+      "lat": 35.734257,
+      "lon": 139.884671,
+      "address": "東京都江戸川区南小岩8-16-6",
+      "cc_class": "125",
+      "displacement_note": "バイク（125cc以下）と運営会社の公式ページに明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 300,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "バイク（125cc以下）：5時間ごとに200円"
+      },
+      "capacity": 11,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.jks-jrg.jp/search/detail_01277/",
+      "data_note": "台数11台は集約サイトの値。座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "小岩駅西3号駐輪場",
+      "lat": 35.731021,
+      "lon": 139.878639,
+      "address": "東京都江戸川区南小岩6-16-8",
+      "cc_class": "unlimited",
+      "displacement_note": "集約サイトでは「126cc以上OK」。江戸川区公式でも自動二輪の当日利用可と明記（定期利用は原付のみ）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "最初の2時間無料。1日1回料金：自動二輪410円・原付270円。定期利用（原付のみ）：月額3,770円"
+      },
+      "capacity": 33,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.edogawa.tokyo.jp/e058/kurashi/kotsu/churintaisaku/churinjo/koiwa.html",
+      "data_note": "料金・台数（時間貸33台）は集約サイトの値。定期の月額は江戸川区公式の標準料金",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "バイクパーク江戸川区南小岩7丁目",
+      "lat": 35.727269,
+      "lon": 139.882373,
+      "address": "東京都江戸川区南小岩7-6",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画12台（1,000mm×2,300mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額5,500円（税込）"
+      },
+      "capacity": 12,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/25338",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

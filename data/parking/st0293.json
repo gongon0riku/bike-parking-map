@@ -1,0 +1,75 @@
+{
+  "station_id": "st0293",
+  "station_name": "平井",
+  "ward": "江戸川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "平井駅東駐輪場",
+      "lat": 35.707803,
+      "lon": 139.843943,
+      "address": "東京都江戸川区平井5-25-12",
+      "cc_class": "unknown",
+      "displacement_note": "江戸川区公式で原付バイク・自動二輪の当日利用可と明記（排気量の上限は明記なし）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "当日利用：原付270円・自動二輪410円（1日1回、江戸川区公式の標準料金）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間（4:30-翌4:30）",
+      "monthly": false,
+      "source_url": "https://www.city.edogawa.tokyo.jp/e058/kurashi/kotsu/churintaisaku/churinjo/hirai.html",
+      "data_note": "定期利用はバイク不可（江戸川区公式）",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク江戸川区平井3丁目",
+      "lat": 35.705439,
+      "lon": 139.841541,
+      "address": "東京都江戸川区平井3-29-7",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画7台",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額6,050円（税込）"
+      },
+      "capacity": 7,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/260507",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "NPC24H平井5丁目パーキング",
+      "lat": 35.708294,
+      "lon": 139.842616,
+      "address": "東京都江戸川区平井5-29-4",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし（区画サイズ：全幅1,000mm×全長2,300mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額5,500円（税込）"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.at-parking.jp/npc-npc/index.php?action=spec&area1=tokyo&area2=edogawa-ku&area3=hirai&pno=341502",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

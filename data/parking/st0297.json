@@ -1,0 +1,76 @@
+{
+  "station_id": "st0297",
+  "station_name": "船堀",
+  "ward": "江戸川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "船堀駅西2号駐輪場",
+      "lat": 35.683415,
+      "lon": 139.862609,
+      "address": "東京都江戸川区船堀2-23",
+      "cc_class": "unknown",
+      "displacement_note": "江戸川区公式で原付バイク・自動二輪の当日利用可と明記（排気量の上限は明記なし）。定期利用は原付のみ",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "入庫後2時間無料。1日1回：原付200円・自動二輪300円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "4:30-25:00",
+      "monthly": true,
+      "source_url": "https://www.city.edogawa.tokyo.jp/e058/kurashi/kotsu/churintaisaku/churinjo/funabori.html",
+      "data_note": "料金は集約サイト（出典：bikepark.in）の値。座標は丁目レベルの精度（高架下）",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "船堀駅東2号駐輪場",
+      "lat": 35.684193,
+      "lon": 139.866,
+      "address": "東京都江戸川区船堀4-6",
+      "cc_class": "125",
+      "displacement_note": "江戸川区公式では原付バイクのみ受入（自動二輪は不可）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "時間貸：50cc以下 1日210円・51cc以上 1日320円。月極：一般 月額3,770円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "4:30-25:00",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-8030.html",
+      "data_note": "料金・台数はJMPSA（2022年）の値。座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "tmcバイク駐車場江戸川区船堀",
+      "lat": 35.681048,
+      "lon": 139.868514,
+      "address": "東京都江戸川区船堀5-1-20",
+      "cc_class": "unlimited",
+      "displacement_note": "車両制限なし・大型バイクOKと明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額8,000円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-1929.html",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
