@@ -1,0 +1,54 @@
+{
+  "station_id": "st0303",
+  "station_name": "亀戸水神",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "亀戸水神バイク駐車場1（日本バイクパーキング）",
+      "lat": 35.698832,
+      "lon": 139.836376,
+      "address": "東京都江東区亀戸7-21-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額6,000円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_list.html",
+      "data_note": "運営会社の一覧ページの値（亀戸水神駅徒歩6分）。駅前の区立自転車駐車場は自転車のみでバイク不可",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "亀戸水神バイク駐車場2（日本バイクパーキング）",
+      "lat": 35.698507,
+      "lon": 139.840526,
+      "address": "東京都江東区亀戸9-29-4",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額4,500円"
+      },
+      "capacity": 25,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-124279.html",
+      "data_note": "亀戸水神駅徒歩10分",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

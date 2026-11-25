@@ -1,0 +1,54 @@
+{
+  "station_id": "st0307",
+  "station_name": "大島",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "大島バイク駐車場5（日本バイクパーキング）",
+      "lat": 35.689219,
+      "lon": 139.837541,
+      "address": "東京都江東区大島5-48",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額5,500円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_list.html",
+      "data_note": "運営会社の一覧ページの値（大島駅徒歩2分）",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "モトパ江東区大島4丁目第1",
+      "lat": 35.685833,
+      "lon": 139.830137,
+      "address": "東京都江東区大島4-1-10",
+      "cc_class": "unlimited",
+      "displacement_note": "大型OK（全幅約100cm×全長約300cm程度、車種応相談）と明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額5,000円（税別）"
+      },
+      "capacity": 2,
+      "roof": true,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.motopa.co.jp/area.html",
+      "data_note": "掲載時点では満車",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

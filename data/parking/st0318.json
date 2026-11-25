@@ -1,0 +1,77 @@
+{
+  "station_id": "st0318",
+  "station_name": "東陽町",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "東陽町駅第三自転車駐車場（江東区立）",
+      "lat": 35.673129,
+      "lon": 139.81776,
+      "address": "東京都江東区東陽4-11",
+      "cc_class": "125",
+      "displacement_note": "原付二種（125cc以下）の受入れを2025年5月に開始（江東区公式）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用（原付二種）：月額2,000円。一時利用の料金は未確認"
+      },
+      "capacity": 16,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "http://www.city.koto.lg.jp/470902/kurashi/kotsu/jitensha/gentukinisyu.html",
+      "data_note": "所在地は東陽4-11〜東陽7-1先ほか複数区画。座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "サイカパーク西友東陽町店駐輪場",
+      "lat": 35.672009,
+      "lon": 139.81863,
+      "address": "東京都江東区東陽4丁目",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 480,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "2時間無料、その後8時間ごと200円"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38004",
+      "data_note": "料金・台数は集約サイトの掲載値。住所は丁目までしか判明せず、座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "東陽6丁目立体駐車場（東京イースト21）",
+      "lat": 35.674373,
+      "lon": 139.815558,
+      "address": "東京都江東区東陽6-3-2",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上OKと明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "入庫当日の0:00まで一律550円"
+      },
+      "capacity": 10,
+      "roof": false,
+      "hours": "24時間（入庫受付8:00-18:00）",
+      "monthly": null,
+      "source_url": "https://tokyo-bikepark.com/p/j76906",
+      "data_note": "2021年の掲載情報",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "station_id": "st0304",
+  "station_name": "住吉",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "江東区立住吉駅自転車駐車場",
+      "lat": 35.688438,
+      "lon": 139.815381,
+      "address": "東京都江東区住吉2-7-8",
+      "cc_class": "unknown",
+      "displacement_note": "JMPSAではバイク種別「50cc以下」と記載（2017年時点）。51cc以上の可否は未確認",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 1440,
+        "base_yen": 200,
+        "max_yen_per_day": 200,
+        "note": "24時間ごと200円"
+      },
+      "capacity": 26,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-7959.html",
+      "data_note": "料金・台数は2017年の掲載値。座標は丁目レベルの精度。地下の自転車駐車場に併設",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク江東区住吉2丁目",
+      "lat": 35.688368,
+      "lon": 139.815486,
+      "address": "東京都江東区住吉2-7-12",
+      "cc_class": "unlimited",
+      "displacement_note": "大型3台・小型2台の区画あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額4,400円（税込）〜"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/240605",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

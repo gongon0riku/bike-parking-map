@@ -1,0 +1,76 @@
+{
+  "station_id": "st0327",
+  "station_name": "門前仲町",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "i-park select24 門前仲町スターダスト駐輪場",
+      "lat": 35.671889,
+      "lon": 139.795249,
+      "address": "東京都江東区門前仲町2-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし。口コミでは奥の区画は原付以外だと狭いとの情報あり",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 480,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "最初30分無料、以降8時間ごと200円"
+      },
+      "capacity": 14,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://bike.i10.jp/parking_detail.php?parking_id=27",
+      "data_note": "座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "江東区立門前仲町黒船橋自転車駐車場",
+      "lat": 35.671939,
+      "lon": 139.792982,
+      "address": "東京都江東区門前仲町1-1",
+      "cc_class": "125",
+      "displacement_note": "125ccまで（126cc以上の車両は不可）と明記",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降24時間ごと300円"
+      },
+      "capacity": 10,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://tokyo-bikepark.com/p/s1050",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "門前仲町駅自転車駐車場（江東区立）",
+      "lat": 35.6734,
+      "lon": 139.796118,
+      "address": "東京都江東区門前仲町2-10-4",
+      "cc_class": "unknown",
+      "displacement_note": "集約サイトでは「原付のみ」との情報あり（詳細は未確認）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "24時間ごと200円（集約サイトの値）"
+      },
+      "capacity": 11,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.city.koto.lg.jp/470902/shisetsuannai/kokyo/jitensha/chushajo/14832.html",
+      "data_note": "所在地・24時間開放は江東区公式ページで確認。料金・台数は集約サイトの値。座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

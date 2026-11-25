@@ -1,0 +1,53 @@
+{
+  "station_id": "st0313",
+  "station_name": "木場",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "イトーヨーカドー木場店 古石場側駐輪場",
+      "lat": 35.666149,
+      "lon": 139.804201,
+      "address": "東京都江東区木場1-5-30",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪の一時利用あり（排気量の明記なし）",
+      "fees": {
+        "free_minutes": 240,
+        "base_minutes": 480,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "自動二輪：4時間まで無料、以降8時間ごとに300円"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.mapcycle.jp/detail/47092/",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "深川ギャザリア駐輪場",
+      "lat": 35.667949,
+      "lon": 139.804276,
+      "address": "東京都江東区木場1-5-9",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪は定期利用のみ（原付は一時利用も可）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "自動二輪の定期利用：月額4,600円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.mapcycle.jp/detail/47101/",
+      "data_note": "2017年の掲載情報",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

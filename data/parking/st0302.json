@@ -1,0 +1,98 @@
+{
+  "station_id": "st0302",
+  "station_name": "亀戸",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "亀戸駅北口第三自転車駐車場（江東区立）",
+      "lat": 35.697017,
+      "lon": 139.823745,
+      "address": "東京都江東区亀戸1-41-2",
+      "cc_class": "125",
+      "displacement_note": "一時利用は原付二種（125cc以下）のみ。定期利用は125cc超も可（3台）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用：1日300円（原付二種のみ）。定期利用：原付二種 月額3,600円／125cc超 月額6,300円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "http://www.city.koto.lg.jp/470902/kurashi/kotsu/jitensha/gentukinisyu.html",
+      "data_note": "台数の内訳（一時5台・定期 原付二種23台／125cc超3台）は江東区公式ページの値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "アトレ亀戸 バイク用駐車場",
+      "lat": 35.697781,
+      "lon": 139.826473,
+      "address": "東京都江東区亀戸5-1-1",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイクの料金も公式ページに案内あり",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1時間まで無料、その後1時間ごと200円"
+      },
+      "capacity": 7,
+      "roof": null,
+      "hours": "7:00-24:00",
+      "monthly": false,
+      "source_url": "https://www.atre.co.jp/kameido/access/",
+      "data_note": "台数7台は集約サイトの値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "KAMEIDO CLOCK バイク置き場D",
+      "lat": 35.696039,
+      "lon": 139.829318,
+      "address": "東京都江東区亀戸6-31-6",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 240,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "2時間まで無料、その後4時間ごと300円"
+      },
+      "capacity": 19,
+      "roof": null,
+      "hours": "7:00-24:00",
+      "monthly": false,
+      "source_url": "https://www.kameidoclock.jp/facility/access/",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p004",
+      "name": "バイクパーク江東区亀戸3丁目",
+      "lat": 35.70257,
+      "lon": 139.825181,
+      "address": "東京都江東区亀戸3-61-15",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画8台（1,000mm×2,200mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額7,700円（税込）"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.81989.jp/parking/detail/28061",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

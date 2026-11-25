@@ -1,0 +1,75 @@
+{
+  "station_id": "st0320",
+  "station_name": "森下",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "森下駅第二自転車駐車場",
+      "lat": 35.688182,
+      "lon": 139.795921,
+      "address": "東京都江東区新大橋3-8-7",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 1440,
+        "base_yen": 200,
+        "max_yen_per_day": 200,
+        "note": "24時間ごと200円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38407",
+      "data_note": "料金・台数は集約サイトの掲載値。座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク江東区森下1丁目",
+      "lat": 35.688604,
+      "lon": 139.797448,
+      "address": "東京都江東区森下1-15-2",
+      "cc_class": "unlimited",
+      "displacement_note": "大型7台・小型1台の区画あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額6,600円（税込）"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.81989.jp/parking/detail/28003",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "バイクパーク江東区森下3丁目",
+      "lat": 35.687352,
+      "lon": 139.801678,
+      "address": "東京都江東区森下3-7-1",
+      "cc_class": "unknown",
+      "displacement_note": "駐車可能サイズ 1,200mm×2,000mmまで",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額6,050円（税込）"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-46052.html",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
