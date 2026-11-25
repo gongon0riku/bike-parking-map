@@ -1,0 +1,54 @@
+{
+  "station_id": "st0343",
+  "station_name": "明治神宮前",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "表参道ヒルズ バイク駐車場",
+      "lat": 35.66735,
+      "lon": 139.708393,
+      "address": "東京都渋谷区神宮前4-12-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 1000,
+        "note": "1日1,000円"
+      },
+      "capacity": 35,
+      "roof": null,
+      "hours": "月-土曜 10:00-24:30、日曜 10:00-24:00（最終入庫は閉場1時間前まで）",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-453",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値（提供：バイクを停めたい）"
+    },
+    {
+      "id": "p002",
+      "name": "東急プラザ原宿「ハラカド」原付置き場",
+      "lat": 35.66831,
+      "lon": 139.704679,
+      "address": "東京都渋谷区神宮前6-31-21",
+      "cc_class": "125",
+      "displacement_note": "施設公式ページで「原付置き場」と案内されており、原付のみ",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 500,
+        "note": "200円/60分、12時間最大500円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "7:00-23:00",
+      "monthly": null,
+      "source_url": "https://ginza.tokyu-plaza.com/harakado/access/",
+      "checked_date": "2026-11-25",
+      "data_note": "施設公式ページの掲載値"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0334",
+  "station_name": "初台",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "代々木四丁目駐車場（バイク）",
+      "lat": 35.683758,
+      "lon": 139.690684,
+      "address": "東京都渋谷区代々木4-30",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 800,
+        "note": "1時間毎100円（夜間半額）、1日800円打ち切り"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-977",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値（提供：バイクを停めたい）。初台駅から約550m。営業時間は情報源に明記なし"
+    }
+  ]
+}

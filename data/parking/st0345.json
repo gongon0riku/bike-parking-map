@@ -1,0 +1,31 @@
+{
+  "station_id": "st0345",
+  "station_name": "神泉",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコロパーク渋谷道玄坂第3（バイク駐車場）",
+      "lat": 35.657592,
+      "lon": 139.699357,
+      "address": "東京都渋谷区道玄坂1-7-10",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 25,
+        "base_yen": 100,
+        "max_yen_per_day": 800,
+        "note": "25分毎100円、入庫から12時間まで最大800円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00018469&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。神泉駅から約450m"
+    }
+  ]
+}

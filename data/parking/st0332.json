@@ -1,0 +1,54 @@
+{
+  "station_id": "st0332",
+  "station_name": "代々木公園",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "NHK西門前自転車等駐車場",
+      "lat": 35.66409,
+      "lon": 139.694535,
+      "address": "東京都渋谷区神山町9",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪と小型（原付）の料金区分あり。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 120,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "自動二輪：30分無料、以降2時間毎110円。小型：1時間無料、以降4時間毎110円（いずれも無料時間を含む）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00002025&category=0812002&page=7",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。掲載の台数97台は自転車等を含む総数とみられ、バイク台数の内訳は不明なため台数は未記載。座標は街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "渋谷区役所前駐車場（バイク）",
+      "lat": 35.66576,
+      "lon": 139.700937,
+      "address": "東京都渋谷区神南1-2",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "30分毎100円"
+      },
+      "capacity": 35,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00002025&category=0812002&page=7",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。座標は街区レベル"
+    }
+  ]
+}

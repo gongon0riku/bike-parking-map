@@ -1,0 +1,77 @@
+{
+  "station_id": "st0342",
+  "station_name": "恵比寿",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "恵比寿駅西口第二自転車等駐車場",
+      "lat": 35.646429,
+      "lon": 139.709784,
+      "address": "東京都渋谷区恵比寿南1-6先",
+      "cc_class": "125",
+      "displacement_note": "車種制限125cc以下と情報源に明記",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 240,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "最初の1時間無料、以降4時間毎100円"
+      },
+      "capacity": 13,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00002025&category=0812002&page=1",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。座標は街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "恵比寿ガーデンプレイス北ゲート駐輪場（バイク）",
+      "lat": 35.642236,
+      "lon": 139.71332,
+      "address": "東京都渋谷区恵比寿4-20-3",
+      "cc_class": "unlimited",
+      "displacement_note": "中・大型の料金区分があり、大型バイクも利用可",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 480,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "最初の2時間無料。以降8時間毎200円（小型）、8時間毎300円（中・大型）"
+      },
+      "capacity": 26,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?address=13113006000&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p003",
+      "name": "サイカパーク 渋谷橋自動二輪車等駐車場",
+      "lat": 35.648401,
+      "lon": 139.710864,
+      "address": "東京都渋谷区恵比寿1-1-8",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪と原付（125ccまで）の定期区画があるが、一時利用の排気量上限は明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 240,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "30分無料、以降4時間毎110円"
+      },
+      "capacity": 48,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?address=13113006000&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。台数48台はバイク用（一時利用30台・定期18台）の内訳"
+    }
+  ]
+}

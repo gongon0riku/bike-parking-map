@@ -1,0 +1,54 @@
+{
+  "station_id": "st0337",
+  "station_name": "南新宿",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコステーション21 あおい通り自転車等駐車場",
+      "lat": 35.688046,
+      "lon": 139.698606,
+      "address": "東京都渋谷区代々木2-9",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件について情報源に明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 120,
+        "base_yen": 150,
+        "max_yen_per_day": null,
+        "note": "2時間150円、最初の30分は無料"
+      },
+      "capacity": 34,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.s-park.jp/map/bike/159",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数はs-parkの掲載値。所在地は代々木2丁目9・10・11番地の複数区画（A〜D）。座標は街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "新宿駅新南口バイク駐輪場（新宿区立新宿駅新南口路上自転車等駐輪場）",
+      "lat": 35.688971,
+      "lon": 139.702422,
+      "address": "東京都新宿区新宿4-1先",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量制限なし（原付から大型自動二輪まで可）と現地検証記事に記載",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降1時間毎110円"
+      },
+      "capacity": 32,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00004254&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "台数・料金は集約サイト（NAVITIME）の掲載値。新宿区立の路上自動二輪車駐輪場で所在地は新宿区。南新宿駅から約500m"
+    }
+  ]
+}

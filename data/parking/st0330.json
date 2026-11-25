@@ -1,0 +1,54 @@
+{
+  "station_id": "st0330",
+  "station_name": "代々木上原",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "代々木上原駅自転車等駐車場",
+      "lat": 35.668459,
+      "lon": 139.679156,
+      "address": "東京都渋谷区上原1-31",
+      "cc_class": "unlimited",
+      "displacement_note": "125cc超の料金区分があり、大型バイクも利用可",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 240,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "最初の2時間無料。125ccまで：24時間毎200円、125cc超：4時間毎100円"
+      },
+      "capacity": 81,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00020800&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。台数81台は原付33台・自動二輪48台の合計。座標は街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "TOKYO PUBLIC 上原一丁目（オートバイ）",
+      "lat": 35.668221,
+      "lon": 139.687413,
+      "address": "東京都渋谷区上原1-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 600,
+        "note": "1時間毎100円、入庫から24時間まで最大600円（繰返しあり）"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00020800&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。山手通り高架下。座標は街区レベル"
+    }
+  ]
+}

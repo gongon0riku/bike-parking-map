@@ -1,0 +1,31 @@
+{
+  "station_id": "st0331",
+  "station_name": "代々木八幡",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "代々木八幡駅北自動二輪車等駐車場",
+      "lat": 35.669671,
+      "lon": 139.68723,
+      "address": "東京都渋谷区元代々木町4",
+      "cc_class": "unknown",
+      "displacement_note": "原付・自動二輪合わせて12台と記載。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 180,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "入庫後1時間無料、以降3時間毎100円"
+      },
+      "capacity": 12,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00020800&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値（運営：エコステーション21）。座標は街区レベル"
+    }
+  ]
+}
