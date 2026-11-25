@@ -1,0 +1,54 @@
+{
+  "station_id": "st0188",
+  "station_name": "池上",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "池上駅前自転車駐車場（大田区営）",
+      "lat": 35.5715,
+      "lon": 139.702747,
+      "address": "東京都大田区池上6-8",
+      "cc_class": "unknown",
+      "displacement_note": "50cc以下（集約サイトの掲載情報）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用：1日200円（原付）。定期利用もあり"
+      },
+      "capacity": 12,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/toukyuu_ikegamisen/ikegamiekimae.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値。料金・排気量条件は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "Dパーキング大田区池上6丁目第1（バイク駐車場）",
+      "lat": 35.5713103,
+      "lon": 139.7026131,
+      "address": "東京都大田区池上6-10-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 300,
+        "note": "1時間毎100円、入庫から24時間まで最大300円（繰返しあり）"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00018905&category=0812002",
+      "data_note": "集約サイト（NAVITIME）の掲載値。座標は住所の街区レベル",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

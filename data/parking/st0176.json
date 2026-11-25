@@ -1,0 +1,31 @@
+{
+  "station_id": "st0176",
+  "station_name": "多摩川",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "多摩川駅前自転車駐車場（大田区営）",
+      "lat": 35.588393,
+      "lon": 139.668535,
+      "address": "東京都大田区田園調布1-53・55・56先",
+      "cc_class": "unknown",
+      "displacement_note": "原付（27台）の定期利用のみ",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の定期利用のみ。定期料金は区公式ページで確認が必要"
+      },
+      "capacity": 27,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/toukyuu_tamagawasen/tamagawadaiekimae.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0179",
+  "station_name": "大鳥居",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "京急大鳥居駅前自転車駐車場",
+      "lat": 35.552725,
+      "lon": 139.738879,
+      "address": "東京都大田区西糀谷",
+      "cc_class": "unknown",
+      "displacement_note": "原付・自動二輪の受入あり。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "1日：原付320円・自動二輪500円"
+      },
+      "capacity": 23,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2007",
+      "data_note": "料金・台数は集約サイト（NAVITIME／バイクを停めたい）の掲載値。住所は町名レベル、営業時間は掲載なし",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "BikeInn大鳥居駅南駐車場",
+      "lat": 35.551928,
+      "lon": 139.740067,
+      "address": "東京都大田区萩中3-7",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "60分毎100円、1日最大500円"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spt=60502.2846",
+      "data_note": "集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

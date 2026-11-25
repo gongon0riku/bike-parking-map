@@ -1,0 +1,31 @@
+{
+  "station_id": "st0191",
+  "station_name": "流通センター",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "流通センター駅前自転車駐車場（大田区営）",
+      "lat": 35.582137,
+      "lon": 139.748907,
+      "address": "東京都大田区平和島6-2先",
+      "cc_class": "unknown",
+      "displacement_note": "原付（21台）・自動二輪（16台）の区画あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用のみ：原付1日200円・自動二輪1日300円"
+      },
+      "capacity": 37,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/tokyo_monorail/ryutsusentaekimae.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値。料金は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0192",
+  "station_name": "田園調布",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "田園調布駅南自転車駐車場（大田区営）",
+      "lat": 35.59611,
+      "lon": 139.667164,
+      "address": "東京都大田区田園調布2-62",
+      "cc_class": "unknown",
+      "displacement_note": "50cc以下（集約サイトの掲載情報）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用：1日200円（原付）。定期利用もあり"
+      },
+      "capacity": 26,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.ota.tokyo.jp/shisetsu/parking/toukyuu_megurosen/denenchoufueki_minami.html",
+      "data_note": "台数は大田区オープンデータ（2022年8月確認）の値。料金・排気量条件は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "エコステーション21東急スクエアガーデンサイト（バイク駐車場）",
+      "lat": 35.5964867,
+      "lon": 139.6673872,
+      "address": "東京都大田区田園調布2-62-4",
+      "cc_class": "125",
+      "displacement_note": "125cc以下（集約サイトの掲載情報）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 180,
+        "base_yen": 220,
+        "max_yen_per_day": null,
+        "note": "入庫から2時間まで無料、以降3時間毎220円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00006459&category=0812002",
+      "data_note": "集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0200",
+  "station_name": "羽田空港第3ターミナル",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "羽田空港P5駐車場（自動二輪車）",
+      "lat": 35.5453414,
+      "lon": 139.7674603,
+      "address": "東京都大田区羽田空港2-6-5",
+      "cc_class": "unlimited",
+      "displacement_note": "自動二輪車の駐車可。公式案内では幅1.75m以下の二輪車が対象で、排気量の制限は明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 30,
+        "base_yen": 50,
+        "max_yen_per_day": 500,
+        "note": "入場から30分以内無料、以降30分毎50円、24時間以内500円（1日上限500円）"
+      },
+      "capacity": 56,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://tokyo-haneda.com/en/access/parking/index.html",
+      "data_note": "台数56台は集約サイト（NAVITIME）の掲載値。集約サイトでは1日500〜700円との掲載もあり",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "羽田エアポートガーデン駐車場（バイク）",
+      "lat": 35.5443531,
+      "lon": 139.7650242,
+      "address": "東京都大田区羽田空港2-7-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 700,
+        "note": "1時間毎100円、24時間毎700円"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00000592&category=0812",
+      "data_note": "集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

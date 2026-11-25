@@ -1,0 +1,31 @@
+{
+  "station_id": "st0182",
+  "station_name": "御嶽山",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TOKYO PUBLIC 田園調布（オートバイ）",
+      "lat": 35.5882911,
+      "lon": 139.6778203,
+      "address": "東京都大田区田園調布本町51",
+      "cc_class": "unknown",
+      "displacement_note": "オートバイ専用駐車場（東京都道路整備保全公社）。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は未確認（最大料金の設定あり）"
+      },
+      "capacity": 4,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00002313&category=0812002",
+      "data_note": "台数・営業時間は集約サイト（NAVITIME、情報提供：東京都道路整備保全公社）の掲載値。環状八号線・田園調布陸橋下に立地。座標は住所の街区レベル。御嶽山駅から約500m",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

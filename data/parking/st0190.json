@@ -1,0 +1,31 @@
+{
+  "station_id": "st0190",
+  "station_name": "洗足池",
+  "ward": "大田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "南千束3丁目14-10駐車場",
+      "lat": 35.6026897,
+      "lon": 139.6862489,
+      "address": "東京都大田区南千束3-14-10",
+      "cc_class": "unknown",
+      "displacement_note": "オートバイ駐車可（対応車両は中型車まで）。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は予約サイト（akippa）で確認が必要"
+      },
+      "capacity": 1,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/smp/phonebook/M08002/13111/55101029_akipp/",
+      "data_note": "akippaの掲載情報（マピオン経由）。洗足池駅から約550m",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
