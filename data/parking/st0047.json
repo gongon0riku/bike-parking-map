@@ -1,0 +1,31 @@
+{
+  "station_id": "st0047",
+  "station_name": "新日本橋",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "コレド室町テラス駐車場",
+      "lat": 35.6859628,
+      "lon": 139.7753936,
+      "address": "東京都中央区日本橋室町3-2-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし（幅0.9m・長さ2.2mの制限あり）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "60分200円（最大料金なし）"
+      },
+      "capacity": 17,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://parky.co.jp/spot/f8a1a357-087a-474a-927a-b349157f36e1/",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（Parky）の掲載値。座標は日本橋室町の町名レベル"
+    }
+  ]
+}

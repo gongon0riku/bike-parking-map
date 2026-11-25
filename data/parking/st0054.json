@@ -1,0 +1,53 @@
+{
+  "station_id": "st0054",
+  "station_name": "築地",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク築地3丁目",
+      "lat": 35.6670508,
+      "lon": 139.7733861,
+      "address": "東京都中央区築地3-13-5",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク区画のみ（5台）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額12,100円（税込）"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/250849",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "築地バイク駐車場2",
+      "lat": 35.6644786,
+      "lon": 139.7746278,
+      "address": "東京都中央区築地6-18",
+      "cc_class": "unlimited",
+      "displacement_note": "全て大型車室",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額9,500円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_detail.html?id=588",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は街区レベル"
+    }
+  ]
+}

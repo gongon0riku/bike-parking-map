@@ -1,0 +1,75 @@
+{
+  "station_id": "st0056",
+  "station_name": "茅場町",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク日本橋茅場町2丁目第三",
+      "lat": 35.6788239,
+      "lon": 139.7809103,
+      "address": "東京都中央区日本橋茅場町2-17-11",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク区画のみ（6台）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額11,000円〜（税込）"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/200280",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "茅場町バイク駐車場1",
+      "lat": 35.6783492,
+      "lon": 139.7843231,
+      "address": "東京都中央区新川1-18-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額9,000円"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-100731.html",
+      "checked_date": "2026-11-25",
+      "data_note": "情報源の最終更新は2022年"
+    },
+    {
+      "id": "p003",
+      "name": "名鉄協商パーキング 茅場町3丁目",
+      "lat": 35.6778747,
+      "lon": 139.7794078,
+      "address": "東京都中央区日本橋茅場町3-12-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク定期 月額8,800円（時間貸のバイク料金は未確認）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://mkp.jp/search/detail/008511-2/",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

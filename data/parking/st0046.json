@@ -1,0 +1,54 @@
+{
+  "station_id": "st0046",
+  "station_name": "新富町",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TOKYO PUBLIC 新富一丁目オートバイ駐車場",
+      "lat": 35.6723886,
+      "lon": 139.7727828,
+      "address": "東京都中央区新富1丁目13番地先",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし（長さ2.5m以内・幅1.0m以内の自動二輪車）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 900,
+        "note": "30分100円、入庫後12時間まで最大900円"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.tmpc.or.jp/04_parking/result.html?cmid=2864&pdid2=295",
+      "checked_date": "2026-11-25",
+      "data_note": "東京都道路整備保全公社の運営施設。座標は新富1丁目の丁目レベル"
+    },
+    {
+      "id": "p002",
+      "name": "新富町バイク駐車場6",
+      "lat": 35.6727386,
+      "lon": 139.7752439,
+      "address": "東京都中央区新富1-15-14",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額13,000円"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/m/parking_detail.html?id=540",
+      "checked_date": "2026-11-25",
+      "data_note": "屋根は一部のみ"
+    }
+  ]
+}

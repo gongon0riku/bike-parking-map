@@ -1,0 +1,31 @@
+{
+  "station_id": "st0059",
+  "station_name": "馬喰横山",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "タイムズのB 日本橋馬喰町第5（バイク専用）",
+      "lat": 35.6929703,
+      "lon": 139.7826297,
+      "address": "東京都中央区日本橋馬喰町1-6-17",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし（車室サイズ全長240cm×横幅100cm）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 480,
+        "note": "1日480円（予約制）"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間（予約制・24h入出庫可）",
+      "monthly": false,
+      "source_url": "https://btimes.jp/tokyo/park/65924/",
+      "checked_date": "2026-11-25",
+      "data_note": "馬喰横山駅・馬喰町駅の双方から徒歩圏内"
+    }
+  ]
+}

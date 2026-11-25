@@ -1,0 +1,53 @@
+{
+  "station_id": "st0060",
+  "station_name": "馬喰町",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク日本橋馬喰町1丁目",
+      "lat": 35.6926342,
+      "lon": 139.7809603,
+      "address": "東京都中央区日本橋馬喰町1-4-2",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク区画のみ（5台）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額9,900円〜（税込）"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "https://www.81989.jp/parking/detail/30091",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "中央第六馬喰町駅前駐車場",
+      "lat": 35.6937147,
+      "lon": 139.7834464,
+      "address": "東京都中央区日本橋馬喰町1-11-5",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額8,800円（税込）"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-6418.html",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は街区レベル。情報源の最終更新は2021年"
+    }
+  ]
+}

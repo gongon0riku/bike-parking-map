@@ -1,0 +1,53 @@
+{
+  "station_id": "st0049",
+  "station_name": "月島",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "中央区営月島駅前二輪駐車場",
+      "lat": 35.6637428,
+      "lon": 139.7850267,
+      "address": "東京都中央区月島2-1-1先",
+      "cc_class": "unlimited",
+      "displacement_note": "大型まで可（全長2.7m以下）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用のみ 月額7,000円（区内在住・在勤者対象、2年更新・抽選あり）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "定期利用のみ",
+      "monthly": true,
+      "source_url": "https://www.city.chuo.lg.jp/a0035/faq/kurashi/koutsuu/0003.html",
+      "checked_date": "2026-11-25",
+      "data_note": "中央区営。存在・所在地・定期利用のみは区公式FAQで確認。月額は集約サイト（バイク置き場ナビ）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク月島4丁目第四",
+      "lat": 35.6614572,
+      "lon": 139.7831947,
+      "address": "東京都中央区月島4-3-19",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク区画のみ（2台）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用 月額11,550円（税込）"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "月極専用",
+      "monthly": true,
+      "source_url": "https://www.81989.jp/parking/detail/230552",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

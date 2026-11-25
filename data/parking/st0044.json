@@ -1,0 +1,31 @@
+{
+  "station_id": "st0044",
+  "station_name": "宝町",
+  "ward": "中央区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "中央第4宝町駅前駐車場",
+      "lat": 35.6758106,
+      "lon": 139.7714283,
+      "address": "東京都中央区京橋2-12-9",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 800,
+        "note": "60分毎100円、12時間最大800円。月極4台あり（料金不明）"
+      },
+      "capacity": 14,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://motohub.jp/parking/37596",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（MotoHub、出典bikepark.in）の掲載値。出典データが古い可能性があり現地確認推奨"
+    }
+  ]
+}
