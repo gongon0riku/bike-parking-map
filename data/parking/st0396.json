@@ -1,0 +1,77 @@
+{
+  "station_id": "st0396",
+  "station_name": "富士見台",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "練馬区立富士見台駅東自転車駐車場",
+      "lat": 35.736077,
+      "lon": 139.631215,
+      "address": "東京都練馬区貫井1-48-12",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "練馬区立富士見台駅西自転車駐車場",
+      "lat": 35.735831,
+      "lon": 139.628263,
+      "address": "東京都練馬区貫井3-6-9",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "特P《バイク専用》クレール富士見台駐車場",
+      "lat": 35.7389803,
+      "lon": 139.6291931,
+      "address": "東京都練馬区貫井3-40-12",
+      "cc_class": "unknown",
+      "displacement_note": "バイク専用と情報源に明記。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 1440,
+        "base_yen": 400,
+        "max_yen_per_day": 400,
+        "note": "予約制（特P）。00:00-24:00 400円/24h"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00002321&category=0805002006",
+      "data_note": "料金は集約サイト（NAVITIME）の掲載値。事前予約制",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

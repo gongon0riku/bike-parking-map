@@ -1,0 +1,77 @@
+{
+  "station_id": "st0393",
+  "station_name": "光が丘",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "練馬区立光が丘第二自転車駐車場",
+      "lat": 35.758272,
+      "lon": 139.627114,
+      "address": "東京都練馬区光が丘3-10-1",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 46,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "コスモ光が丘店第一駐輪場",
+      "lat": 35.7580783,
+      "lon": 139.6284981,
+      "address": "東京都練馬区光が丘3-9-1",
+      "cc_class": "unknown",
+      "displacement_note": "バイク駐輪場と情報源に明記。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 240,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "4時間毎200円"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2929",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。営業時間は未確認",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "練馬区立田柄自転車駐車場",
+      "lat": 35.759122,
+      "lon": 139.631806,
+      "address": "東京都練馬区田柄5-27-7",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 19,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値。光が丘駅から約300m",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

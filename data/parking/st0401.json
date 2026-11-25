@@ -1,0 +1,31 @@
+{
+  "station_id": "st0401",
+  "station_name": "武蔵関",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "練馬区立武蔵関駅西自転車駐車場",
+      "lat": 35.727805,
+      "lon": 139.574676,
+      "address": "東京都練馬区関町北4-7-1",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 16,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値。集約サイト（NAVITIME）では関町北2-30の住所表記もあり、所在地の表記に揺れがある",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

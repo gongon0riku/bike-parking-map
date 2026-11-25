@@ -1,0 +1,54 @@
+{
+  "station_id": "st0400",
+  "station_name": "桜台",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "練馬区立桜台駅東自転車駐車場",
+      "lat": 35.738986,
+      "lon": 139.664104,
+      "address": "東京都練馬区桜台1-14-1",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "名鉄協商 練馬第11桜台バイク月極",
+      "lat": 35.7438033,
+      "lon": 139.6621094,
+      "address": "東京都練馬区桜台2-49-11",
+      "cc_class": "unknown",
+      "displacement_note": "バイク月極。排気量の上限について運営会社ページに明記なし（区画サイズ：シェルター幅120×高さ157×長さ250cm、ライン長さ230×幅100cm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用。月額：バイクシェルター11,000円、バイクライン5,500円（いずれも税込）"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://monthly.mkp.jp/parking/008634-00/",
+      "data_note": "運営会社（名鉄協商）公式ページの掲載値。シェルター区画は屋根付き。桜台駅から約570m北",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

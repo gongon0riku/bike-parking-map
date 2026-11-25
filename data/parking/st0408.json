@@ -1,0 +1,31 @@
+{
+  "station_id": "st0408",
+  "station_name": "豊島園",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "ワーナー ブラザース スタジオツアー東京 駐車場",
+      "lat": 35.7455128,
+      "lon": 139.6450111,
+      "address": "東京都練馬区春日町1-1-7",
+      "cc_class": "unknown",
+      "displacement_note": "公式サイトに、自動二輪（スクーターを除く）は駐車場を利用可、スクーターは駐輪場を利用と明記。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "施設来場者専用。2026年12月31日までは駐車券の事前購入が必要で車・バイク1台2,000円。2027年1月1日以降はバイク無料（公式サイト）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "スタジオツアーの開館時間に準ずる",
+      "monthly": false,
+      "source_url": "https://www.wbstudiotour.jp/en/plan-your-visit/arrival/",
+      "data_note": "施設公式サイトの掲載値。豊島園駅から徒歩2分。チケット所持者のみ利用可",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

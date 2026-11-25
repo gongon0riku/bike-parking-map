@@ -1,0 +1,77 @@
+{
+  "station_id": "st0403",
+  "station_name": "江古田",
+  "ward": "練馬区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "練馬区立江古田駅自転車駐車場",
+      "lat": 35.736762,
+      "lon": 139.674029,
+      "address": "東京都練馬区旭丘1-71-5",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "西武スマイルパーク江古田駅南口駐輪場",
+      "lat": 35.737513,
+      "lon": 139.672503,
+      "address": "東京都練馬区旭丘1-160-7",
+      "cc_class": "125",
+      "displacement_note": "125cc以下と情報源に明記",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 720,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "12時間毎200円"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2274",
+      "data_note": "料金・台数・排気量制限・座標は集約サイト（NAVITIME、提供：バイクを停めたい）の掲載値。別の集約 listing ではバイク6台の表記もあり",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "練馬区立江古田駅第二自転車駐車場",
+      "lat": 35.738839,
+      "lon": 139.672179,
+      "address": "東京都練馬区栄町33-10",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区オープンデータに原付の収容台数の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の一時利用料金は未確認"
+      },
+      "capacity": 15,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131202d0000000133",
+      "data_note": "住所・座標・原付収容台数は練馬区の公営駐輪場オープンデータ（令和7年10月1日時点）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
