@@ -1,0 +1,54 @@
+{
+  "station_id": "st0167",
+  "station_name": "菊川",
+  "ward": "墨田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。屋外タイプ月額8,800円・屋内タイプ月額7,150円（確認時点では満車）"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "data_note": "運営会社の掲載値",
+      "checked_date": "2026-11-25",
+      "name": "トミーバイクパーキング菊川",
+      "lat": 35.687602,
+      "lon": 139.809192,
+      "address": "東京都墨田区菊川3-12-6",
+      "cc_class": "unknown",
+      "displacement_note": "屋外タイプは大サイズ（幅1,000mm×長さ2,500mm）、屋内タイプは小サイズ（幅650mm×長さ2,200mm）",
+      "source_url": "https://tomybikepark.com/parking/kikukawa",
+      "id": "p001"
+    },
+    {
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額5,500円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "不明",
+      "monthly": true,
+      "data_note": "運営会社（日本バイクパーキング）の掲載値",
+      "checked_date": "2026-11-25",
+      "name": "菊川バイク駐車場4",
+      "lat": 35.691388,
+      "lon": 139.805956,
+      "address": "東京都墨田区立川4-9-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "source_url": "http://www.bike-p.co.jp/parking_detail.html?id=518",
+      "id": "p002"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0160",
+  "station_name": "八広",
+  "ward": "墨田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 180,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "入庫後3時間ごとに100円、24時間最大500円。月極パスカード月額5,500円もあり"
+      },
+      "capacity": 19,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "data_note": "s-park（東京都道路整備保全公社）の掲載値。座標は八広6丁目の地区レベル（高架下のため）",
+      "checked_date": "2026-11-25",
+      "name": "京成バイクパーク八広駅高架下第1",
+      "lat": 35.72738,
+      "lon": 139.826883,
+      "address": "東京都墨田区八広6-84-1",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量100cc以下は不可。サイズ制限：長さ2.3m・幅0.9m以下",
+      "source_url": "https://www.s-park.jp/map/bike/1064",
+      "id": "p001"
+    },
+    {
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額4,950円（税込）"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "data_note": "運営会社（株式会社バイクパーク）の掲載値。空き状況は要問い合わせ",
+      "checked_date": "2026-11-25",
+      "name": "バイクパーク 墨田区八広4丁目第二",
+      "lat": 35.723378,
+      "lon": 139.826991,
+      "address": "東京都墨田区八広4-14-3",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画のみ（2台とも大型）",
+      "source_url": "https://www.81989.jp/parking/detail/30760",
+      "id": "p002"
+    }
+  ]
+}

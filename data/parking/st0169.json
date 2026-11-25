@@ -1,0 +1,54 @@
+{
+  "station_id": "st0169",
+  "station_name": "鐘ヶ淵",
+  "ward": "墨田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 720,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "12時間ごとに100円"
+      },
+      "capacity": 12,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "data_note": "集約サイトの掲載値。同住所にTOBU PARKの月極バイク駐車場あり",
+      "checked_date": "2026-11-25",
+      "name": "PARK-AST〔サイクル&バイク〕鐘ヶ淵",
+      "lat": 35.73416,
+      "lon": 139.821169,
+      "address": "東京都墨田区墨田4-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "source_url": "https://tokyo-bikepark.com/p/j1056",
+      "id": "p001"
+    },
+    {
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額5,500円（税込）"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "data_note": "運営会社（東武不動産）の掲載値。サイズ制限は月極検索サイトの掲載値",
+      "checked_date": "2026-11-25",
+      "name": "TOBU PARK鐘ヶ淵駅バイク駐車場",
+      "lat": 35.73416,
+      "lon": 139.821169,
+      "address": "東京都墨田区墨田4-3-4",
+      "cc_class": "unknown",
+      "displacement_note": "サイズ制限あり（全長1,800mm×全幅800mm）",
+      "source_url": "https://www.tobu-re-parking.jp/parking/922.html",
+      "id": "p002"
+    }
+  ]
+}
