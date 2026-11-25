@@ -152,6 +152,32 @@ function renderStationPanel() {
   const panel = $("#panel-station");
   panel.innerHTML = "";
   const sorted = [...stations].sort((a, b) => (a.yomi || a.name).localeCompare(b.yomi || b.name, "ja"));
+
+  // 行ジャンプバー（あ・か・さ…をタップでその行までスクロール）
+  const heads = {};
+  const jumpBar = document.createElement("div");
+  jumpBar.className = "kana-jump";
+  for (const [label] of KANA_ROWS) {
+    if (!sorted.some(s => kanaRowOf(s.yomi) === label)) continue;
+    const b = document.createElement("button");
+    b.className = "kana-jump-btn";
+    b.textContent = label.charAt(0);
+    b.addEventListener("click", () => {
+      if (heads[label]) heads[label].scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    jumpBar.appendChild(b);
+  }
+  if (sorted.some(s => kanaRowOf(s.yomi) === "その他")) {
+    const b = document.createElement("button");
+    b.className = "kana-jump-btn";
+    b.textContent = "他";
+    b.addEventListener("click", () => {
+      if (heads["その他"]) heads["その他"].scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    jumpBar.appendChild(b);
+  }
+  panel.appendChild(jumpBar);
+
   let currentRow = null;
   let listEl = null;
   for (const s of sorted) {
@@ -161,6 +187,7 @@ function renderStationPanel() {
       const head = document.createElement("div");
       head.className = "kana-head";
       head.textContent = row;
+      heads[row] = head;
       panel.appendChild(head);
       listEl = document.createElement("div");
       listEl.className = "station-list";
