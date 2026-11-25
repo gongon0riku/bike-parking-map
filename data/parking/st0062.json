@@ -1,0 +1,54 @@
+{
+  "station_id": "st0062",
+  "station_name": "中野坂上",
+  "ward": "中野区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TOBU PARK中野坂上駅バイク駐輪場",
+      "lat": 35.6972389,
+      "lon": 139.6825822,
+      "address": "東京都中野区中央2-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし（車室サイズ：最大1,000mm×2,000mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 700,
+        "note": "60分毎200円、24時間最大700円"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60513-979",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数はNAVITIMEの掲載値。営業時間の明記はなく、料金表記がオールタイムのため24時間とした"
+    },
+    {
+      "id": "p002",
+      "name": "【予約制：akippa】中央2丁目39-20◎アキッパ駐車場",
+      "lat": 35.7005361,
+      "lon": 139.6784767,
+      "address": "東京都中野区中央2-39-20",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量による制限なし（集約サイトに明記）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "1,200円/日（akippa予約制）"
+      },
+      "capacity": 1,
+      "roof": false,
+      "hours": "8:00-17:00",
+      "monthly": false,
+      "source_url": "https://motohub.jp/parking/48051",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・排気量条件は集約サイト（MotoHub）の掲載値。利用にはakippaでの予約が必要"
+    }
+  ]
+}

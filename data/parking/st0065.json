@@ -1,0 +1,77 @@
+{
+  "station_id": "st0065",
+  "station_name": "新中野",
+  "ward": "中野区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "【予約制：akippa】パティオ中野 バイク駐車場",
+      "lat": 35.7006833,
+      "lon": 139.6741822,
+      "address": "東京都中野区中央3-17-7",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "280円/日〜（akippa予約制）"
+      },
+      "capacity": 2,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/poi?spt=60012.55070233",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数はNAVITIME（提供：akippa）の掲載値。最寄り駅は新中野駅"
+    },
+    {
+      "id": "p002",
+      "name": "【予約制：特P】パラカ 中野本町第5",
+      "lat": 35.6971886,
+      "lon": 139.6647944,
+      "address": "東京都中野区本町6-22",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": 330,
+        "note": "60分110円、24時間最大330円（特P予約制）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/category/0812004/13114013000/",
+      "checked_date": "2026-11-25",
+      "data_note": "料金はNAVITIMEの予約制バイク駐車場一覧の掲載値。営業時間・台数は情報源に明記なし"
+    },
+    {
+      "id": "p003",
+      "name": "（バイク）中野区中央4丁目 月極駐車場",
+      "lat": 35.7020775,
+      "lon": 139.6688722,
+      "address": "東京都中野区中央4丁目",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし（車室サイズ：全長2,500mm×全幅1,000mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額10,000円〜12,500円（税込）"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://p-king.jp/detail/576602",
+      "checked_date": "2026-11-25",
+      "data_note": "所在地の番地は集約サイト（日本駐車場検索）で非公開のため、座標は丁目レベルの概算。料金は集約サイトの掲載値"
+    }
+  ]
+}

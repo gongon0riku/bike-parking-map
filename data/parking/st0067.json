@@ -1,0 +1,54 @@
+{
+  "station_id": "st0067",
+  "station_name": "新江古田",
+  "ward": "中野区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "練馬区立江古田駅自転車駐車場（原付）",
+      "lat": 35.7367703,
+      "lon": 139.6741611,
+      "address": "東京都練馬区旭丘1-71-5",
+      "cc_class": "unknown",
+      "displacement_note": "車種制限：50cc以下（原付のみ）と情報源に明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付1日200円"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00004227&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "西武池袋線・江古田駅前の練馬区立駐車場。新江古田駅から約560m。料金・台数はNAVITIMEの掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "江古田駅南口駐輪場（バイク）",
+      "lat": 35.737513,
+      "lon": 139.672503,
+      "address": "東京都練馬区旭丘1-160-7",
+      "cc_class": "125",
+      "displacement_note": "車種制限：125cc以下と情報源に明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 720,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "12時間毎200円"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2274",
+      "checked_date": "2026-11-25",
+      "data_note": "西武池袋線・江古田駅南口。新江古田駅から約580m。住所のジオコーディングが丁目レベルまでだったため、座標は情報源（NAVITIME）掲載値を使用。台数はNAVITIME掲載値（西武スマイルパークの掲載では6台）"
+    }
+  ]
+}
