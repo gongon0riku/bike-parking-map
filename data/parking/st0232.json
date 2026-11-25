@@ -1,0 +1,31 @@
+{
+  "station_id": "st0232",
+  "station_name": "新大久保",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "新大久保駅自転車等駐輪場",
+      "lat": 35.7000397,
+      "lon": 139.6998411,
+      "address": "東京都新宿区百人町1丁目",
+      "cc_class": "unknown",
+      "displacement_note": "原付（125cc以下）と自動二輪の両方を受け入れ（新宿区公式資料）。自動二輪の排気量上限は明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降1時間ごと110円。定期利用：原付1カ月2,500円"
+      },
+      "capacity": 61,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334933.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "収容台数はバイク分（原付定期33台・原付一時23台・自動二輪5台）の合計。座標は百人町1丁目の街区レベル"
+    }
+  ]
+}

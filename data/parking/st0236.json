@@ -1,0 +1,31 @@
+{
+  "station_id": "st0236",
+  "station_name": "新宿西口",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "新宿西口駅自転車等駐輪場",
+      "lat": 35.6962119,
+      "lon": 139.6985856,
+      "address": "東京都新宿区西新宿7丁目",
+      "cc_class": "125",
+      "displacement_note": "原付（125cc以下）（新宿区公式資料）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降1時間ごと110円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000396954.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は西新宿7丁目の代表点（丁目レベル）"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0252",
+  "station_name": "高田馬場",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "高田馬場駅第一自転車等駐輪場",
+      "lat": 35.7127517,
+      "lon": 139.7028683,
+      "address": "東京都新宿区高田馬場4-10-2",
+      "cc_class": "unknown",
+      "displacement_note": "原付（125cc以下）と自動二輪の両方を受け入れ（新宿区公式資料）。自動二輪の排気量上限は明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "原付・自動二輪とも2時間無料、以降1時間ごと110円（交通系IC利用時100円）。定期利用：原付1カ月2,500円"
+      },
+      "capacity": 35,
+      "roof": null,
+      "hours": "5:00-翌1:00",
+      "monthly": true,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334928.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "収容台数はバイク分（原付定期15台・原付一時8台・自動二輪12台）の合計。自転車分は含まない"
+    }
+  ]
+}

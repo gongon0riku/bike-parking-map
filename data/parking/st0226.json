@@ -1,0 +1,54 @@
+{
+  "station_id": "st0226",
+  "station_name": "信濃町",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TMC月極バイク駐車場 新宿信濃町（ベラビスタ信濃町）",
+      "lat": 35.682095,
+      "lon": 139.7239314,
+      "address": "東京都新宿区南元町4-20",
+      "cc_class": "unknown",
+      "displacement_note": "月極バイク駐車場。排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ：月額13,500円（goo住宅の掲載賃料）"
+      },
+      "capacity": 41,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://house.goo.ne.jp/rent/bb/detail/0/13104/1078888682/00261271/x01078888682.html?fr=reco",
+      "checked_date": "2026-11-25",
+      "data_note": "台数41台・屋内（地下）は運営会社TMCのSNS告知による。賃料はgoo住宅（アットホーム提供）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "ナビパーク新宿南元町第2",
+      "lat": 35.6797197,
+      "lon": 139.7201714,
+      "address": "東京都新宿区南元町19",
+      "cc_class": "unknown",
+      "displacement_note": "バイク料金の案内あり。排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "バイク：8:00-19:00は30分100円、19:00-8:00は60分100円、24時間最大1,000円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "http://www.navitime.co.jp/poi?spot=60026-N06745",
+      "checked_date": "2026-11-25",
+      "data_note": "料金はNAVITIMEの掲載値。全収容台数9台は自動車との合計のためバイク専用台数は不明"
+    }
+  ]
+}

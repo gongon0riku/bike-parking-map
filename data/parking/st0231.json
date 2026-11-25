@@ -1,0 +1,54 @@
+{
+  "station_id": "st0231",
+  "station_name": "市ヶ谷",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "四ッ谷・市ヶ谷バイク駐車場",
+      "lat": 35.6888856,
+      "lon": 139.7334117,
+      "address": "東京都千代田区五番町12",
+      "cc_class": "unknown",
+      "displacement_note": "バイク専用。排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 180,
+        "base_yen": 400,
+        "max_yen_per_day": null,
+        "note": "3時間ごと400円、12時間最大1,200円"
+      },
+      "capacity": 7,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02011.00003202&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "台数・料金はNAVITIMEの掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "市ヶ谷駅自転車駐車場（千代田区）",
+      "lat": 35.6918775,
+      "lon": 139.7368078,
+      "address": "東京都千代田区九段北四丁目4番先",
+      "cc_class": "unknown",
+      "displacement_note": "原付（排気量の内訳は明記なし）。千代田区の年間登録制",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "年間登録制。料金は未確認（千代田区の募集資料で台数のみ確認）"
+      },
+      "capacity": 15,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.chiyoda.lg.jp/documents/33797/chushajo.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "台数は千代田区公式の令和8年度募集台数（原付15台）。座標は九段北4丁目の街区レベル"
+    }
+  ]
+}

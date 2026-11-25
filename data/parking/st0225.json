@@ -1,0 +1,54 @@
+{
+  "station_id": "st0225",
+  "station_name": "中井",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "中井駅北自転車等駐輪場",
+      "lat": 35.7165931,
+      "lon": 139.6917833,
+      "address": "東京都新宿区中落合1丁目",
+      "cc_class": "125",
+      "displacement_note": "原付（125cc以下）（新宿区公式資料の料金表記による）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降1時間ごと110円。定期利用：1カ月2,500円"
+      },
+      "capacity": 22,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334929.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "収容台数は原付分（定期14台・一時8台）。座標は中落合1丁目の代表点（丁目レベル）"
+    },
+    {
+      "id": "p002",
+      "name": "中井駅南自転車等駐輪場",
+      "lat": 35.7119014,
+      "lon": 139.6860306,
+      "address": "東京都新宿区上落合2丁目",
+      "cc_class": "125",
+      "displacement_note": "原付（125cc以下）（新宿区公式資料の料金表記による）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降1時間ごと110円。定期利用：1カ月2,500円"
+      },
+      "capacity": 18,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334929.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "収容台数は原付分（定期12台・一時6台）。座標は上落合2丁目の代表点（丁目レベル）"
+    }
+  ]
+}

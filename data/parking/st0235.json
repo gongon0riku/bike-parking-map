@@ -1,0 +1,31 @@
+{
+  "station_id": "st0235",
+  "station_name": "新宿御苑前",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "新宿御苑前駅自転車・バイク駐車場",
+      "lat": 35.6883906,
+      "lon": 139.7092139,
+      "address": "東京都新宿区新宿2-1-4",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 360,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "自動二輪：6時間300円、その後3時間ごと150円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334911.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "料金は令和6年10月時点の新宿区資料による"
+    }
+  ]
+}

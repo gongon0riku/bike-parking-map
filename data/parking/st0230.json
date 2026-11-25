@@ -1,0 +1,31 @@
+{
+  "station_id": "st0230",
+  "station_name": "大久保",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "大久保駅自転車等駐輪場",
+      "lat": 35.7029619,
+      "lon": 139.6967744,
+      "address": "東京都新宿区百人町2丁目",
+      "cc_class": "125",
+      "displacement_note": "原付（125cc以下）のみ（新宿区公式資料）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "原付（125cc以下）：2時間無料、以降1時間ごと110円"
+      },
+      "capacity": 22,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334933.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は百人町2丁目の街区レベル"
+    }
+  ]
+}

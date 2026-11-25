@@ -1,0 +1,31 @@
+{
+  "station_id": "st0237",
+  "station_name": "早稲田",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "サイカパーク早大通り自転車等駐車場",
+      "lat": 35.7059086,
+      "lon": 139.7184397,
+      "address": "東京都新宿区馬場下町（早大通り沿い）",
+      "cc_class": "unknown",
+      "displacement_note": "バイク（原付・自動二輪）。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降1時間ごと110円"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334915.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は馬場下町の代表点（町レベル）。東京メトロ東西線・早稲田駅付近の施設として登録"
+    }
+  ]
+}

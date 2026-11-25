@@ -1,0 +1,77 @@
+{
+  "station_id": "st0234",
+  "station_name": "新宿三丁目",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "サイカパーク新宿三丁目駅自動二輪駐車場",
+      "lat": 35.6901128,
+      "lon": 139.7049667,
+      "address": "東京都新宿区新宿3丁目1番",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪専用。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "30分無料、以降1時間ごと110円（交通系IC利用時100円）"
+      },
+      "capacity": 29,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334925.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は新宿3丁目1番の街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "エコステーション21新宿三丁目自動二輪車駐車場",
+      "lat": 35.6901128,
+      "lon": 139.7049667,
+      "address": "東京都新宿区新宿3-1",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "30分無料、以降1時間ごと100円"
+      },
+      "capacity": 26,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02300.1016083&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "台数・料金はNAVITIMEの掲載値。座標は新宿3丁目1番の街区レベル"
+    },
+    {
+      "id": "p003",
+      "name": "伊勢丹パーキング（バイク駐車場）",
+      "lat": 35.6922211,
+      "lon": 139.7037889,
+      "address": "東京都新宿区新宿3-16-13",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 150,
+        "max_yen_per_day": null,
+        "note": "30分ごと150円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "7:00-25:00",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02300.1016083&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "台数・料金・営業時間はNAVITIMEの掲載値"
+    }
+  ]
+}
