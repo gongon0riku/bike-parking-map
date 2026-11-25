@@ -177,6 +177,25 @@ function renderMapAndList(parkings) {
   }
 }
 
+
+// ---------- アフィリエイト ----------
+let affiliateItems = [];
+function renderAffiliate() {
+  const sec = $("#affiliate-section");
+  const items = affiliateItems.filter(i => i.url);
+  if (!items.length) { sec.hidden = true; sec.innerHTML = ""; return; }
+  sec.hidden = false;
+  sec.innerHTML = '<div class="affiliate-head">バイク用品（PR）</div>' + items.map(i =>
+    '<a class="affiliate-item" href="' + i.url + '" target="_blank" rel="noopener sponsored">' +
+    '<span class="af-title"></span>' +
+    (i.store ? '<span class="af-store"></span>' : "") + "</a>").join("");
+  sec.querySelectorAll(".affiliate-item").forEach((a, idx) => {
+    a.querySelector(".af-title").textContent = items[idx].title;
+    const st = a.querySelector(".af-store");
+    if (st) st.textContent = items[idx].store;
+  });
+}
+
 // ---------- 画面3: 詳細 ----------
 function openDetail(p) {
   currentParking = p;
@@ -214,6 +233,7 @@ function openDetail(p) {
   row("🔗", "情報源", '<a href="' + esc(p.source_url) + '" target="_blank" rel="noopener">情報源を見る</a>' +
     (p.data_note ? "<br>" + esc(p.data_note) : "") + "<br>確認日：" + esc(p.checked_date));
 
+  renderAffiliate();
   $("#detail-card").innerHTML = rows.join("") +
     '<a class="gmap-btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=' +
     p.lat + "," + p.lon + '">Googleマップで開く</a>';
@@ -231,6 +251,10 @@ async function init() {
   } catch (e) {
     stations = []; parkingIndex = {};
   }
+  try {
+    const aRes = await fetch("affiliate.json");
+    affiliateItems = (await aRes.json()).items || [];
+  } catch (e) { affiliateItems = []; }
   renderStationList("");
 
   $("#station-search").addEventListener("input", (e) => renderStationList(e.target.value));
@@ -247,5 +271,6 @@ async function init() {
     btn.addEventListener("click", () => show(btn.dataset.back));
   });
   $("#to-about").addEventListener("click", () => show("about"));
+  $("#to-privacy").addEventListener("click", () => show("privacy"));
 }
 document.addEventListener("DOMContentLoaded", init);
