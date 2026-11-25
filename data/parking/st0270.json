@@ -1,0 +1,77 @@
+{
+  "station_id": "st0270",
+  "station_name": "高円寺",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "Parking in 高円寺南3丁目駐輪場",
+      "lat": 35.7042981,
+      "lon": 139.6463464,
+      "address": "東京都杉並区高円寺南3丁目",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイクの料金・台数も情報源に明記",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "2時間無料。その後14時間毎：小型バイク200円、大型バイク300円"
+      },
+      "capacity": 89,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=91001.ani00452&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値（小型バイク44台・大型バイク45台）。住所・座標は丁目レベル"
+    },
+    {
+      "id": "p002",
+      "name": "TOBU PARK高円寺駅南口バイク駐輪場",
+      "lat": 35.7049817,
+      "lon": 139.6488397,
+      "address": "東京都杉並区高円寺南3-58",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 780,
+        "base_yen": 330,
+        "max_yen_per_day": null,
+        "note": "330円／13時間ごと"
+      },
+      "capacity": 17,
+      "roof": false,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60513-918",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p003",
+      "name": "Parking in 高円寺ストリート7番街",
+      "lat": 35.7051872,
+      "lon": 139.6468231,
+      "address": "東京都杉並区高円寺南3-66",
+      "cc_class": "unlimited",
+      "displacement_note": "ミニバイク（125cc以下）・自動二輪（126cc以上）のいずれも利用可と情報源に明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "24時間最大500円（繰返し可）。8:00-20:00は60分100円、20:00-8:00は120分100円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=91001.ani00452&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。座標は丁目レベル"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0269",
+  "station_name": "高井戸",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TOKYO PUBLIC高井戸北B駐車場",
+      "lat": 35.6908467,
+      "lon": 139.616235,
+      "address": "東京都杉並区宮前2-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "1時間毎100円、入庫から24時間まで500円（繰返し適用あり）"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02022.1074551&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。環状八号線・高井戸北陸橋下（Bブロック）。座標は街区レベル"
+    }
+  ]
+}

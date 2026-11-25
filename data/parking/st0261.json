@@ -1,0 +1,31 @@
+{
+  "station_id": "st0261",
+  "station_name": "方南町",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "杉並区方南町東自転車駐車場",
+      "lat": 35.6838708,
+      "lon": 139.6584797,
+      "address": "東京都杉並区方南2-20-2",
+      "cc_class": "125",
+      "displacement_note": "車種制限125cc以下と情報源に明記",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 200,
+        "note": "入庫から1時間まで無料、以降24時間毎200円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-3541",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "station_id": "st0257",
+  "station_name": "八幡山",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "世田谷区立八幡山北自転車等駐車場",
+      "lat": 35.6708983,
+      "lon": 139.6165411,
+      "address": "東京都世田谷区上北沢4-35-12",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ（世田谷区公式ページの表記）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付：日ぎめ1日240円、月ぎめ月額3,300円"
+      },
+      "capacity": 28,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4439.html",
+      "checked_date": "2026-11-25",
+      "data_note": "世田谷区公式ページの値。原付枠は月ぎめ22台・日ぎめ6台。所在地は世田谷区だが八幡山駅前施設のため当駅に登録"
+    },
+    {
+      "id": "p002",
+      "name": "京王オートバイパーク八幡山西",
+      "lat": 35.6696578,
+      "lon": 139.6159469,
+      "address": "東京都杉並区上高井戸1-1",
+      "cc_class": "unknown",
+      "displacement_note": "車種制限50cc以下と情報源に明記",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 720,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降12時間毎200円"
+      },
+      "capacity": 13,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02300.1007174&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。座標は丁目レベル"
+    },
+    {
+      "id": "p003",
+      "name": "京王オートバイパーク八幡山東",
+      "lat": 35.6697022,
+      "lon": 139.6170664,
+      "address": "東京都世田谷区上北沢4-36",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 720,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1時間無料、以降12時間毎200円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2190",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。集約サイトの別ページでは8台・12時間毎300円と記載があり相違。座標は丁目レベル"
+    }
+  ]
+}

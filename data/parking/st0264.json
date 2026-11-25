@@ -1,0 +1,54 @@
+{
+  "station_id": "st0264",
+  "station_name": "浜田山",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "浜田山南自転車駐車場",
+      "lat": 35.6804728,
+      "lon": 139.6283928,
+      "address": "東京都杉並区浜田山2-22-12",
+      "cc_class": "unknown",
+      "displacement_note": "ミニバイク枠あり（集約サイト表記）。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク料金は情報源で未取得"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60500-ntj01120",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値（自転車381台・ミニバイク10台）。座標は街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "エコステーション21 コモディイイダ浜田山店駐輪場",
+      "lat": 35.6819589,
+      "lon": 139.6278956,
+      "address": "東京都杉並区浜田山3-30-22",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク料金は情報源で未取得"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02022.1074551&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

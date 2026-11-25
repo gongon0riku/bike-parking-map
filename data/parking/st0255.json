@@ -1,0 +1,31 @@
+{
+  "station_id": "st0255",
+  "station_name": "久我山",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "【バイク専用】NPC24H久我山4丁目パーキング",
+      "lat": 35.6925128,
+      "lon": 139.5969389,
+      "address": "東京都杉並区久我山4-42-24",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし（区画サイズ：全長2,000mm×全幅900mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用：月額6,600円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.at-parking.jp/search/tokyo/suginami-ku/kugayama/346742.html",
+      "checked_date": "2026-11-25",
+      "data_note": "月極専門サイト（アットパーキング）の掲載値"
+    }
+  ]
+}

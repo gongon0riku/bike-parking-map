@@ -1,0 +1,31 @@
+{
+  "station_id": "st0256",
+  "station_name": "井荻",
+  "ward": "杉並区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "【予約制：特P】下井草4-34-9駐車場",
+      "lat": 35.7243733,
+      "lon": 139.6178478,
+      "address": "東京都杉並区下井草4-34-9",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク可と情報源に明記（特Pの予約制駐車場）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "予約制（特P）。料金は特Pの予約ページで確認"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "不明",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/maps/aroundResult?lon=139.617942&lat=35.724331&category=0507&code=60048-310001677&radius=5000",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}
