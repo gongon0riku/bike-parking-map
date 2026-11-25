@@ -1,0 +1,31 @@
+{
+  "station_id": "st0415",
+  "station_name": "日暮里",
+  "ward": "荒川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "日暮里駅前KTKパーク（日暮里駅前ステーションガーデンタワー駐車場）",
+      "lat": 35.7293461,
+      "lon": 139.7710486,
+      "address": "東京都荒川区西日暮里2-24",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 600,
+        "note": "24時間600円（23:00切り替え）"
+      },
+      "capacity": 11,
+      "roof": null,
+      "hours": "8:00-23:00",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02301.1405866&category=0812002",
+      "data_note": "料金・台数・営業時間はNAVITIMEのバイク駐車場一覧の掲載値。座標は街区レベル",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

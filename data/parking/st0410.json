@@ -1,0 +1,77 @@
+{
+  "station_id": "st0410",
+  "station_name": "三河島",
+  "ward": "荒川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "アップルパーク三河島第2（バイク）",
+      "lat": 35.7333914,
+      "lon": 139.7805981,
+      "address": "東京都荒川区荒川3-44-8",
+      "cc_class": "unknown",
+      "displacement_note": "対応車両は「オートバイまで」。排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "akippaの予約制駐車場。料金は予約ページで確認"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "0:00-23:59",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13118/55025876_akipp/",
+      "data_note": "akippaの掲載情報（マピオン電話帳経由）。台数・営業時間は同ページの値。料金は未掲載",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "戸矢バイクパーキング",
+      "lat": 35.7302303,
+      "lon": 139.7819592,
+      "address": "東京都荒川区東日暮里3-11-26",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は情報源に未掲載"
+      },
+      "capacity": 1,
+      "roof": false,
+      "hours": "6:00-23:00",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13118/6716_nkskp/",
+      "data_note": "マピオン電話帳の掲載情報（平置き舗装・屋根なし・出入り自由）。料金は未掲載",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "荒川3丁目52◎個宅アキッパ駐車場",
+      "lat": 35.7357914,
+      "lon": 139.7795619,
+      "address": "東京都荒川区荒川3-52",
+      "cc_class": "unknown",
+      "displacement_note": "対応車両は「コンパクトカーまで」でオートバイ駐車可。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "akippaの予約制駐車場。料金は予約ページで確認"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "0:00-23:59",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13118/55092998_akipp/",
+      "data_note": "akippaの掲載情報（マピオン電話帳経由）。座標は番地レベル。料金は未掲載",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

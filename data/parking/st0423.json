@@ -1,0 +1,31 @@
+{
+  "station_id": "st0423",
+  "station_name": "荒川二丁目",
+  "ward": "荒川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "荒川4丁目バイク専用駐車場",
+      "lat": 35.737685,
+      "lon": 139.7795811,
+      "address": "東京都荒川区荒川4-14-6",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "akippaの予約制駐車場。料金は予約ページで確認"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13118/55004814_akipp/",
+      "data_note": "akippa系の掲載情報（マピオン電話帳経由）。最寄りの荒川二丁目駅から直線約470m。料金は未掲載",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

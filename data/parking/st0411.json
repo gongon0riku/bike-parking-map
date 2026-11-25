@@ -1,0 +1,77 @@
+{
+  "station_id": "st0411",
+  "station_name": "南千住",
+  "ward": "荒川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "南千住駅東口自転車等駐車場（荒川区営）",
+      "lat": 35.7328439,
+      "lon": 139.7997172,
+      "address": "東京都荒川区南千住4-1-2",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。荒川区条例上、利用対象は原動機付自転車のみで自動二輪は対象外",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用：1日1回300円（8時間以内は150円）。定期利用：月額 区民3,000円／区民以外6,000円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "4:30-翌1:00",
+      "monthly": true,
+      "source_url": "https://www.city.arakawa.tokyo.jp/reiki_int/reiki_honbun/p800RG00000511.html",
+      "data_note": "料金・利用時間は荒川区自転車等駐車場条例（別表第2・第9条）の規定値。区営で原付を受け入れるのは区内ではこの施設のみ",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "Parking in 南千住駅東口駐輪場",
+      "lat": 35.7332633,
+      "lon": 139.7992367,
+      "address": "東京都荒川区南千住4-5-1",
+      "cc_class": "125",
+      "displacement_note": "車種制限：125cc以下（ミニバイク）",
+      "fees": {
+        "free_minutes": 90,
+        "base_minutes": 600,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "入庫後90分無料、以降10時間毎200円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00002491&category=0812002&from=view.around.related.category",
+      "data_note": "料金・台数・排気量条件はNAVITIMEのバイク駐車場一覧の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "チャリロック BiVi南千住駐輪場",
+      "lat": 35.7348633,
+      "lon": 139.8007644,
+      "address": "東京都荒川区南千住4-7-1",
+      "cc_class": "unlimited",
+      "displacement_note": "料金区分に大型（8時間毎300円）があり、大型バイクも利用可",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 480,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "入庫後2時間以内は無料。8時間毎：小型200円・大型300円"
+      },
+      "capacity": 19,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00002491&category=0812002&from=view.around.related.category",
+      "data_note": "料金・台数はNAVITIMEのバイク駐車場一覧の掲載値。営業時間は未掲載",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

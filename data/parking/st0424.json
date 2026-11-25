@@ -1,0 +1,31 @@
+{
+  "station_id": "st0424",
+  "station_name": "荒川区役所前",
+  "ward": "荒川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "荒川1丁目51-12☆アキッパ駐車場",
+      "lat": 35.7335417,
+      "lon": 139.7850806,
+      "address": "東京都荒川区荒川1-51-12",
+      "cc_class": "unknown",
+      "displacement_note": "対応車両は「ワンボックスまで」でオートバイ駐車可。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "akippaの予約制駐車場。料金は予約ページで確認"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "0:00-23:59",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13118/55087620_akipp/",
+      "data_note": "akippaの掲載情報（マピオン電話帳経由）。料金は未掲載",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
