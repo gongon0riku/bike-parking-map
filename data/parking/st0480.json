@@ -1,0 +1,77 @@
+{
+  "station_id": "st0480",
+  "station_name": "綾瀬",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "綾瀬バイク駐車場2",
+      "lat": 35.7594281,
+      "lon": 139.8233169,
+      "address": "東京都足立区綾瀬1-29-17",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は運営会社ページに明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額4,000円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_detail.html?id=546",
+      "checked_date": "2026-11-25",
+      "data_note": "運営会社（日本バイクパーキング）公式ページの値。屋根なし・舗装なし"
+    },
+    {
+      "id": "p002",
+      "name": "Tacyサイクルパーク イトーヨーカドー綾瀬（バイク駐車場）",
+      "lat": 35.7627075,
+      "lon": 139.8253694,
+      "address": "東京都足立区綾瀬3-4-25",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": 180,
+        "base_minutes": 120,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "3時間無料、以降2時間毎200円"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/maps/poi?code=60502-1378&from=pc.poi",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p003",
+      "name": "CCP綾瀬2丁目第4（バイク駐車場）",
+      "lat": 35.761649,
+      "lon": 139.827608,
+      "address": "東京都足立区綾瀬2-23",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 480,
+        "base_yen": 220,
+        "max_yen_per_day": null,
+        "note": "8時間毎220円"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2522",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値。営業時間は情報源に明記なし"
+    }
+  ]
+}

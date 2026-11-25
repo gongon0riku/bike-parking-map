@@ -1,0 +1,77 @@
+{
+  "station_id": "st0479",
+  "station_name": "竹ノ塚",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "竹ノ塚駅西口公共駐車場",
+      "lat": 35.793054,
+      "lon": 139.789827,
+      "address": "東京都足立区西竹の塚1-11-2",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみと集約サイトに記載",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 480,
+        "base_yen": 150,
+        "max_yen_per_day": null,
+        "note": "1時間無料、8時間まで150円、以降16時間毎150円"
+      },
+      "capacity": 9,
+      "roof": null,
+      "hours": "8:00-23:00（出庫は23:30まで）",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-1406",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "アイアイパーキング西竹ノ塚バイク駐輪場",
+      "lat": 35.7949833,
+      "lon": 139.7900906,
+      "address": "東京都足立区西竹の塚2-3-30",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 480,
+        "base_yen": 300,
+        "max_yen_per_day": 500,
+        "note": "8時間毎300円、入庫から24時間迄最大500円"
+      },
+      "capacity": 14,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=06059.167&category=0812&from=list&page=2",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p003",
+      "name": "ST-Park竹の塚第29バイク駐車場",
+      "lat": 35.792746,
+      "lon": 139.791487,
+      "address": "東京都足立区竹の塚1-30",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 360,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "6時間毎200円"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-3660",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

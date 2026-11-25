@@ -1,0 +1,77 @@
+{
+  "station_id": "st0483",
+  "station_name": "西新井",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "サティ西新井駐輪場",
+      "lat": 35.777984,
+      "lon": 139.790916,
+      "address": "東京都足立区梅島3-32",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": 180,
+        "base_minutes": 240,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "3時間無料、以降4時間毎300円（原付は200円）"
+      },
+      "capacity": 14,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-1168",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値。営業時間は情報源に明記なし"
+    },
+    {
+      "id": "p002",
+      "name": "ショウワパーク西新井駅前【バイク専用】",
+      "lat": 35.7762225,
+      "lon": 139.7920722,
+      "address": "東京都足立区梅島3-28-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし（オートバイ駐車可と記載）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は情報源に明記なし"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13121/55068359_akipp/",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（マピオン）の値"
+    },
+    {
+      "id": "p003",
+      "name": "名鉄協商パーキング 足立第6西新井バイク月極",
+      "lat": 35.7760333,
+      "lon": 139.7835344,
+      "address": "東京都足立区西新井栄町3-4-4",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は運営会社ページに明記なし（バイクガレージ：幅137×高さ202×長さ263cm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額13,200円（税込）。保証金・業務手数料各13,200円"
+      },
+      "capacity": 4,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://monthly.mkp.jp/parking/008646-00/",
+      "checked_date": "2026-11-25",
+      "data_note": "運営会社（名鉄協商）公式ページの値"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0470",
+  "station_name": "北綾瀬",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "トミーバイクパーキング東綾瀬公園1",
+      "lat": 35.7722567,
+      "lon": 139.8312328,
+      "address": "東京都足立区谷中1-16-6（向い高架下）",
+      "cc_class": "unlimited",
+      "displacement_note": "運営会社の発表で大型バイク対応（特大タイプ車室あり）。原付から大型まで対応と案内",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額：小11,000円／中14,300円／大16,500円／特大19,800円（いずれも税込）"
+      },
+      "capacity": 23,
+      "roof": true,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.mapion.co.jp/news/release/dn0000337645-all/",
+      "checked_date": "2026-11-25",
+      "data_note": "運営会社（株式会社トミザワ）の発表資料の値。屋内タイプ。2025-12-23オープン"
+    },
+    {
+      "id": "p002",
+      "name": "トミーバイクパーキング東綾瀬公園2",
+      "lat": 35.771465,
+      "lon": 139.8304494,
+      "address": "東京都足立区谷中1-4-3（高架下）",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額15,400円（税込）"
+      },
+      "capacity": 12,
+      "roof": true,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.mapion.co.jp/news/release/dn0000340570-all/",
+      "checked_date": "2026-11-25",
+      "data_note": "運営会社（株式会社トミザワ）の発表資料の値。ガレージタイプ。座標は街区レベル"
+    }
+  ]
+}

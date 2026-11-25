@@ -1,0 +1,31 @@
+{
+  "station_id": "st0477",
+  "station_name": "江北",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "（バイク）足立区江北3丁目月極駐車場",
+      "lat": 35.7714467,
+      "lon": 139.7613467,
+      "address": "東京都足立区江北3丁目",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額4,500円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://p-king.jp/detail/601522",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（日本駐車場検索）の値。所在地は丁目レベルまでしか公開されておらず、座標は丁目のおおよその位置"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "station_id": "st0469",
+  "station_name": "北千住",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "北千住駅前駐車場",
+      "lat": 35.751746,
+      "lon": 139.805243,
+      "address": "東京都足立区千住3-92",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 120,
+        "base_yen": 200,
+        "max_yen_per_day": 800,
+        "note": "2時間200円、以降1時間毎100円、1日最大800円"
+      },
+      "capacity": 31,
+      "roof": null,
+      "hours": "8:00-23:00",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2169",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "北千住駅前駐輪場",
+      "lat": 35.751886,
+      "lon": 139.804861,
+      "address": "東京都足立区千住3丁目",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ（集約サイトに車種制限50cc以下と記載）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 1440,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1日200円"
+      },
+      "capacity": 100,
+      "roof": null,
+      "hours": "6:00-24:00",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-669",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値。住所は丁目まで"
+    },
+    {
+      "id": "p003",
+      "name": "CCP北千住第3駐輪場（バイク）",
+      "lat": 35.748565,
+      "lon": 139.8056925,
+      "address": "東京都足立区千住旭町2-8-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 300,
+        "base_yen": 330,
+        "max_yen_per_day": null,
+        "note": "5時間330円（リクスタ掲載）。NAVITIMEの別掲載では8時間毎330円の表記もあり"
+      },
+      "capacity": 9,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00008431&category=0812001001",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値。座標は街区レベル"
+    }
+  ]
+}

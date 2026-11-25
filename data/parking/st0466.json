@@ -1,0 +1,54 @@
+{
+  "station_id": "st0466",
+  "station_name": "五反野",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "五反野第1駐輪場",
+      "lat": 35.7660381,
+      "lon": 139.8093928,
+      "address": "東京都足立区足立3-34-6",
+      "cc_class": "125",
+      "displacement_note": "車種制限125cc以下と集約サイトに記載",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 1440,
+        "base_yen": 400,
+        "max_yen_per_day": null,
+        "note": "1日400円（51cc以上）／1日300円（50cc以下）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00002245&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "サミットストア五反野店お客様駐輪場",
+      "lat": 35.7673269,
+      "lon": 139.8092844,
+      "address": "東京都足立区中央本町2-26",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": 180,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "3時間無料、以降1時間毎200円"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "10:00-25:00",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00002245&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値。座標は街区レベル"
+    }
+  ]
+}
