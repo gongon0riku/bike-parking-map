@@ -1,0 +1,31 @@
+{
+  "station_id": "st0158",
+  "station_name": "両国",
+  "ward": "墨田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク 墨田区両国4丁目第三",
+      "lat": 35.692757,
+      "lon": 139.796246,
+      "address": "東京都墨田区両国4-6-5",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画のみ（3台とも大型）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額5,500円（税込）〜"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.81989.jp/parking/detail/210021",
+      "data_note": "運営会社（株式会社バイクパーク）の掲載値。空き状況は要問い合わせ",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
