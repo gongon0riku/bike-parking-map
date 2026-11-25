@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>バイク駐車場マップ</title>
+<meta name="description" content="排気量で絞れる、バイク専用の駐車場マップ。東京23区の駅周辺のバイク駐車場を、対応排気量・料金・屋根の有無で探せます。">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 画面1: エリアを探す -->
+<section id="view-area" class="view active">
+  <header class="app-header">
+    <div class="app-title">🏍️ バイク駐車場マップ</div>
+  </header>
+  <div class="area-body">
+    <h1 class="area-heading">エリアを探す</h1>
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input id="station-search" type="search" placeholder="駅名・地名で検索" autocomplete="off">
+    </div>
+    <div id="station-list" class="station-list"></div>
+    <p id="station-empty" class="empty-note" hidden>該当する駅がありません。</p>
+  </div>
+  <footer class="app-footer">
+    <button id="to-about" class="linklike">このアプリについて</button>
+  </footer>
+</section>
+
+<!-- 画面2: 地図＋リスト -->
+<section id="view-map" class="view">
+  <header class="app-header with-back">
+    <button class="back-btn" data-back="area">←</button>
+    <div class="app-title" id="map-station-name">駅名</div>
+  </header>
+  <div class="filter-row" id="cc-filter">
+    <button class="chip active" data-filter="all">すべて</button>
+    <button class="chip" data-filter="125">125ccまで</button>
+    <button class="chip" data-filter="250">250ccまで</button>
+    <button class="chip" data-filter="large">大型OK</button>
+  </div>
+  <div id="map"></div>
+  <div class="map-list-head"><span id="map-count"></span></div>
+  <div id="parking-list" class="parking-list"></div>
+  <p id="parking-empty" class="empty-note" hidden></p>
+</section>
+
+<!-- 画面3: 詳細 -->
+<section id="view-detail" class="view">
+  <header class="app-header with-back">
+    <button class="back-btn" data-back="map">←</button>
+    <div class="app-title" id="detail-name">駐車場名</div>
+  </header>
+  <div id="detail-map"></div>
+  <div class="detail-card" id="detail-card"></div>
+</section>
+
+<!-- このアプリについて -->
+<section id="view-about" class="view">
+  <header class="app-header with-back">
+    <button class="back-btn" data-back="area">←</button>
+    <div class="app-title">このアプリについて</div>
+  </header>
+  <div class="about-body">
+    <div class="about-icon">🏍️</div>
+    <h1>バイク駐車場マップ</h1>
+    <p>排気量で絞れる、バイク専用の駐車場マップです。</p>
+    <div class="about-card">
+      <div class="about-row"><span class="about-label">データ出典</span><span>各駐車場の公式サイト・自治体等の公開情報（詳細は各駐車場の「情報源」リンク）／駅データ：国土交通省「国土数値情報（鉄道データ）」、OpenStreetMap</span></div>
+      <div class="about-row"><span class="about-label">地図</span><span>© OpenStreetMap contributors</span></div>
+      <div class="about-row"><span class="about-label">ご注意</span><span>料金・営業時間・対応排気量は変更される場合があります。ご利用前に情報源や現地の表示をご確認ください。「排気量の条件は未確認」と表示される駐車場は、情報源に排気量の明記がなかったものです。</span></div>
+    </div>
+  </div>
+</section>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
