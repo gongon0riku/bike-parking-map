@@ -1,0 +1,54 @@
+{
+  "station_id": "st0481",
+  "station_name": "舎人",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "区営（有料）舎人駅第2自転車駐車場",
+      "lat": 35.8042567,
+      "lon": 139.7706536,
+      "address": "東京都足立区入谷1-6",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ（集約サイトに車種制限50cc以下と記載）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 720,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "12時間毎200円"
+      },
+      "capacity": 15,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00009529&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値。座標は街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "舎人駅東第2自転車駐車場",
+      "lat": 35.804622,
+      "lon": 139.770439,
+      "address": "東京都足立区入谷1-6-11",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ（集約サイトに原付28台と記載）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は情報源に明記なし"
+      },
+      "capacity": 28,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00009529&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

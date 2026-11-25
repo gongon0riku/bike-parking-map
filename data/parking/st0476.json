@@ -1,0 +1,54 @@
+{
+  "station_id": "st0476",
+  "station_name": "梅島",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "梅島第1駐輪場",
+      "lat": 35.7736086,
+      "lon": 139.7947333,
+      "address": "東京都足立区梅田8-14",
+      "cc_class": "125",
+      "displacement_note": "車種制限125cc以下と集約サイトに記載",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 1440,
+        "base_yen": 400,
+        "max_yen_per_day": null,
+        "note": "1日400円（51cc以上）／1日300円（50cc以下）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00016842&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値。座標は街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "ST-Park梅島第2駐輪場（バイク）",
+      "lat": 35.7708561,
+      "lon": 139.7972433,
+      "address": "東京都足立区梅田8-1-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし（集約サイトでは小・大型バイク区画と記載）",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 240,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "入庫から1時間無料、無料時間含め4時間毎200円"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00007403&category=0812001",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値。台数は駐輪場掲載では5台、バイク専用掲載では6台と表記が異なる"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0485",
+  "station_name": "見沼代親水公園",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "CCP見沼代親水公園駅西口駐輪場（バイク）",
+      "lat": 35.8154864,
+      "lon": 139.7696172,
+      "address": "東京都足立区舎人4-2-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし（小型バイク区画と記載）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 480,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "バイク8時間200円。NAVITIMEの別掲載では8時間毎150円の表記もあり"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00009529&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値。座標は街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "見沼代親水公園駅自転車駐車場（足立区営）",
+      "lat": 35.81374,
+      "lon": 139.77027,
+      "address": "東京都足立区舎人5-21-26",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ（集約サイトに原付20台と記載）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は情報源に明記なし"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60500-ntj00188",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

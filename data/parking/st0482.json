@@ -1,0 +1,31 @@
+{
+  "station_id": "st0482",
+  "station_name": "舎人公園",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "舎人公園バイク置き場",
+      "lat": 35.7970992,
+      "lon": 139.7683594,
+      "address": "東京都足立区舎人公園",
+      "cc_class": "400",
+      "displacement_note": "400cc以下と集約サイトに記載",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "無料"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00009529&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値。営業時間は集約サイトで「おそらく24時間」と推定表記のため未確定。座標は舎人公園（舎人公園1-1）の位置で、置き場の正確な位置ではない"
+    }
+  ]
+}

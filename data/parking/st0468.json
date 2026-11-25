@@ -1,0 +1,31 @@
+{
+  "station_id": "st0468",
+  "station_name": "六町",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "六町駅自転車駐車場（足立区営）",
+      "lat": 35.784229,
+      "lon": 139.821383,
+      "address": "東京都足立区六町4-1-25",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ（集約サイトに原付42台と記載）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は情報源に明記なし"
+      },
+      "capacity": 42,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60500-ntj00190",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

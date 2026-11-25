@@ -1,0 +1,31 @@
+{
+  "station_id": "st0471",
+  "station_name": "千住大橋",
+  "ward": "足立区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコステーション21 ポンテポルタ千住駐輪場（バイク）",
+      "lat": 35.742475,
+      "lon": 139.7953086,
+      "address": "東京都足立区千住橋戸町1-13",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件は情報源に明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 720,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降12時間毎200円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?address=13121044000&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数等は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}
