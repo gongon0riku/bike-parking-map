@@ -1,0 +1,31 @@
+{
+  "station_id": "st0111",
+  "station_name": "竹橋",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "パレスサイドビル駐車場",
+      "lat": 35.6911419,
+      "lon": 139.7571039,
+      "address": "東京都千代田区一ツ橋1-1-1",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上OK（集約サイト表記）。車両制限：幅1m・長さ3m",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 50,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "50分100円、1日最大1,000円（入庫当日24時迄）。月極（自動二輪スペース、月額12,000円・税別）の案内もあり"
+      },
+      "capacity": 10,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://tokyo-bikepark.com/p/s180",
+      "data_note": "集約サイト（東京バイク駐車場マップ）の掲載値。月極情報は月極検索サイト（Bikeru）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

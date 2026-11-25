@@ -1,0 +1,75 @@
+{
+  "station_id": "st0107",
+  "station_name": "淡路町",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "NBパーキング神田多町",
+      "lat": 35.6936783,
+      "lon": 139.7687917,
+      "address": "東京都千代田区神田多町2-5-10",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 800,
+        "note": "1時間毎200円、入庫から24時間最大800円（1回限り）"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38164",
+      "data_note": "集約サイト（MotoHub）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "TOBU PARK神田司町駐車場",
+      "lat": 35.6937756,
+      "lon": 139.7683,
+      "address": "東京都千代田区神田司町2-14",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 800,
+        "note": "オールタイム100円/30分、24時間最大800円。バイク5台"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.tobu-re-parking.jp/parking/2103.html",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "バイクパーク千代田区神田小川町1丁目第二",
+      "lat": 35.6944839,
+      "lon": 139.7669444,
+      "address": "東京都千代田区神田小川町1-11",
+      "cc_class": "unlimited",
+      "displacement_note": "大型6台区画（1,000mm×2,300mm）。淡路町駅徒歩2分",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額10,450円（税込）"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/30708",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

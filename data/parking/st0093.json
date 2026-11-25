@@ -1,0 +1,75 @@
+{
+  "station_id": "st0093",
+  "station_name": "九段下",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク千代田区九段南1丁目",
+      "lat": 35.6943419,
+      "lon": 139.7513733,
+      "address": "東京都千代田区九段南1-6-5",
+      "cc_class": "unlimited",
+      "displacement_note": "大型15台区画（1,000mm×2,200mm）。九段下駅徒歩2分",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額16,500円（税込）〜"
+      },
+      "capacity": 15,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/250688",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク千代田区神田神保町3丁目",
+      "lat": 35.6953075,
+      "lon": 139.7541258,
+      "address": "東京都千代田区神田神保町3-9-15",
+      "cc_class": "unlimited",
+      "displacement_note": "大型4台区画（1,000mm×2,300mm）。九段下駅徒歩3分",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額17,600円（税込）"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/28093",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "九段下駅第2自転車駐車場",
+      "lat": 35.6955325,
+      "lon": 139.7534453,
+      "address": "東京都千代田区神田神保町3-7",
+      "cc_class": "125",
+      "displacement_note": "対応サイズ：原付（集約サイトの表記）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期（月極）のみ：区民3,500円/月、区民外7,000円/月"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://bike.i10.jp/parking_detail.php?parking_id=1231",
+      "data_note": "千代田区の駅前自転車駐車場。料金・台数・対応サイズは集約サイト（みんなのバイク駐車場）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0101",
+  "station_name": "日比谷",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "日比谷駐車場（日比谷自動車駐車場）",
+      "lat": 35.6737242,
+      "lon": 139.756435,
+      "address": "東京都千代田区日比谷公園1-2",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上OK（集約サイト表記）。車両制限：幅1m・長さ2m",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": 1100,
+        "note": "全日1時間110円、1日上限1,100円。自動二輪車の全日定期駐車券17,500円あり"
+      },
+      "capacity": 35,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.driveplaza.com/hibiya_parking/fee.html",
+      "data_note": "料金はドラぷら（NEXCO東日本）の公式案内の値。台数・排気量可否は集約サイトの掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "東京ミッドタウン日比谷駐車場",
+      "lat": 35.6737242,
+      "lon": 139.759185,
+      "address": "東京都千代田区有楽町1-1-2",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上OK（集約サイト表記）。車両制限：幅1.2m・長さ2.5m",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 250,
+        "max_yen_per_day": null,
+        "note": "バイク250円/1時間（施設公式）"
+      },
+      "capacity": 31,
+      "roof": true,
+      "hours": "6:00-26:00",
+      "monthly": null,
+      "source_url": "https://www.hibiya.tokyo-midtown.com/jp/access/car-bike/",
+      "data_note": "料金・営業時間は施設公式の値。台数・排気量可否は集約サイト（s-park等）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

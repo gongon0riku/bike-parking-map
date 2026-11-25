@@ -1,0 +1,77 @@
+{
+  "station_id": "st0097",
+  "station_name": "大手町",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "大手町パークビル駐車場",
+      "lat": 35.6867422,
+      "lon": 139.7625944,
+      "address": "東京都千代田区大手町1-1-1",
+      "cc_class": "unlimited",
+      "displacement_note": "全枠原付～大型OK（利用者ブログが現地表示を引用）。運営会社の施設概要でもバイク用17台を確認",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "最初の1時間無料、以降1時間毎100円、24時間最大500円"
+      },
+      "capacity": 17,
+      "roof": null,
+      "hours": "7:00-22:00（年末年始休業）",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38089",
+      "data_note": "料金・営業時間は集約サイト（MotoHub）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "Cycle Parking 大手町第一自転車駐輪場",
+      "lat": 35.6854375,
+      "lon": 139.7676253,
+      "address": "東京都千代田区大手町2-2先",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし（現地看板は原付50cc以下との利用者報告あり）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "2時間無料、10時間まで200円、以降5時間毎200円"
+      },
+      "capacity": 5,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/37933",
+      "data_note": "料金・台数は集約サイト（MotoHub）の掲載値。高架下に所在",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "大手町プレイス駐車場",
+      "lat": 35.6867867,
+      "lon": 139.7670833,
+      "address": "東京都千代田区大手町2-3-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "30分毎100円"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "7:00-23:00",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38343",
+      "data_note": "集約サイト（MotoHub）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

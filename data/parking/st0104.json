@@ -1,0 +1,77 @@
+{
+  "station_id": "st0104",
+  "station_name": "東京",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "JPタワー 丸の内パークイン",
+      "lat": 35.6796042,
+      "lon": 139.7651308,
+      "address": "東京都千代田区丸の内2-7-2",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし。車両制限：幅0.9m・長さ2.0m（集約サイト表記）",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "最初の60分無料、以降60分毎100円、24時間最大500円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "6:00-23:00",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/37891",
+      "data_note": "集約サイト（MotoHub）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "丸の内永楽ビル駐車場",
+      "lat": 35.6844431,
+      "lon": 139.7649392,
+      "address": "東京都千代田区丸の内1-4-1",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量の制限なし（s-park表記）",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "最初の1時間無料、以降1時間100円、6-24時間まで500円"
+      },
+      "capacity": 25,
+      "roof": true,
+      "hours": "6:00-24:30（1月1日・施設点検日は休業）",
+      "monthly": null,
+      "source_url": "https://www.s-park.jp/map/bike/600",
+      "data_note": "所在地はs-park・Marunouchi.comの表記（丸の内1-4-1）を採用。一部集約サイトでは丸の内1-4-5、台数も14台・50台など異なる掲載あり",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "丸の内仲通りビルガレージ",
+      "lat": 35.6801181,
+      "lon": 139.7626753,
+      "address": "東京都千代田区丸の内2-2-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし。車両制限：幅1.0m・長さ2.0m、車重400kg以上は不可（集約サイト表記）",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "最初の1時間無料、以降1時間100円、6-24時間まで500円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "7:00-24:00",
+      "monthly": null,
+      "source_url": "https://www.marunouchi.com/information/bicycle-bike/",
+      "data_note": "バイク駐輪場の設置と料金体系は三菱地所の公式案内（Marunouchi.com）で確認。台数・車両制限は集約サイト（s-park）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

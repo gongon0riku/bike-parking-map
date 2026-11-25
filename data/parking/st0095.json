@@ -1,0 +1,75 @@
+{
+  "station_id": "st0095",
+  "station_name": "半蔵門",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "半蔵門バイク駐車場1",
+      "lat": 35.6871219,
+      "lon": 139.7409244,
+      "address": "東京都千代田区一番町8-15",
+      "cc_class": "unknown",
+      "displacement_note": "DS400等不可・ビッグスクーター一部不可・3輪不可・改造車両不可（情報源表記）。排気量の上限の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ：11,000円（税込）"
+      },
+      "capacity": 11,
+      "roof": null,
+      "hours": "24時間出入可",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-20561.html",
+      "data_note": "日本二輪車普及安全協会の掲載情報（最終更新2017年9月19日）と古いため、利用前に要確認",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク千代田区麹町1丁目",
+      "lat": 35.6845897,
+      "lon": 139.7425803,
+      "address": "東京都千代田区麹町1-6",
+      "cc_class": "unlimited",
+      "displacement_note": "大型2台区画（1,000mm×2,000mm、1,000mm×2,600mm）。半蔵門駅徒歩2分",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額13,200円（税込）"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/30247",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "バイクパーク千代田区一番町",
+      "lat": 35.6885525,
+      "lon": 139.7438272,
+      "address": "東京都千代田区一番町2-3",
+      "cc_class": "unlimited",
+      "displacement_note": "大型5台区画（1,000mm×2,000mm）。半蔵門駅徒歩5分",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額11,000円（税込）"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.81989.jp/parking/detail/28154",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

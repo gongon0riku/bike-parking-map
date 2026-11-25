@@ -1,0 +1,76 @@
+{
+  "station_id": "st0108",
+  "station_name": "神保町",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "千代田第１神田神保町駐車場（名鉄協商パーキング）",
+      "lat": 35.6964381,
+      "lon": 139.7586175,
+      "address": "東京都千代田区神田神保町1-12",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 1100,
+        "note": "8:00-22:00は60分200円、22:00-8:00は60分100円、入庫より24時間まで最大1,100円。月極15,400円もあり（集約サイト）"
+      },
+      "capacity": 8,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://mkp.jp/search/detail/008558-1/",
+      "data_note": "料金・営業時間は運営会社（名鉄協商）公式の値。月極料金は集約サイト（MotoHub）の掲載値で、時間貸8台＋月極8台との掲載もあり",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "TOBU PARK神田神保町3丁目バイク駐輪場",
+      "lat": 35.6955269,
+      "lon": 139.7550425,
+      "address": "東京都千代田区神田神保町3-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の明記なし。車室サイズ：900mm×1,900mm（No.1-2）、900mm×1,720mm（No.3-8）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 900,
+        "note": "オールタイム100円/30分、6時間最大500円、24時間最大900円"
+      },
+      "capacity": 8,
+      "roof": false,
+      "hours": "不明",
+      "monthly": false,
+      "source_url": "https://www.tobu-re-parking.jp/parking/873.html",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "神田神保町3丁目バイク駐車場（コインパーク）",
+      "lat": 35.6960519,
+      "lon": 139.7530758,
+      "address": "東京都千代田区神田神保町3-4",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 800,
+        "note": "200円/60分、駐車後24時間以内最大800円"
+      },
+      "capacity": 13,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/8683",
+      "data_note": "集約サイト（MotoHub）の掲載値。情報の日付が2020年10月と古いため、利用前に要確認",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "station_id": "st0115",
+  "station_name": "麹町",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク千代田区麹町4丁目",
+      "lat": 35.6836175,
+      "lon": 139.7371525,
+      "address": "東京都千代田区麹町4-1-5",
+      "cc_class": "unlimited",
+      "displacement_note": "大型4台区画（950mm×2,300mm）。麹町駅徒歩1分",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額14,300円（税込）"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/240064",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク千代田区麹町5丁目",
+      "lat": 35.6840644,
+      "lon": 139.7335203,
+      "address": "東京都千代田区麹町5-5-2",
+      "cc_class": "unlimited",
+      "displacement_note": "大型2台区画（950mm×2,350mm）。麹町駅徒歩5分",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額14,850円（税込）"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/200420",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

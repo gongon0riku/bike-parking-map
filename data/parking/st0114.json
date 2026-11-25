@@ -1,0 +1,77 @@
+{
+  "station_id": "st0114",
+  "station_name": "飯田橋",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "東京しごとセンター駐車場",
+      "lat": 35.7005575,
+      "lon": 139.7495758,
+      "address": "東京都千代田区飯田橋3-10-3",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量の制限なし（集約サイト表記）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 1000,
+        "note": "1日1回1,000円"
+      },
+      "capacity": 21,
+      "roof": true,
+      "hours": "入出庫 8:00-22:00",
+      "monthly": null,
+      "source_url": "https://tokyo-bikepark.com/p/s304",
+      "data_note": "集約サイト（東京バイク駐車場マップ）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "飯田橋プラーノ駐輪場",
+      "lat": 35.7008461,
+      "lon": 139.7450878,
+      "address": "東京都千代田区富士見2-7",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 360,
+        "base_yen": 250,
+        "max_yen_per_day": null,
+        "note": "最初の1時間無料、以降6時間毎250円"
+      },
+      "capacity": 4,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/37546",
+      "data_note": "集約サイト（MotoHub）の掲載値。座標は街区レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "サイカパーク飯田橋3丁目",
+      "lat": 35.7020131,
+      "lon": 139.7489869,
+      "address": "東京都千代田区飯田橋3-13",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 2200,
+        "note": "1時間毎100円、24時間最大2,200円"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/37769",
+      "data_note": "集約サイト（MotoHub）の掲載値。座標は街区レベルの精度",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

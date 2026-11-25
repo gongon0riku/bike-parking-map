@@ -1,0 +1,31 @@
+{
+  "station_id": "st0094",
+  "station_name": "二重橋前",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "丸の内二重橋ビル駐車場",
+      "lat": 35.6777633,
+      "lon": 139.7615033,
+      "address": "東京都千代田区丸の内3-2-3",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上OK（集約サイト表記）。サイドカー付車・トライクは不可",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "最初の1時間無料、以降1時間100円、入庫から24時間まで最大500円"
+      },
+      "capacity": 28,
+      "roof": true,
+      "hours": "入出庫 7:00-23:00",
+      "monthly": null,
+      "source_url": "https://www.s-park.jp/map/bike/932",
+      "data_note": "料金・台数・排気量可否は集約サイト（s-park）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

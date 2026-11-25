@@ -1,0 +1,53 @@
+{
+  "station_id": "st0098",
+  "station_name": "小川町",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "バイクパーク千代田区神田小川町1丁目",
+      "lat": 35.6952383,
+      "lon": 139.7661414,
+      "address": "東京都千代田区神田小川町1-6",
+      "cc_class": "unlimited",
+      "displacement_note": "大型3台区画。小川町駅徒歩2分",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額12,100円（税込）"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/26537",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "アイパーク神田小川町第1駐車場",
+      "lat": 35.69407,
+      "lon": 139.7641806,
+      "address": "東京都千代田区神田小川町2-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク料金は未確認（運営会社の開設案内に料金の記載なし）"
+      },
+      "capacity": 13,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.i-park.co.jp/news/20220503-281/",
+      "data_note": "運営会社（アイパーク）の開設案内（2022年）の値。バイク13台の内訳は時間貸9台・月極4台との別掲載あり",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
