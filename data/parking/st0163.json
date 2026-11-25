@@ -1,0 +1,77 @@
+{
+  "station_id": "st0163",
+  "station_name": "曳舟",
+  "ward": "墨田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 480,
+        "base_yen": 160,
+        "max_yen_per_day": null,
+        "note": "バイクは8時間ごとに160円"
+      },
+      "capacity": 4,
+      "roof": true,
+      "hours": "不明",
+      "monthly": false,
+      "data_note": "運営会社（東武不動産）の掲載値。座標は東向島2丁目の地区レベル（地番のため）。実際は曳舟駅の高架下",
+      "checked_date": "2026-11-25",
+      "name": "TOBU PARK曳舟駅高架下駐輪場",
+      "lat": 35.717529,
+      "lon": 139.815334,
+      "address": "東京都墨田区東向島2-88-1",
+      "cc_class": "125",
+      "displacement_note": "125cc以下（車室サイズ1,000mm×2,000mm）",
+      "source_url": "https://www.tobu-re-parking.jp/parking/994.html",
+      "id": "p001"
+    },
+    {
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "1時間100円、入庫から8時間まで500円（繰返しあり）"
+      },
+      "capacity": 6,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "data_note": "集約サイトの掲載値",
+      "checked_date": "2026-11-25",
+      "name": "NTTル・パルク曳舟駅前第1バイク駐車場",
+      "lat": 35.718671,
+      "lon": 139.820798,
+      "address": "東京都墨田区京島1-44-3",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上可（排気量100cc以下のバイクは不可）。サイズ制限：幅1m・長さ2.5m",
+      "source_url": "https://tokyo-bikepark.com/p/s807",
+      "id": "p002"
+    },
+    {
+      "fees": {
+        "free_minutes": 180,
+        "base_minutes": 360,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "3時間無料、以降6時間ごとに200円"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "data_note": "集約サイト（MotoHub、出典bikepark.in）の掲載値",
+      "checked_date": "2026-11-25",
+      "name": "Tacyサイクルパーク イトーヨーカドー曳舟1F",
+      "lat": 35.71731,
+      "lon": 139.817828,
+      "address": "東京都墨田区京島1-2-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "source_url": "https://motohub.jp/parking/37618",
+      "id": "p003"
+    }
+  ]
+}

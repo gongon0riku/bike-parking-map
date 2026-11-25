@@ -1,0 +1,54 @@
+{
+  "station_id": "st0161",
+  "station_name": "小村井",
+  "ward": "墨田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "予約制（特P）。平日300円/24時間。月極プランもあり（月額5,500円〜）"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "data_note": "予約サービス「特P」の掲載値",
+      "checked_date": "2026-11-25",
+      "name": "【予約制：特P】《バイク専用》小村井駅前駐車場",
+      "lat": 35.710179,
+      "lon": 139.82869,
+      "address": "東京都墨田区立花4-4-2",
+      "cc_class": "unknown",
+      "displacement_note": "車室サイズ：長さ250cm×幅100cm",
+      "source_url": "https://toku-p.earth-car.com/parking-detail/310010101",
+      "id": "p001"
+    },
+    {
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額4,000円"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "data_note": "JMPSAの掲載値（2021年更新）。運営は日本バイクパーキング。座標は街区レベル",
+      "checked_date": "2026-11-25",
+      "name": "小村井バイク駐車場2",
+      "lat": 35.709699,
+      "lon": 139.83039,
+      "address": "東京都墨田区立花4-11",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-83235.html",
+      "id": "p002"
+    }
+  ]
+}

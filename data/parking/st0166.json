@@ -1,0 +1,77 @@
+{
+  "station_id": "st0166",
+  "station_name": "東向島",
+  "ward": "墨田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額5,500円（税込）"
+      },
+      "capacity": 46,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "data_note": "運営会社（東武不動産）の掲載値。所在地は地番のため座標は地区レベル",
+      "checked_date": "2026-11-25",
+      "name": "TOBU PARK東向島2丁目駐車場（バイク）",
+      "lat": 35.717529,
+      "lon": 139.815334,
+      "address": "東京都墨田区東向島2-157-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "source_url": "https://www.tobu-re-parking.jp/parking/911.html",
+      "id": "p001"
+    },
+    {
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額3,850円（税込）"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "data_note": "運営会社（株式会社バイクパーク）の掲載値。空き状況は要問い合わせ",
+      "checked_date": "2026-11-25",
+      "name": "バイクパーク 墨田区東向島4丁目",
+      "lat": 35.725477,
+      "lon": 139.816377,
+      "address": "東京都墨田区東向島4-12-17",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画のみ（3台とも大型）",
+      "source_url": "https://www.81989.jp/parking/detail/29346",
+      "id": "p002"
+    },
+    {
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額4,400円（税込）"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "data_note": "運営会社（株式会社バイクパーク）の掲載値。空き状況は要問い合わせ",
+      "checked_date": "2026-11-25",
+      "name": "バイクパーク 墨田区東向島6丁目",
+      "lat": 35.722649,
+      "lon": 139.818829,
+      "address": "東京都墨田区東向島6-1-5",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画のみ（8台とも大型）",
+      "source_url": "https://www.81989.jp/parking/detail/27748",
+      "id": "p003"
+    }
+  ]
+}

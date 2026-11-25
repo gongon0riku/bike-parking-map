@@ -1,0 +1,54 @@
+{
+  "station_id": "st0165",
+  "station_name": "東あずま",
+  "ward": "墨田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額4,400円（税込）"
+      },
+      "capacity": 16,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "data_note": "運営会社（株式会社バイクパーク）の掲載値。空き状況は要問い合わせ",
+      "checked_date": "2026-11-25",
+      "name": "バイクパーク 墨田区立花4丁目第五",
+      "lat": 35.708824,
+      "lon": 139.832879,
+      "address": "東京都墨田区立花4-20-14",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画のみ（16台とも大型）",
+      "source_url": "https://81989.jp/parking/detail/240351",
+      "id": "p001"
+    },
+    {
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極のみ。月額4,400円（税込）"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "data_note": "運営会社（株式会社バイクパーク）の掲載値。空き状況は要問い合わせ",
+      "checked_date": "2026-11-25",
+      "name": "バイクパーク 墨田区立花3丁目第三",
+      "lat": 35.706641,
+      "lon": 139.832609,
+      "address": "東京都墨田区立花3-12-3",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画のみ（2台とも大型）",
+      "source_url": "https://www.81989.jp/parking/detail/220451",
+      "id": "p002"
+    }
+  ]
+}
