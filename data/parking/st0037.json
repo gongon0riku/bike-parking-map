@@ -1,0 +1,31 @@
+{
+  "station_id": "st0037",
+  "station_name": "豪徳寺",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "小田急 豪徳寺第2駐車場（オダクル豪徳寺第2）",
+      "lat": 35.6538014,
+      "lon": 139.6473192,
+      "address": "東京都世田谷区豪徳寺1-43",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は情報源で未確認"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spt=60502.2187",
+      "checked_date": "2026-11-25",
+      "data_note": "NAVITIMEでバイク駐車場として掲載。世田谷区公式の民営駐輪場一覧にも「オダクル豪徳寺第2（豪徳寺1丁目43番）」として掲載。料金・営業時間は未確認"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0030",
+  "station_name": "用賀",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "用賀駐車場",
+      "lat": 35.6261108,
+      "lon": 139.6321675,
+      "address": "東京都世田谷区用賀4-5先",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪車専用駐車場（世田谷区がエコロシティ株式会社に用地を貸し付け、同社が運営）。排気量の上限は情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 40,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "40分100円、24時間最大500円（くり返しなし）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4495.html",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は用賀4丁目5番地の街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "世田谷区立用賀自転車等駐車場",
+      "lat": 35.6261108,
+      "lon": 139.6321675,
+      "address": "東京都世田谷区用賀4-5-5先",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区立自転車等駐車場の原付枠のため、125ccは利用不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付：日ぎめ1日240円／月ぎめ月額3,300円"
+      },
+      "capacity": 48,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4456.html",
+      "checked_date": "2026-11-25",
+      "data_note": "原付の収容台数は月ぎめ36台・日ぎめ12台（世田谷区公式）"
+    }
+  ]
+}

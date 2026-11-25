@@ -1,0 +1,31 @@
+{
+  "station_id": "st0013",
+  "station_name": "千歳船橋",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "千歳船橋第1駐車場（みんちゅうSHARE-LIN）",
+      "lat": 35.648131,
+      "lon": 139.626628,
+      "address": "東京都世田谷区経堂4-618-3",
+      "cc_class": "unlimited",
+      "displacement_note": "125cc以上のバイク用（中型バイク用・大型バイク用区画）と明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "500円/日（予約制）"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60516-d729&from=view.around.name",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・座標は集約サイト（NAVITIME）の掲載値。利用はみんちゅうSHARE-LINでの予約制"
+    }
+  ]
+}

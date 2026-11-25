@@ -1,0 +1,31 @@
+{
+  "station_id": "st0033",
+  "station_name": "経堂",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "世田谷区立経堂南自転車等駐車場",
+      "lat": 35.6503578,
+      "lon": 139.637165,
+      "address": "東京都世田谷区経堂1-12-11",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区立自転車等駐車場の原付枠のため、125ccは利用不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付 日ぎめ1日240円"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4447.html",
+      "checked_date": "2026-11-25",
+      "data_note": "原付は日ぎめ6台のみ（世田谷区公式）"
+    }
+  ]
+}

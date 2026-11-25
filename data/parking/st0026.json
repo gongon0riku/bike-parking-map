@@ -1,0 +1,31 @@
+{
+  "station_id": "st0026",
+  "station_name": "桜上水",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "世田谷区立桜上水南自転車等駐車場",
+      "lat": 35.6667747,
+      "lon": 139.6321933,
+      "address": "東京都世田谷区桜上水4-18-13",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区立自転車等駐車場の原付枠のため、125ccは利用不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付：日ぎめ1日240円／月ぎめ月額3,300円"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4438.html",
+      "checked_date": "2026-11-25",
+      "data_note": "原付の収容台数は月ぎめ10台・日ぎめ10台（世田谷区公式）"
+    }
+  ]
+}

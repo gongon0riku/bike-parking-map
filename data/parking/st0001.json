@@ -1,0 +1,54 @@
+{
+  "station_id": "st0001",
+  "station_name": "三軒茶屋",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "三軒茶屋中央駐車場",
+      "lat": 35.6416872,
+      "lon": 139.6688994,
+      "address": "東京都世田谷区三軒茶屋2-11",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪車専用駐車場（世田谷区がエコロシティ株式会社に用地を貸し付け、同社が運営）。排気量の上限は情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 700,
+        "note": "60分100円、24時間最大700円（くり返しなし）"
+      },
+      "capacity": 28,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4495.html",
+      "checked_date": "2026-11-25",
+      "data_note": "首都高速道路高架下"
+    },
+    {
+      "id": "p002",
+      "name": "世田谷区立三軒茶屋中央自転車等駐車場",
+      "lat": 35.6416872,
+      "lon": 139.6688994,
+      "address": "東京都世田谷区三軒茶屋2-11先",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区立自転車等駐車場の原付枠のため、125ccは利用不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付：日ぎめ1日240円／月ぎめ月額3,300円"
+      },
+      "capacity": 32,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4453.html",
+      "checked_date": "2026-11-25",
+      "data_note": "原付の収容台数は月ぎめ1台・日ぎめ31台（世田谷区公式）"
+    }
+  ]
+}

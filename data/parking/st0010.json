@@ -1,0 +1,76 @@
+{
+  "station_id": "st0010",
+  "station_name": "二子玉川",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "二子玉川西駐車場",
+      "lat": 35.6140817,
+      "lon": 139.6253819,
+      "address": "東京都世田谷区玉川3-15-3",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪車専用駐車場（世田谷区がエコロシティ株式会社に用地を貸し付け、同社が運営）。排気量の上限は情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 500,
+        "note": "60分200円、24時間最大500円（くり返しなし）"
+      },
+      "capacity": 18,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4495.html",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "世田谷区立二子玉川西自転車等駐車場",
+      "lat": 35.6140817,
+      "lon": 139.6253819,
+      "address": "東京都世田谷区玉川3-15-3",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区立自転車等駐車場の原付枠のため、125ccは利用不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付：日ぎめ1日240円／月ぎめ月額3,300円"
+      },
+      "capacity": 42,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4457.html",
+      "checked_date": "2026-11-25",
+      "data_note": "原付の収容台数は月ぎめ10台・日ぎめ32台（世田谷区公式）"
+    },
+    {
+      "id": "p003",
+      "name": "東急二子玉川駅駐輪場",
+      "lat": 35.6146039,
+      "lon": 139.6276681,
+      "address": "東京都世田谷区玉川2-24",
+      "cc_class": "125",
+      "displacement_note": "車種制限125cc以下と集約サイトに明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "1日320円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=06068.188&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・車種制限は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

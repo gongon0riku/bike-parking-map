@@ -1,0 +1,31 @@
+{
+  "station_id": "st0005",
+  "station_name": "下北沢",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "下北沢テラス駐車場",
+      "lat": 35.6566433,
+      "lon": 139.6638017,
+      "address": "東京都世田谷区代田2-13-18",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量による制限なしと集約サイトに明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 380,
+        "max_yen_per_day": null,
+        "note": "1時間380円、日額1,150円（akippa予約制）"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://motohub.jp/parking/48388",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（MotoHub）の掲載値。利用はakippaでの予約制"
+    }
+  ]
+}
