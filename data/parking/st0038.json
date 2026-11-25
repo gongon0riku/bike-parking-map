@@ -1,0 +1,31 @@
+{
+  "station_id": "st0038",
+  "station_name": "駒沢大学",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "世田谷区立駒沢自転車等駐車場",
+      "lat": 35.6331242,
+      "lon": 139.66033,
+      "address": "東京都世田谷区駒沢2-6-17",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区立自転車等駐車場の原付枠のため、125ccは利用不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付：日ぎめ1日240円／月ぎめ月額3,300円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4454.html",
+      "checked_date": "2026-11-25",
+      "data_note": "原付の収容台数は月ぎめ6台・日ぎめ4台（世田谷区公式）"
+    }
+  ]
+}

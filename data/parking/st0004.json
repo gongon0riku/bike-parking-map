@@ -1,0 +1,31 @@
+{
+  "station_id": "st0004",
+  "station_name": "上野毛",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "ライダーピット上野毛",
+      "lat": 35.6102214,
+      "lon": 139.6419061,
+      "address": "東京都世田谷区中町1-25",
+      "cc_class": "unknown",
+      "displacement_note": "月極専門のバイク駐車場。排気量の上限は公式ページに明記なし（平置きライン：幅100cm×奥行200cm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額11,000円（税込）〜（平置きライン）。ボックスタイプは月額18,700円（税込）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.rider-pit.jp/area/tokyo/setagaya-ku/riderpit-7.html",
+      "checked_date": "2026-11-25",
+      "data_note": "月極専門。利用時間は公式ページに明記なし"
+    }
+  ]
+}

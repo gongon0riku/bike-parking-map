@@ -1,0 +1,77 @@
+{
+  "station_id": "st0019",
+  "station_name": "成城学園前",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコステーション21 成城コルティ指定駐輪場南",
+      "lat": 35.6400967,
+      "lon": 139.5998131,
+      "address": "東京都世田谷区成城2-39",
+      "cc_class": "unlimited",
+      "displacement_note": "自動二輪の料金案内あり（3時間ごと300円）。原付（125cc以下）は3時間ごと200円",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 180,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降3時間ごと 原付（125cc以下）200円・自動二輪300円"
+      },
+      "capacity": 12,
+      "roof": null,
+      "hours": "10:00-25:15",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=01386.750&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "成城学園前第2時間貸し駐輪場",
+      "lat": 35.6399103,
+      "lon": 139.5942892,
+      "address": "東京都世田谷区成城5-265-2",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "1時間ごと110円、1日600円"
+      },
+      "capacity": 18,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=01386.750&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。座標は成城5丁目レベル。営業時間は情報源に明記なし"
+    },
+    {
+      "id": "p003",
+      "name": "世田谷区立成城北第二自転車等駐車場",
+      "lat": 35.6415383,
+      "lon": 139.5988908,
+      "address": "東京都世田谷区成城6-14-10",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区立自転車等駐車場の原付枠のため、125ccは利用不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付 日ぎめ1日240円"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4450.html",
+      "checked_date": "2026-11-25",
+      "data_note": "原付は日ぎめ8台のみ（世田谷区公式）"
+    }
+  ]
+}

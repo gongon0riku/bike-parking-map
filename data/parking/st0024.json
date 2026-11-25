@@ -1,0 +1,54 @@
+{
+  "station_id": "st0024",
+  "station_name": "松原",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "松原駐車場",
+      "lat": 35.6630642,
+      "lon": 139.6417867,
+      "address": "東京都世田谷区赤堤4-22先",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪車専用駐車場（世田谷区がエコロシティ株式会社に用地を貸し付け、同社が運営）。排気量の上限は情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 40,
+        "base_yen": 100,
+        "max_yen_per_day": 300,
+        "note": "時間貸：40分100円、24時間最大300円（くり返しなし）。月ぎめ：月額5,500円"
+      },
+      "capacity": 9,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4495.html",
+      "checked_date": "2026-11-25",
+      "data_note": "収容台数は時間貸3台・月ぎめ6台（世田谷区公式）。座標は赤堤4丁目22番の街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "世田谷区立松原自転車等駐車場",
+      "lat": 35.660338,
+      "lon": 139.641918,
+      "address": "東京都世田谷区赤堤4-1-1先",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区立自転車等駐車場の原付枠のため、125ccは利用不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付：日ぎめ1日240円／月ぎめ月額3,300円"
+      },
+      "capacity": 14,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4463.html",
+      "checked_date": "2026-11-25",
+      "data_note": "原付の収容台数は月ぎめ11台・日ぎめ3台（世田谷区公式）。座標はNAVITIME掲載値"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0012",
+  "station_name": "千歳烏山",
+  "ward": "世田谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "世田谷区立烏山中央自転車等駐車場",
+      "lat": 35.66726,
+      "lon": 139.6015064,
+      "address": "東京都世田谷区南烏山5-17-23",
+      "cc_class": "250",
+      "displacement_note": "集約サイト（NAVITIME）に車種制限250cc以下と明記。世田谷区公式では原付の時間ぎめ枠（52台）として掲載",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "時間ぎめ：4時間以内100円、10時間以内200円、13時間以内300円、24時間以内400円、以降8時間ごとに100円加算"
+      },
+      "capacity": 52,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4467.html",
+      "checked_date": "2026-11-25",
+      "data_note": "料金は世田谷区公式の原付時間ぎめ料金。排気量上限250cc以下はNAVITIME掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "世田谷区立烏山北自転車等駐車場",
+      "lat": 35.667635,
+      "lon": 139.5990953,
+      "address": "東京都世田谷区南烏山6-6先",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。区立自転車等駐車場の原付枠のため、125ccは利用不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付 月ぎめ：月額3,300円・2,700円"
+      },
+      "capacity": 15,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.setagaya.lg.jp/01420/4467.html",
+      "checked_date": "2026-11-25",
+      "data_note": "原付は月ぎめ15台のみ（世田谷区公式）"
+    }
+  ]
+}
