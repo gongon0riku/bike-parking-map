@@ -1,0 +1,76 @@
+{
+  "station_id": "st0233",
+  "station_name": "新宿",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "新宿駅西口駐車場",
+      "lat": 35.692785,
+      "lon": 139.698267,
+      "address": "東京都新宿区西新宿1丁目西口地下街1号",
+      "cc_class": "unlimited",
+      "displacement_note": "大型自動二輪車・普通自動二輪車可（側車付きを除く）と情報源に明記",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 210,
+        "max_yen_per_day": null,
+        "note": "30分210円・60分420円。情報源により30分260円の掲載もあり、料金改定の可能性あり"
+      },
+      "capacity": 56,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.odakyu.jp/station/shinjuku/parking/",
+      "data_note": "台数は時間貸20台＋月極36台。料金・排気量は日本二輪車普及安全協会ページと集約サイトで確認。座標は街区代表点",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "サイカパーク新宿三丁目自動二輪駐車場",
+      "lat": 35.690113,
+      "lon": 139.704967,
+      "address": "東京都新宿区新宿3-1",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪専用エリア。大型可否の明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "最初30分無料、以降1時間110円（キャッシュレス決済は100円）"
+      },
+      "capacity": 29,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000337627.pdf",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "NPC24H新宿3丁目第4パーキング",
+      "lat": 35.691613,
+      "lon": 139.706444,
+      "address": "東京都新宿区新宿3-11-14",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量100cc以下のバイクは不可と明記。幅0.9m・長さ2.3mのサイズ制限あり",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "30分110円、入庫から12時間最大900円（繰返しあり）"
+      },
+      "capacity": 5,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.s-park.jp/list/bike?p=3",
+      "data_note": "s-park一覧ページの掲載値。座標は街区代表点",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
