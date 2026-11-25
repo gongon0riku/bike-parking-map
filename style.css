@@ -165,7 +165,19 @@ body {
 .kana-head {
   font-size: 14px; font-weight: 700; color: var(--teal-dark);
   padding: 14px 4px 6px;
+  scroll-margin-top: 120px;
 }
+.kana-jump {
+  display: flex; gap: 6px; flex-wrap: wrap;
+  position: sticky; top: 57px; z-index: 300;
+  background: var(--bg); padding: 8px 0 10px;
+}
+.kana-jump-btn {
+  flex: 1; min-width: 30px;
+  border: 1.5px solid var(--teal); color: var(--teal-dark); background: #fff;
+  border-radius: 999px; padding: 6px 0; font-size: 14px; font-weight: 700; cursor: pointer;
+}
+.kana-jump-btn:active { background: var(--teal); color: #fff; }
 .area-back {
   background: none; border: none; color: var(--teal-dark); font-size: 15px; font-weight: 700;
   cursor: pointer; padding: 4px 4px 10px; display: block;
