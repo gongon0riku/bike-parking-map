@@ -1,0 +1,31 @@
+{
+  "station_id": "st0100",
+  "station_name": "新御茶ノ水",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "ワテラス駐車場（オートバイ駐輪場）",
+      "lat": 35.6976217,
+      "lon": 139.7671025,
+      "address": "東京都千代田区神田淡路町2-101",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上OK（集約サイト表記）。車両制限：全長2.4m以下・全幅0.85m以下",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 300,
+        "max_yen_per_day": 1200,
+        "note": "7:00-21:00は60分300円・最大1,200円、21:00-7:00は120分100円（施設公式）"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.waterras.com/access.html",
+      "data_note": "料金・台数は施設公式ページの値。排気量可否は集約サイト（東京バイク駐車場マップ）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

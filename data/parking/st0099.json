@@ -1,0 +1,75 @@
+{
+  "station_id": "st0099",
+  "station_name": "岩本町",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "神田岩本町ビルみんちゅうバイク駐車場",
+      "lat": 35.6938064,
+      "lon": 139.7756186,
+      "address": "東京都千代田区岩本町2-4-10",
+      "cc_class": "unknown",
+      "displacement_note": "車両制限：長さ200cm・幅100cm。排気量の明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 1440,
+        "base_yen": 700,
+        "max_yen_per_day": 700,
+        "note": "時間貸700円/24時間、月極14,000円。事前予約制（みんちゅうSHARE-LINアプリ）"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-144812.html",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "岩本町バイク駐車場1",
+      "lat": 35.6945453,
+      "lon": 139.7776881,
+      "address": "東京都千代田区岩本町2-15-6",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額10,000円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "http://www.bike-p.co.jp/parking_list.html",
+      "data_note": "運営会社（日本バイクパーキング）の一覧ページの掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "バイクパーク千代田区岩本町2丁目第三",
+      "lat": 35.6941119,
+      "lon": 139.7773964,
+      "address": "東京都千代田区岩本町2-14-3",
+      "cc_class": "unlimited",
+      "displacement_note": "大型1台区画（1,000mm×2,000mm）。建物下で屋根あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額14,850円（税込）"
+      },
+      "capacity": 1,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.81989.jp/parking/detail/210097",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

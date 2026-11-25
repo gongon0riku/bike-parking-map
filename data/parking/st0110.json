@@ -1,0 +1,77 @@
+{
+  "station_id": "st0110",
+  "station_name": "秋葉原",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "秋葉原UDXパーキング",
+      "lat": 35.7004861,
+      "lon": 139.7725519,
+      "address": "東京都千代田区外神田4-14-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "30分毎100円、24時間最大1,000円。2026年12月10日から23:00-5:00はバイク入庫不可"
+      },
+      "capacity": 124,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.ntt-leparc.co.jp/mobility/udx/",
+      "data_note": "運営会社（NTTル・パルク）公式ページで確認。料金は集約サイトでも同値を確認",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "JKSバイクパーク秋葉原",
+      "lat": 35.6999472,
+      "lon": 139.7732603,
+      "address": "東京都千代田区神田練塀町8-2",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク駐車可能（運営会社公式の表記）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 1000,
+        "note": "8:00-22:00は1時間毎200円、22:00-8:00は1時間毎100円、当日24時まで最大1,000円"
+      },
+      "capacity": 19,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.jks-jrg.jp/search/detail_00958/",
+      "data_note": "料金・大型可は運営会社公式の値。台数19台は集約サイト（MotoHub）の掲載値。高架下に所在",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "トミーバイクパーキング秋葉原",
+      "lat": 35.6998667,
+      "lon": 139.7770519,
+      "address": "東京都千代田区神田和泉町1-8-4",
+      "cc_class": "unknown",
+      "displacement_note": "車室900mm×2,400mm。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額9,900円"
+      },
+      "capacity": 4,
+      "roof": false,
+      "hours": "24時間出し入れ可",
+      "monthly": true,
+      "source_url": "https://tomybikepark.com/parking/akihabara",
+      "data_note": "住所は神田和泉町1-8-4隣（運営会社ページ表記）",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "station_id": "st0112",
+  "station_name": "赤坂見附",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "サイカパーク赤坂見附オートバイ駐車場",
+      "lat": 35.6769628,
+      "lon": 139.7363028,
+      "address": "東京都港区赤坂3-9",
+      "cc_class": "unlimited",
+      "displacement_note": "バイク54台（125cc以上も可）（運営会社公式の表記）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 700,
+        "note": "60分毎100円、入場後12時間まで最大700円（開設当時の料金）"
+      },
+      "capacity": 54,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.cyca.co.jp/case/detail/3",
+      "data_note": "所在地は港区赤坂3丁目9番先（赤坂見附駅前・港区の駐車場整備事業）。座標は街区レベルの精度。料金は運営会社ページ記載の開設当時のもの",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "東京ガーデンテラス紀尾井町駐車場",
+      "lat": 35.6792675,
+      "lon": 139.7374497,
+      "address": "東京都千代田区紀尾井町1-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 20,
+        "base_yen": 300,
+        "max_yen_per_day": 990,
+        "note": "バイク基本料金：20分300円（8:00-22:00）、60分110円（22:00-8:00）。当日最大990円（24時まで）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.tgt-kioicho.jp/access/",
+      "data_note": "施設公式ページの値。バイク専用台数の明記なし（駐車場全体254台は自動車含む）",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

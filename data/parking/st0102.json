@@ -1,0 +1,53 @@
+{
+  "station_id": "st0102",
+  "station_name": "有楽町",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "東京国際フォーラム駐車場",
+      "lat": 35.6769467,
+      "lon": 139.7635033,
+      "address": "東京都千代田区丸の内3-5-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "オートバイ100円/60分（施設公式FAQ）"
+      },
+      "capacity": 10,
+      "roof": true,
+      "hours": "7:00-23:30",
+      "monthly": false,
+      "source_url": "https://www.t-i-forum.co.jp/contact/faq/access/",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "新国際ビル バイク専用駐輪場",
+      "lat": 35.6766356,
+      "lon": 139.7621867,
+      "address": "東京都千代田区丸の内3-4-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 500,
+        "note": "1時間毎100円、12時間まで最大500円"
+      },
+      "capacity": 14,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38091",
+      "data_note": "集約サイト（MotoHub）の掲載値。丸の内パークイン系列",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "station_id": "st0103",
+  "station_name": "末広町",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "パーキングイースト外神田バイク駐車場",
+      "lat": 35.7030161,
+      "lon": 139.7713386,
+      "address": "東京都千代田区外神田6-14",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 800,
+        "note": "1時間毎200円、24時間最大800円（駐輪番号1-4）・700円（5-10）、夜間（22:00-8:00）最大400円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38185",
+      "data_note": "集約サイト（MotoHub）の掲載値。座標は街区レベルの精度",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "ザ・パーク外神田4丁目第1",
+      "lat": 35.7024139,
+      "lon": 139.7722686,
+      "address": "東京都千代田区外神田4-7-10",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 900,
+        "note": "1時間毎100円、入庫から24時間最大900円（繰返し適用あり）"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38400",
+      "data_note": "集約サイト（MotoHub）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "バイクパーク千代田区外神田3丁目",
+      "lat": 35.7027772,
+      "lon": 139.7703581,
+      "address": "東京都千代田区外神田3-7",
+      "cc_class": "unlimited",
+      "displacement_note": "大型9台区画（1,000mm×2,300mm等）。末広町駅徒歩2分",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額12,100円（税込）"
+      },
+      "capacity": 9,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.81989.jp/parking/detail/28884",
+      "data_note": "住所は号なし表記のため座標は街区レベルの精度",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

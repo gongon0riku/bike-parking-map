@@ -1,0 +1,76 @@
+{
+  "station_id": "st0109",
+  "station_name": "神田",
+  "ward": "千代田区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "NTTル・パルク神田バイク駐車場",
+      "lat": 35.6940228,
+      "lon": 139.7667278,
+      "address": "東京都千代田区神田司町2-15",
+      "cc_class": "unknown",
+      "displacement_note": "100cc以下のバイクは不可（NAVITIME掲載の制限）。長さ2.5m以上・幅1m以上・改造バイク・サイドカーも不可",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 700,
+        "note": "60分200円、24時間最大700円（1回限り）"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/37355",
+      "data_note": "集約サイト（MotoHub）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "ザ・パーク神田鍛冶町3丁目第1",
+      "lat": 35.6934283,
+      "lon": 139.7713694,
+      "address": "東京都千代田区神田鍛冶町3-2-5",
+      "cc_class": "unknown",
+      "displacement_note": "車両制限：長さ2,100mm・幅900mm。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極11,000円（税込）。事前予約制の時間貸もあり"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-101515.html",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "パークス神田第１",
+      "lat": 35.6959722,
+      "lon": 139.7733103,
+      "address": "東京都千代田区神田須田町2-20",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "60分毎100円、夜間（0:00-8:00）は120分毎100円"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/37304",
+      "data_note": "集約サイト（MotoHub）の掲載値。住所表記が判読しづらく神田須田町2-20と解釈したため、座標は丁目レベルの精度",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
