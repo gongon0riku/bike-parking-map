@@ -398,22 +398,35 @@ async function initAds() {
   });
 }
 
-// ---------- アフィリエイト ----------
+// ---------- アフィリエイト（全画面共通の下部バー） ----------
 let affiliateItems = [];
 function renderAffiliate() {
-  const sec = $("#affiliate-section");
+  const bar = $("#affiliate-bar");
+  const track = $("#aff-bar-track");
   const items = affiliateItems.filter(i => i.url);
-  if (!items.length) { sec.hidden = true; sec.innerHTML = ""; return; }
-  sec.hidden = false;
-  sec.innerHTML = '<div class="affiliate-head">バイク用品（PR）</div>' + items.map(i =>
-    '<a class="affiliate-item" href="' + i.url + '" target="_blank" rel="noopener sponsored">' +
-    '<span class="af-title"></span>' +
-    (i.store ? '<span class="af-store"></span>' : "") + "</a>").join("");
-  sec.querySelectorAll(".affiliate-item").forEach((a, idx) => {
-    a.querySelector(".af-title").textContent = items[idx].title;
-    const st = a.querySelector(".af-store");
-    if (st) st.textContent = items[idx].store;
-  });
+  if (!items.length) {
+    bar.hidden = true;
+    document.body.classList.remove("has-aff-bar");
+    return;
+  }
+  bar.hidden = false;
+  document.body.classList.add("has-aff-bar");
+  track.innerHTML = "";
+  for (const i of items) {
+    const a = document.createElement("a");
+    a.className = "aff-card";
+    a.href = i.url;
+    a.target = "_blank";
+    a.rel = "noopener sponsored";
+    a.innerHTML =
+      (i.image ? '<img class="aff-img" alt="" loading="lazy">' : "") +
+      '<span class="aff-text"><span class="aff-name"></span>' +
+      (i.price ? '<span class="aff-price"></span>' : "") + "</span>";
+    if (i.image) a.querySelector(".aff-img").src = i.image;
+    a.querySelector(".aff-name").textContent = i.title;
+    if (i.price) a.querySelector(".aff-price").textContent = i.price;
+    track.appendChild(a);
+  }
 }
 
 // ---------- 画面3: 詳細 ----------
@@ -453,7 +466,6 @@ function openDetail(p) {
   row("🔗", "情報源", '<a href="' + esc(p.source_url) + '" target="_blank" rel="noopener">情報源を見る</a>' +
     (p.data_note ? "<br>" + esc(p.data_note) : "") + "<br>確認日：" + esc(p.checked_date));
 
-  renderAffiliate();
   $("#detail-card").innerHTML = rows.join("") +
     '<a class="gmap-btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=' +
     p.lat + "," + p.lon + '">Googleマップで開く</a>';
@@ -476,6 +488,7 @@ async function init() {
     affiliateItems = (await aRes.json()).items || [];
   } catch (e) { affiliateItems = []; }
   initAds();
+  renderAffiliate();
   renderStationPanel();
   renderAreaPanel();
 
