@@ -1,0 +1,54 @@
+{
+  "station_id": "st0324",
+  "station_name": "豊洲",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "アーバンドック ららぽーと豊洲 バイク駐輪場（メインエントランス側）",
+      "lat": 35.655027,
+      "lon": 139.792741,
+      "address": "東京都江東区豊洲2-4-9",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上も可（大型用区画あり）。車両サイズは幅1m・長さ2.4m以内",
+      "fees": {
+        "free_minutes": 180,
+        "base_minutes": 300,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "入庫後3時間無料、以降5時間ごとに200円"
+      },
+      "capacity": 33,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://mitsui-shopping-park.com/lalaport/toyosu/access/bicycle.html",
+      "data_note": "料金は施設公式ページの値。台数33台・排気量の情報は集約サイト（駐輪場A）の値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "アーバンドック ららぽーと豊洲 バイク駐輪場（ハンズ側）",
+      "lat": 35.655027,
+      "lon": 139.792741,
+      "address": "東京都江東区豊洲2-4-9",
+      "cc_class": "unlimited",
+      "displacement_note": "126cc以上OK（集約サイトの記載）",
+      "fees": {
+        "free_minutes": 180,
+        "base_minutes": 600,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "入庫後3時間無料、以降10時間ごとに200円"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://bike.i10.jp/parking_detail.php?parking_id=24",
+      "data_note": "台数は集約サイト（2018年）の値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

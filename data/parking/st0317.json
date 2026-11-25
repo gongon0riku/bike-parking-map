@@ -1,0 +1,53 @@
+{
+  "station_id": "st0317",
+  "station_name": "東大島",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "東大島駅自転車駐車場（バイク）",
+      "lat": 35.690355,
+      "lon": 139.845985,
+      "address": "東京都江東区大島9-3-14",
+      "cc_class": "125",
+      "displacement_note": "バイク小：125ccまで",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用：200円。月極：月額3,000円"
+      },
+      "capacity": 25,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://tokyo-bikepark.com/p/j93153",
+      "data_note": "所在地は江東区公式ページの値。料金・台数・排気量は集約サイト（2022年）の値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "エコロパーク大島第3駐車場",
+      "lat": 35.690474,
+      "lon": 139.844069,
+      "address": "東京都江東区大島8-42-11",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 400,
+        "note": "バイク：60分200円、24時間最大400円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://service.ecolocity.co.jp/park/coin-parking/3501/",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "station_id": "st0325",
+  "station_name": "越中島",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "クラスタ越中島",
+      "lat": 35.667971,
+      "lon": 139.794988,
+      "address": "東京都江東区越中島2-4-6",
+      "cc_class": "unknown",
+      "displacement_note": "車室サイズ：2,000mm×700mm／2,100mm×800mm",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額6,050円（税込）〜"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.jmpsa.or.jp/society/parking/area13/p-151124.html",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク江東区越中島3丁目",
+      "lat": 35.664898,
+      "lon": 139.796082,
+      "address": "東京都江東区越中島3-2-12",
+      "cc_class": "unknown",
+      "displacement_note": "小型バイク用区画のみ（650mm×2,000mm）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額4,400円（税込）"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://81989.jp/parking/detail/200426",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

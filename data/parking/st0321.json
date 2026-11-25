@@ -1,0 +1,75 @@
+{
+  "station_id": "st0321",
+  "station_name": "清澄白河",
+  "ward": "江東区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "清澄白河駅地下自転車駐車場",
+      "lat": 35.679494,
+      "lon": 139.798757,
+      "address": "東京都江東区清澄3-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "1日200円"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "4:45-1:15",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/38406",
+      "data_note": "料金は集約サイト（出典：bikepark.in）の掲載値",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "バイクパーク江東区白河2丁目第二",
+      "lat": 35.681978,
+      "lon": 139.801135,
+      "address": "東京都江東区白河2-11-4",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク用区画8台",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額6,050円（税込）"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.81989.jp/parking/detail/30201",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "アーバネックス清澄白河ⅡEAST（ニリーン）",
+      "lat": 35.682614,
+      "lon": 139.801902,
+      "address": "東京都江東区白河2-13-5",
+      "cc_class": "unknown",
+      "displacement_note": "M区画・LL区画あり（排気量の明記なし）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額：M区画 7,150円（税込）／LL区画 7,700円（税込）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://bike-parking.jp/area/%e6%9d%b1%e4%ba%ac%e9%83%bd/%e6%b1%9f%e6%9d%b1%e5%8c%ba/%e7%99%bd%e6%b2%b3/detail-4070/",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
