@@ -1,0 +1,54 @@
+{
+  "station_id": "st0069",
+  "station_name": "沼袋",
+  "ward": "中野区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "沼袋第一自転車駐車場（中野区立）",
+      "lat": 35.7185006,
+      "lon": 139.6628494,
+      "address": "東京都中野区沼袋3-1",
+      "cc_class": "unknown",
+      "displacement_note": "原動機付自転車及び自動二輪車を駐車できる区営駐車場（中野区自転車駐車場条例施行規則で指定）。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク1日1回200円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00004169&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "バイク料金・営業時間はNAVITIMEの掲載値。バイク受入は中野区の条例施行規則で確認"
+    },
+    {
+      "id": "p002",
+      "name": "【予約制：akippa】カーサマルソ◎アキッパ駐車場",
+      "lat": 35.7204992,
+      "lon": 139.6580944,
+      "address": "東京都中野区沼袋4-13",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量による制限なし（集約サイトに明記）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "900円/日（akippa予約制）"
+      },
+      "capacity": 1,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://motohub.jp/parking/48625",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・排気量条件は集約サイト（MotoHub）の掲載値。利用にはakippaでの予約が必要"
+    }
+  ]
+}

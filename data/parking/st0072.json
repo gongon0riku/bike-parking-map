@@ -1,0 +1,54 @@
+{
+  "station_id": "st0072",
+  "station_name": "野方",
+  "ward": "中野区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "【予約制：akippa】野方2丁目35-14◎アキッパ駐車場",
+      "lat": 35.7164475,
+      "lon": 139.6551339,
+      "address": "東京都中野区野方2-35-14",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量による制限なし（集約サイトに明記）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "1,000円/日（akippa予約制）"
+      },
+      "capacity": 1,
+      "roof": false,
+      "hours": "9:00-17:00",
+      "monthly": false,
+      "source_url": "https://motohub.jp/parking/48389",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・排気量条件は集約サイト（MotoHub）の掲載値。利用にはakippaでの予約が必要"
+    },
+    {
+      "id": "p002",
+      "name": "【予約制：akippa】野方1丁目41◎個宅アキッパ駐車場",
+      "lat": 35.7105428,
+      "lon": 139.6551703,
+      "address": "東京都中野区野方1-41",
+      "cc_class": "unlimited",
+      "displacement_note": "排気量による制限なし（集約サイトに明記）",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 480,
+        "max_yen_per_day": 2500,
+        "note": "480円/1時間、日額2,500円（akippa予約制）"
+      },
+      "capacity": 1,
+      "roof": false,
+      "hours": "8:00-17:00",
+      "monthly": false,
+      "source_url": "https://motohub.jp/parking/48385",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・排気量条件は集約サイト（MotoHub）の掲載値。座標は街区レベル。利用にはakippaでの予約が必要"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0073",
+  "station_name": "鷺ノ宮",
+  "ward": "中野区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "鷺宮南自転車駐車場（中野区立）",
+      "lat": 35.7220433,
+      "lon": 139.6366094,
+      "address": "東京都中野区白鷺2-49",
+      "cc_class": "unknown",
+      "displacement_note": "原動機付自転車及び自動二輪車を駐車できる区営駐車場（中野区自転車駐車場条例施行規則で指定）。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク1日1回200円"
+      },
+      "capacity": 50,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60500-ntj01081&from=view.around.name",
+      "checked_date": "2026-11-25",
+      "data_note": "バイク台数50台は中野区の条例関連資料の値。料金・営業時間はNAVITIMEの掲載値"
+    }
+  ]
+}

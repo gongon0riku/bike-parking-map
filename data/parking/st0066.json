@@ -1,0 +1,31 @@
+{
+  "station_id": "st0066",
+  "station_name": "新井薬師前",
+  "ward": "中野区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "巣鴨信用金庫中野支店前 みんちゅう原付バイク駐輪場",
+      "lat": 35.7100931,
+      "lon": 139.6678136,
+      "address": "東京都中野区新井1-6-7",
+      "cc_class": "unknown",
+      "displacement_note": "原付バイク専用と情報源に記載。『原付』表記のため対象は50cc以下の可能性が高く、排気量上限の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金はみんちゅうSHARE-LINの予約ページで確認（情報源に掲載なし）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "予約制（利用時間はみんちゅうSHARE-LINで確認）",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=60516.d950&category=0812004",
+      "checked_date": "2026-11-25",
+      "data_note": "存在はNAVITIMEの予約制バイク駐車場一覧で確認。座標は街区レベル"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0070",
+  "station_name": "落合",
+  "ward": "中野区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "NPC24H上落合1丁目パーキング（バイク専用車室）",
+      "lat": 35.7116569,
+      "lon": 139.6900778,
+      "address": "東京都新宿区上落合1-29-4",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 220,
+        "max_yen_per_day": 700,
+        "note": "バイク専用車室（No.5）：1時間220円、入庫後24時間最大700円"
+      },
+      "capacity": 1,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.s-landusage.jp/land/19296",
+      "checked_date": "2026-11-25",
+      "data_note": "所在地は新宿区だが落合駅至近。料金・台数はs-park掲載値（集約サイト経由で確認）"
+    }
+  ]
+}
