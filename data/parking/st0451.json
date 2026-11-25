@@ -1,0 +1,31 @@
+{
+  "station_id": "st0451",
+  "station_name": "新大塚",
+  "ward": "豊島区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "屋根付きバイク専用駐車場（新大塚駅徒歩2分）",
+      "lat": 35.7243903,
+      "lon": 139.7299436,
+      "address": "東京都文京区大塚5-14-17",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "予約制（akippa）。料金は未確認"
+      },
+      "capacity": 4,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "http://www.mapion.co.jp/phonebook/M08002/13105/55076381_akipp/",
+      "checked_date": "2026-11-25",
+      "data_note": "マピオン電話帳の掲載情報（akippa）。所在地は文京区"
+    }
+  ]
+}

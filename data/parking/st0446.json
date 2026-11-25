@@ -1,0 +1,31 @@
+{
+  "station_id": "st0446",
+  "station_name": "大塚駅前",
+  "ward": "豊島区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "JR大塚駅南口ビル駐車場",
+      "lat": 35.731595,
+      "lon": 139.7285656,
+      "address": "東京都豊島区南大塚3-33-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "1時間毎200円。最大料金1,000円（7:00-23:30）。一泊500円（23:30-7:00）"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "7:00-23:30",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-3683",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数はNAVITIME掲載値（提供：バイクを停めたい）。大塚駅（JR）と同一施設で、都電荒川線・大塚駅前停留場の目の前に立地するため本駅にも併記"
+    }
+  ]
+}

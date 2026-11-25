@@ -1,0 +1,31 @@
+{
+  "station_id": "st0452",
+  "station_name": "新庚申塚",
+  "ward": "豊島区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "巣鴨駅第三自転車駐車場（豊島区立）",
+      "lat": 35.7348925,
+      "lon": 139.7379783,
+      "address": "東京都豊島区巣鴨2-9-8",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ・定期利用のみ",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用のみ。原付の定期料金は未確認"
+      },
+      "capacity": 12,
+      "roof": null,
+      "hours": "6:00-24:00",
+      "monthly": true,
+      "source_url": "https://adeac.jp/viewitem/toshima-history/viewer/viewer/03_13_H261128_1/data/03_13_H261128_1.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "原付12台・定期利用のみは豊島区議会資料（2014年）に基づく。開場時間は開設時（2001年）の資料の値で、現行状況は未確認。新庚申塚停留場の最寄り施設として登録"
+    }
+  ]
+}

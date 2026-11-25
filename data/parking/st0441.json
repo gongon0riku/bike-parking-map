@@ -1,0 +1,31 @@
+{
+  "station_id": "st0441",
+  "station_name": "下板橋",
+  "ward": "豊島区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "下板橋駅第1自転車駐車場（板橋区営）",
+      "lat": 35.7460233,
+      "lon": 139.7156575,
+      "address": "東京都板橋区板橋1-4-13",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク対応の区画あり。バイクの料金・台数は未確認"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00000986&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "バイク対応はNAVITIMEの[バイク]表記による。所在地は板橋区"
+    }
+  ]
+}

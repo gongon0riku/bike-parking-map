@@ -1,0 +1,31 @@
+{
+  "station_id": "st0455",
+  "station_name": "東長崎",
+  "ward": "豊島区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "西武スマイルパーク東長崎駅南口",
+      "lat": 35.7301519,
+      "lon": 139.6827336,
+      "address": "東京都豊島区南長崎5-33-12",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク3台の区画あり。バイク料金は未確認。精算は交通系IC・QRコード決済のみ"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00005148&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "バイク台数はNAVITIME掲載値"
+    }
+  ]
+}
