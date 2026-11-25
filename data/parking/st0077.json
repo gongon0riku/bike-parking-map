@@ -1,0 +1,31 @@
+{
+  "station_id": "st0077",
+  "station_name": "尾久",
+  "ward": "北区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "尾久駅バイク等駐車場",
+      "lat": 35.747895,
+      "lon": 139.754292,
+      "address": "東京都北区昭和町2-9-16",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は情報源に掲載なし"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://meta.ai?place_id=205548112168284",
+      "checked_date": "2026-11-25",
+      "data_note": "地図サービスの掲載で存在・住所・座標を確認したのみ。料金・台数・営業時間は未確認"
+    }
+  ]
+}

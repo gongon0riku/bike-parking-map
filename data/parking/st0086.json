@@ -1,0 +1,54 @@
+{
+  "station_id": "st0086",
+  "station_name": "王子駅前",
+  "ward": "北区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "サンスクエア駐輪場（バイク）",
+      "lat": 35.753271,
+      "lon": 139.738924,
+      "address": "東京都北区王子1-4",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 210,
+        "max_yen_per_day": 820,
+        "note": "最初の2時間無料、以降1時間毎210円、24時間最大820円"
+      },
+      "capacity": 24,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spt=60502.1161",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・座標は集約サイト（NAVITIME、提供：バイクを停めたい）の掲載値。王子駅前駅から徒歩2分（約85m）"
+    },
+    {
+      "id": "p002",
+      "name": "エコロパーク王子第7（バイク駐車場）",
+      "lat": 35.754253,
+      "lon": 139.737863,
+      "address": "東京都北区王子1-9-5",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "30分毎100円、12時間最大900円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/category/0812002/13117008000/",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（NAVITIME）の掲載値。王子駅前駅から徒歩3分（約165m）"
+    }
+  ]
+}

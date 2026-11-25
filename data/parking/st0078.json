@@ -1,0 +1,31 @@
+{
+  "station_id": "st0078",
+  "station_name": "志茂",
+  "ward": "北区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "SANパーク赤羽志茂1駐車場（特P・バイク専用）",
+      "lat": 35.778976,
+      "lon": 139.731665,
+      "address": "東京都北区志茂2-6-10",
+      "cc_class": "unknown",
+      "displacement_note": "車両制限は幅120cm・長さ220cm（排気量の明記なし）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "予約制（特P）300円/24時間〜"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60048-310018724",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（NAVITIME、提供：株式会社アースカー）の掲載値。志茂駅徒歩2分。バイク区画の台数は未確認"
+    }
+  ]
+}

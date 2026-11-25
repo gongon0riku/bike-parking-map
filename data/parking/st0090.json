@@ -1,0 +1,77 @@
+{
+  "station_id": "st0090",
+  "station_name": "赤羽",
+  "ward": "北区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "北区立赤羽駅南口第二自転車駐車場（バイク）",
+      "lat": 35.776419,
+      "lon": 139.721613,
+      "address": "東京都北区赤羽1-1-20",
+      "cc_class": "unknown",
+      "displacement_note": "車種制限：50cc以下（原付のみ）。125ccは不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 150,
+        "note": "1日150円（50cc以下）"
+      },
+      "capacity": 25,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-1744",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・車種制限・座標は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p002",
+      "name": "アルガード赤羽駐車場（バイク）",
+      "lat": 35.779414,
+      "lon": 139.71992,
+      "address": "東京都北区赤羽1-1-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 360,
+        "base_yen": 220,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降6時間毎220円"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00003274&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p003",
+      "name": "《バイク専用》赤羽3-20-10駐車場（特P）",
+      "lat": 35.785641,
+      "lon": 139.719431,
+      "address": "東京都北区赤羽3-20-10",
+      "cc_class": "unlimited",
+      "displacement_note": "集約サイトの入庫可能バイク判定で大型バイク（1,300cc超）も可と掲載。車室サイズは長さ200cm×幅100cm",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "予約制（特P）。料金は特Pサイトで確認"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://motohub.jp/parking/48095",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（MotoHub）の掲載値。予約制：特P"
+    }
+  ]
+}

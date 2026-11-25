@@ -1,0 +1,31 @@
+{
+  "station_id": "st0091",
+  "station_name": "赤羽岩淵",
+  "ward": "北区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "北区立赤羽駅西口北自転車駐車場（バイク）",
+      "lat": 35.780991,
+      "lon": 139.718539,
+      "address": "東京都北区赤羽1-67-18",
+      "cc_class": "unknown",
+      "displacement_note": "車種制限：50cc以下（原付のみ）。125ccは不可",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": 150,
+        "note": "1日150円（50cc以下）"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-1745",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・車種制限は集約サイト（NAVITIME）の掲載値。赤羽岩淵駅から約400mで、同駅周辺で最寄りのバイク可駐輪場として登録。座標は街区レベル"
+    }
+  ]
+}

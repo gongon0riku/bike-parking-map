@@ -1,0 +1,31 @@
+{
+  "station_id": "st0085",
+  "station_name": "王子神谷",
+  "ward": "北区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "北区神谷3丁目 月極バイク駐車場",
+      "lat": 35.768844,
+      "lon": 139.730336,
+      "address": "東京都北区神谷3丁目",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の条件について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極専用：月額7,000円〜7,500円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://p-king.jp/detail/576592",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（日本駐車場検索 p-king）の掲載値。所在地は丁目レベルまでしか公開されていないため座標は丁目の代表点。王子神谷駅徒歩8分"
+    }
+  ]
+}
