@@ -1,0 +1,53 @@
+{
+  "station_id": "st0239",
+  "station_name": "曙橋",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "サイカパーク曙橋駅自転車等駐車場",
+      "lat": 35.6923106,
+      "lon": 139.7245033,
+      "address": "東京都新宿区片町5番先",
+      "cc_class": "unknown",
+      "displacement_note": "原付は白ナンバー（50cc以下）のみ",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "原付：一時利用は2時間無料、以降1時間ごと110円。定期利用は年間30,000円"
+      },
+      "capacity": 14,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334921.pdf",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "サイカパーク曙橋駅自動二輪駐車場",
+      "lat": 35.6923106,
+      "lon": 139.7245033,
+      "address": "東京都新宿区片町（曙橋駅付近）",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪専用。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は新宿区公式資料から読み取れず未確認"
+      },
+      "capacity": 18,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334921.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は隣接する曙橋駅自転車等駐車場（片町5番先）と同一エリアの代表点"
+    }
+  ]
+}

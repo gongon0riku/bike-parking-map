@@ -1,0 +1,53 @@
+{
+  "station_id": "st0241",
+  "station_name": "牛込柳町",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "牛込柳町駅自転車等駐輪場 Aエリア",
+      "lat": 35.6997375,
+      "lon": 139.7249114,
+      "address": "東京都新宿区原町1-10",
+      "cc_class": "unknown",
+      "displacement_note": "原付の定期利用のみ。原付は白ナンバー（50cc以下）のみ",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用のみ：年間30,000円"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334918.pdf",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "牛込柳町駅自転車等駐輪場 Bエリア",
+      "lat": 35.6997097,
+      "lon": 139.7242364,
+      "address": "東京都新宿区原町2-6",
+      "cc_class": "unknown",
+      "displacement_note": "バイク（原付・自動二輪）の一時利用。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降1時間ごと110円（交通系IC利用時100円）"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": false,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334918.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "台数5台はNAVITIMEの掲載値（自転車45台・バイク5台と内訳明記あり）"
+    }
+  ]
+}

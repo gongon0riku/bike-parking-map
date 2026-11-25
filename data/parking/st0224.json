@@ -1,0 +1,31 @@
+{
+  "station_id": "st0224",
+  "station_name": "下落合",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "下落合駅自転車等駐輪場",
+      "lat": 35.71586,
+      "lon": 139.7002128,
+      "address": "東京都新宿区下落合1丁目",
+      "cc_class": "125",
+      "displacement_note": "原付（125cc以下）。原付は定期利用のみ（時間利用の設定なし）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用のみ：原付（125cc以下）1カ月2,500円（学生1,970円）"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000334932.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は下落合1丁目の代表点（丁目レベル）"
+    }
+  ]
+}

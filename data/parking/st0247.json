@@ -1,0 +1,31 @@
+{
+  "station_id": "st0247",
+  "station_name": "西新宿五丁目",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "西新宿五丁目駅自転車等駐輪場 Dエリア",
+      "lat": 35.6917569,
+      "lon": 139.6858178,
+      "address": "東京都新宿区西新宿5丁目",
+      "cc_class": "125",
+      "displacement_note": "原付（125cc以下）の時間利用（新宿区公式資料）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降1時間ごと110円"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.city.shinjuku.lg.jp/content/000396953.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は西新宿5丁目の街区レベル。A・B・Cエリアは自転車のみ"
+    }
+  ]
+}

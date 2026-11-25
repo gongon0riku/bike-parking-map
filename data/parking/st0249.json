@@ -1,0 +1,54 @@
+{
+  "station_id": "st0249",
+  "station_name": "西武新宿",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "新宿サブナード駐車場",
+      "lat": 35.6933906,
+      "lon": 139.7037611,
+      "address": "東京都新宿区歌舞伎町1-2-2",
+      "cc_class": "unknown",
+      "displacement_note": "二輪車。排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 180,
+        "max_yen_per_day": null,
+        "note": "二輪車：30分180円、入庫後12時間最大1,440円"
+      },
+      "capacity": 61,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02300.1011040&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "台数・料金はNAVITIMEの掲載値。地下駐車場（二輪区画は地下2階）"
+    },
+    {
+      "id": "p002",
+      "name": "公共新宿パーキング",
+      "lat": 35.6951092,
+      "lon": 139.7048133,
+      "address": "東京都新宿区歌舞伎町2-10-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "60分300円、12時間最大1,200円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02300.1011040&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "台数・料金はNAVITIMEの掲載値。日曜24時〜月曜8時は入出庫不可"
+    }
+  ]
+}

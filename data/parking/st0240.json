@@ -1,0 +1,31 @@
+{
+  "station_id": "st0240",
+  "station_name": "東新宿",
+  "ward": "新宿区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコロパーク歌舞伎町第10駐車場",
+      "lat": 35.6972231,
+      "lon": 139.7056328,
+      "address": "東京都新宿区歌舞伎町2-15-11",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 200,
+        "max_yen_per_day": 600,
+        "note": "バイク：60分200円、24時間最大600円（運営会社公式ページ）"
+      },
+      "capacity": 2,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://service.ecolocity.co.jp/park/coin-parking/45/",
+      "checked_date": "2026-11-25",
+      "data_note": "座標は歌舞伎町2丁目15番の街区レベル。最寄駅は東新宿駅（運営会社公式ページの記載）"
+    }
+  ]
+}
