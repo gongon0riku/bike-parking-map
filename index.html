@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>バイク駐車場マップ</title>
+<meta name="description" content="排気量で絞れる、バイク専用の駐車場マップ。東京23区の駅周辺のバイク駐車場を、対応排気量・料金・屋根の有無で探せます。">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 画面1: エリアを探す -->
+<section id="view-area" class="view active">
+  <header class="app-header">
+    <div class="app-title">🏍️ バイク駐車場マップ</div>
+  </header>
+  <div class="area-body">
+    <h1 class="area-heading">エリアを探す</h1>
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input id="station-search" type="search" placeholder="駅名・地名で検索" autocomplete="off">
+    </div>
+    <div id="station-list" class="station-list"></div>
+    <p id="station-empty" class="empty-note" hidden>該当する駅がありません。</p>
+  </div>
+  <div class="ad-slot" data-ad-slot="area_bottom" hidden></div>
+  <footer class="app-footer">
+    <button id="to-about" class="linklike">このアプリについて</button>
+    <span class="footer-sep">・</span>
+    <button id="to-privacy" class="linklike">プライバシーポリシー</button>
+  </footer>
+</section>
+
+<!-- 画面2: 地図＋リスト -->
+<section id="view-map" class="view">
+  <header class="app-header with-back">
+    <button class="back-btn" data-back="area">←</button>
+    <div class="app-title" id="map-station-name">駅名</div>
+  </header>
+  <div class="filter-row" id="cc-filter">
+    <button class="chip active" data-filter="all">すべて</button>
+    <button class="chip" data-filter="125">125ccまで</button>
+    <button class="chip" data-filter="250">250ccまで</button>
+    <button class="chip" data-filter="large">大型OK</button>
+  </div>
+  <div id="map"></div>
+  <div class="map-list-head"><span id="map-count"></span></div>
+  <div id="parking-list" class="parking-list"></div>
+  <p id="parking-empty" class="empty-note" hidden></p>
+</section>
+
+<!-- 画面3: 詳細 -->
+<section id="view-detail" class="view">
+  <header class="app-header with-back">
+    <button class="back-btn" data-back="map">←</button>
+    <div class="app-title" id="detail-name">駐車場名</div>
+  </header>
+  <div id="detail-map"></div>
+  <div class="detail-card" id="detail-card"></div>
+  <div class="ad-slot" data-ad-slot="detail_bottom" hidden></div>
+  <div id="affiliate-section" class="affiliate-section" hidden></div>
+</section>
+
+<!-- このアプリについて -->
+<section id="view-about" class="view">
+  <header class="app-header with-back">
+    <button class="back-btn" data-back="area">←</button>
+    <div class="app-title">このアプリについて</div>
+  </header>
+  <div class="about-body">
+    <div class="about-icon">🏍️</div>
+    <h1>バイク駐車場マップ</h1>
+    <p>排気量で絞れる、バイク専用の駐車場マップです。</p>
+    <div class="about-card">
+      <div class="about-row"><span class="about-label">データ出典</span><span>各駐車場の公式サイト・自治体等の公開情報（詳細は各駐車場の「情報源」リンク）／駅データ：国土交通省「国土数値情報（鉄道データ）」、OpenStreetMap</span></div>
+      <div class="about-row"><span class="about-label">地図</span><span>© OpenStreetMap contributors</span></div>
+      <div class="about-row"><span class="about-label">ご注意</span><span>料金・営業時間・対応排気量は変更される場合があります。ご利用前に情報源や現地の表示をご確認ください。「排気量の条件は未確認」と表示される駐車場は、情報源に排気量の明記がなかったものです。</span></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- プライバシーポリシー -->
+<section id="view-privacy" class="view">
+  <header class="app-header with-back">
+    <button class="back-btn" data-back="area">←</button>
+    <div class="app-title">プライバシーポリシー</div>
+  </header>
+  <div class="privacy-body">
+    <h2>広告について（Google AdSense）</h2>
+    <p>当サイトでは、第三者配信の広告サービス「Google AdSense」を利用する場合があります。広告配信事業者は、ユーザーの興味に応じた広告を表示するためにCookieを使用することがあります。Cookieを無効にする方法や、Google AdSenseに関する詳細は、Googleの「広告 – ポリシーと規約」をご確認ください。パーソナライズ広告は、Googleの広告設定から無効にできます。</p>
+    <h2>アフィリエイトについて</h2>
+    <p>当サイトでは、第三者のアフィリエイトプログラム（Amazonアソシエイト、楽天アフィリエイト等）を利用する場合があります。リンク先のサイトで商品を購入された場合、当サイトに紹介料が支払われることがあります。商品価格が変わることはありません。</p>
+    <h2>Cookie・アクセス解析について</h2>
+    <p>当サイトでは、広告配信や利用状況の把握のためにCookieを使用する場合があります。Cookieにより個人が特定されることはありません。ブラウザの設定でCookieを無効にすることもできます。</p>
+    <h2>掲載情報について</h2>
+    <p>駐車場の料金・営業時間・対応排気量などの情報は、各情報源の公開情報をもとに掲載しています。正確な情報の提供に努めていますが、内容の正確性を保証するものではありません。ご利用前に情報源や現地の表示をご確認ください。</p>
+    <h2>免責事項</h2>
+    <p>当サイトの利用により生じたいかなる損害についても、運営者は責任を負いかねます。</p>
+  </div>
+</section>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
