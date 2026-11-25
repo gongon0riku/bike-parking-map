@@ -1,9 +1,25 @@
 {
   "_note": "アフィリエイトリンクの設定ファイル。各サービスへの登録後、発行されたリンクURLを url に入れた項目だけがアプリに表示されます。url が空の項目は表示されません。",
   "items": [
-    { "title": "バイク用レインウェアを探す", "store": "", "url": "" },
-    { "title": "防水グローブを探す", "store": "", "url": "" },
-    { "title": "ヘルメットを探す", "store": "", "url": "" },
-    { "title": "バイクカバーを探す", "store": "", "url": "" }
+    {
+      "title": "YAMAHA YAR30 レインスーツ（防水レインウェア）",
+      "store": "楽天市場",
+      "url": "https://hb.afl.rakuten.co.jp/ichiba/59f7c40a.266dea8e.59f7c40d.4468d6bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcycle-world%2Fyamaha-yar30-202212-25%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+    },
+    {
+      "title": "コミネ GK-171 防水レインオーバーグローブ",
+      "store": "楽天市場",
+      "url": "https://hb.afl.rakuten.co.jp/ichiba/59f7c5fe.c72c0081.59f7c5ff.69472ec8/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjackknife%2Faj4737436b3690e2%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+    },
+    {
+      "title": "LEAD CROSS CR-760 ハーフヘルメット",
+      "store": "楽天市場",
+      "url": "https://hb.afl.rakuten.co.jp/ichiba/59f7c7bd.25340643.59f7c7be.2f724add/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmoto-zoa%2Fvl87126%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+    },
+    {
+      "title": "デイトナ バイクカバー SIMPLE（撥水）",
+      "store": "楽天市場",
+      "url": "https://hb.afl.rakuten.co.jp/ichiba/59f7c7bd.25340643.59f7c7be.2f724add/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmoto-zoa%2Fitm0015744595%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+    }
   ]
 }
