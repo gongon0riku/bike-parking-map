@@ -19,10 +19,21 @@
     <h1 class="area-heading">エリアを探す</h1>
     <div class="search-box">
       <span class="search-icon">🔍</span>
-      <input id="station-search" type="search" placeholder="駅名・地名で検索" autocomplete="off">
+      <input id="station-search" type="search" placeholder="駅名・地名・住所で検索" autocomplete="off">
     </div>
-    <div id="station-list" class="station-list"></div>
-    <p id="station-empty" class="empty-note" hidden>該当する駅がありません。</p>
+    <div id="search-results" hidden>
+      <p id="search-status" class="search-status"></p>
+      <div id="station-list" class="station-list"></div>
+      <p id="station-empty" class="empty-note" hidden>該当する駅がありません。</p>
+    </div>
+    <div id="browse-tabs">
+      <div class="tab-row">
+        <button id="tab-station" class="tab-btn active">駅名から探す</button>
+        <button id="tab-area" class="tab-btn">地名から探す</button>
+      </div>
+      <div id="panel-station"></div>
+      <div id="panel-area" hidden></div>
+    </div>
   </div>
   <div class="ad-slot" data-ad-slot="area_bottom" hidden></div>
   <footer class="app-footer">

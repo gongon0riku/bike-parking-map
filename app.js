@@ -57,31 +57,173 @@ function show(view) {
 }
 
 // ---------- 画面1: エリアを探す ----------
-function renderStationList(keyword) {
+function stationRow(s, distMeters) {
+  const count = parkingIndex[s.id] || 0;
+  const btn = document.createElement("button");
+  btn.className = "station-row";
+  const linesText = s.lines.map(l => l.line).filter(Boolean).slice(0, 3).join("・");
+  let right = '<span class="count-badge' + (count ? "" : " zero") + '">' + count + '件</span>';
+  if (distMeters != null) {
+    const d = distMeters < 1000 ? Math.round(distMeters) + "m" : (distMeters / 1000).toFixed(1) + "km";
+    right = '<span class="dist-label">' + d + "</span>" + right;
+  }
+  btn.innerHTML =
+    '<div class="station-main"><div class="station-name"></div>' +
+    '<div class="station-sub"></div></div>' + right +
+    '<span class="station-arrow">›</span>';
+  btn.querySelector(".station-name").textContent = s.name;
+  btn.querySelector(".station-sub").textContent = s.ward + (linesText ? "｜" + linesText : "");
+  btn.addEventListener("click", () => openStation(s));
+  return btn;
+}
+
+function renderSearchResults(keyword) {
+  const kw = (keyword || "").trim();
+  const results = $("#search-results");
+  const tabs = $("#browse-tabs");
+  if (!kw) {
+    results.hidden = true;
+    tabs.hidden = false;
+    return;
+  }
+  results.hidden = false;
+  tabs.hidden = true;
   const list = $("#station-list");
   list.innerHTML = "";
-  const kw = (keyword || "").trim();
-  const matched = stations.filter(s => {
-    if (!kw) return true;
-    if (s.name.includes(kw) || s.ward.includes(kw)) return true;
-    return s.lines.some(l => (l.line || "").includes(kw));
-  });
-  $("#station-empty").hidden = matched.length > 0;
-  for (const s of matched) {
-    const count = parkingIndex[s.id] || 0;
+  const matched = stations.filter(s =>
+    s.name.includes(kw) || (s.yomi || "").includes(kw) || s.ward.includes(kw) ||
+    s.lines.some(l => (l.line || "").includes(kw)));
+  const status = $("#search-status");
+  if (matched.length) {
+    status.textContent = "";
+    $("#station-empty").hidden = true;
+    for (const s of matched) list.appendChild(stationRow(s));
+  } else {
+    status.textContent = "住所として検索しています…";
+    $("#station-empty").hidden = true;
+    searchByAddress(kw);
+  }
+}
+
+let addressSearchSeq = 0;
+async function searchByAddress(kw) {
+  const seq = ++addressSearchSeq;
+  const status = $("#search-status");
+  const list = $("#station-list");
+  try {
+    const res = await fetch("https://msearch.gsi.go.jp/address-search/AddressSearch?q=" + encodeURIComponent(kw));
+    const data = await res.json();
+    if (seq !== addressSearchSeq) return; // 入力が変わっていたら破棄
+    if (!data || !data.length) throw new Error("no result");
+    const [lon, lat] = data[0].geometry.coordinates;
+    const title = (data[0].properties && data[0].properties.title) || kw;
+    const near = stations
+      .map(s => ({ s, d: haversineMeters(lat, lon, s.lat, s.lon) }))
+      .sort((a, b) => a.d - b.d)
+      .slice(0, 20);
+    status.textContent = "「" + title + "」に近い順";
+    list.innerHTML = "";
+    for (const { s, d } of near) list.appendChild(stationRow(s, d));
+    $("#station-empty").hidden = true;
+  } catch (e) {
+    if (seq !== addressSearchSeq) return;
+    status.textContent = "";
+    list.innerHTML = "";
+    $("#station-empty").hidden = false;
+  }
+}
+
+// ----- 駅名から探す（50音順） -----
+const KANA_ROWS = [
+  ["あ行", "あいうえお"], ["か行", "かきくけこ"], ["さ行", "さしすせそ"],
+  ["た行", "たちつてと"], ["な行", "なにぬねの"], ["は行", "はひふへほ"],
+  ["ま行", "まみむめも"], ["や行", "やゆよ"], ["ら行", "らりるれろ"],
+  ["わ行", "わをん"]
+];
+const SMALL_KANA = { "ぁ": "あ", "ぃ": "い", "ぅ": "う", "ぇ": "え", "ぉ": "お", "ゃ": "や", "ゅ": "ゆ", "ょ": "よ", "ゎ": "わ" };
+function kanaRowOf(yomi) {
+  let c = (yomi || "").charAt(0);
+  if (SMALL_KANA[c]) c = SMALL_KANA[c];
+  for (const [label, chars] of KANA_ROWS) if (chars.includes(c)) return label;
+  return "その他";
+}
+
+function renderStationPanel() {
+  const panel = $("#panel-station");
+  panel.innerHTML = "";
+  const sorted = [...stations].sort((a, b) => (a.yomi || a.name).localeCompare(b.yomi || b.name, "ja"));
+  let currentRow = null;
+  let listEl = null;
+  for (const s of sorted) {
+    const row = kanaRowOf(s.yomi);
+    if (row !== currentRow) {
+      currentRow = row;
+      const head = document.createElement("div");
+      head.className = "kana-head";
+      head.textContent = row;
+      panel.appendChild(head);
+      listEl = document.createElement("div");
+      listEl.className = "station-list";
+      panel.appendChild(listEl);
+    }
+    listEl.appendChild(stationRow(s));
+  }
+}
+
+// ----- 地名から探す（都道府県 → 区 → 駅） -----
+let areaLevel = "pref";   // "pref" | "ward" | "stations"
+let areaWard = null;
+
+function renderAreaPanel() {
+  const panel = $("#panel-area");
+  panel.innerHTML = "";
+  const listEl = document.createElement("div");
+  listEl.className = "station-list";
+
+  if (areaLevel === "pref") {
     const btn = document.createElement("button");
     btn.className = "station-row";
-    const linesText = s.lines.map(l => l.line).filter(Boolean).slice(0, 3).join("・");
     btn.innerHTML =
-      '<div class="station-main"><div class="station-name"></div>' +
-      '<div class="station-sub"></div></div>' +
-      '<span class="count-badge' + (count ? "" : " zero") + '">' + count + '件</span>' +
+      '<div class="station-main"><div class="station-name">東京都</div>' +
+      '<div class="station-sub">対象は23区の駅です</div></div>' +
       '<span class="station-arrow">›</span>';
-    btn.querySelector(".station-name").textContent = s.name;
-    btn.querySelector(".station-sub").textContent = s.ward + (linesText ? "｜" + linesText : "");
-    btn.addEventListener("click", () => openStation(s));
-    list.appendChild(btn);
+    btn.addEventListener("click", () => { areaLevel = "ward"; renderAreaPanel(); });
+    listEl.appendChild(btn);
+  } else if (areaLevel === "ward") {
+    panel.appendChild(areaBackRow("都道府県を選ぶ", () => { areaLevel = "pref"; renderAreaPanel(); }));
+    const wards = [...new Set(stations.map(s => s.ward))].sort((a, b) => a.localeCompare(b, "ja"));
+    for (const w of wards) {
+      const inWard = stations.filter(s => s.ward === w);
+      const btn = document.createElement("button");
+      btn.className = "station-row";
+      btn.innerHTML =
+        '<div class="station-main"><div class="station-name"></div>' +
+        '<div class="station-sub"></div></div>' +
+        '<span class="station-arrow">›</span>';
+      btn.querySelector(".station-name").textContent = w;
+      btn.querySelector(".station-sub").textContent = inWard.length + "駅";
+      btn.addEventListener("click", () => { areaLevel = "stations"; areaWard = w; renderAreaPanel(); });
+      listEl.appendChild(btn);
+    }
+  } else {
+    panel.appendChild(areaBackRow("区を選ぶ", () => { areaLevel = "ward"; renderAreaPanel(); }));
+    const head = document.createElement("div");
+    head.className = "kana-head";
+    head.textContent = areaWard;
+    panel.appendChild(head);
+    const inWard = stations.filter(s => s.ward === areaWard)
+      .sort((a, b) => (a.yomi || a.name).localeCompare(b.yomi || b.name, "ja"));
+    for (const s of inWard) listEl.appendChild(stationRow(s));
   }
+  panel.appendChild(listEl);
+}
+
+function areaBackRow(label, onClick) {
+  const btn = document.createElement("button");
+  btn.className = "area-back";
+  btn.textContent = "‹ " + label;
+  btn.addEventListener("click", onClick);
+  return btn;
 }
 
 // ---------- 画面2: 地図＋リスト ----------
@@ -280,9 +422,27 @@ async function init() {
     affiliateItems = (await aRes.json()).items || [];
   } catch (e) { affiliateItems = []; }
   initAds();
-  renderStationList("");
+  renderStationPanel();
+  renderAreaPanel();
 
-  $("#station-search").addEventListener("input", (e) => renderStationList(e.target.value));
+  let searchTimer = null;
+  $("#station-search").addEventListener("input", (e) => {
+    clearTimeout(searchTimer);
+    const value = e.target.value;
+    searchTimer = setTimeout(() => renderSearchResults(value), 350);
+  });
+  $("#tab-station").addEventListener("click", () => {
+    $("#tab-station").classList.add("active");
+    $("#tab-area").classList.remove("active");
+    $("#panel-station").hidden = false;
+    $("#panel-area").hidden = true;
+  });
+  $("#tab-area").addEventListener("click", () => {
+    $("#tab-area").classList.add("active");
+    $("#tab-station").classList.remove("active");
+    $("#panel-area").hidden = false;
+    $("#panel-station").hidden = true;
+  });
   document.querySelectorAll("#cc-filter .chip").forEach(chip => {
     chip.addEventListener("click", async () => {
       currentFilter = chip.dataset.filter;
