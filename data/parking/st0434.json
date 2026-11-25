@@ -1,0 +1,31 @@
+{
+  "station_id": "st0434",
+  "station_name": "四ツ木",
+  "ward": "葛飾区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "akippa 四つ木1-39-12 バイク駐車場",
+      "lat": 35.735008,
+      "lon": 139.838318,
+      "address": "東京都葛飾区四つ木1-39-12",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "予約制（akippa）。料金は集約サイトに未掲載で、予約時に表示"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "0:00-23:59",
+      "monthly": false,
+      "source_url": "https://www.navitime.co.jp/parking/around/?spt=00011.030828783&category=0805002003",
+      "data_note": "集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

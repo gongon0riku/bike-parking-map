@@ -1,0 +1,31 @@
+{
+  "station_id": "st0440",
+  "station_name": "青砥",
+  "ward": "葛飾区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "Townバイクパーク青戸2丁目駐車場",
+      "lat": 35.747494,
+      "lon": 139.859942,
+      "address": "東京都葛飾区青戸2-17-9",
+      "cc_class": "unknown",
+      "displacement_note": "大型バイクも入る専用シート（幅120cm×奥行270cm×高さ160cm等）。公式FAQに一部大型タイプは利用不可の記載あり",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月極。料金は区画により異なるため公式サイトで要確認（管理費550円/月が別途必要）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.ttplan.co.jp/service/parking/",
+      "data_note": "東電タウンプランニング公式の送電線下バイク駐車場（契約窓口は名鉄協商）。当該区画の月額は公式ページに未掲載",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

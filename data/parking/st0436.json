@@ -1,0 +1,31 @@
+{
+  "station_id": "st0436",
+  "station_name": "新小岩",
+  "ward": "葛飾区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "新小岩北駐車場",
+      "lat": 35.716658,
+      "lon": 139.855967,
+      "address": "東京都葛飾区西新小岩1-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "1時間毎110円（12時間最大550円）。夜間22:00-8:00は2時間毎100円（夜間最大220円）"
+      },
+      "capacity": 38,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00044953&category=0812002",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。区営駐車場であることは葛飾区公式で確認",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

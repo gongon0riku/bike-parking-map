@@ -1,0 +1,77 @@
+{
+  "station_id": "st0439",
+  "station_name": "金町",
+  "ward": "葛飾区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "ヴィナシス金町バイク駐車場",
+      "lat": 35.767819,
+      "lon": 139.871263,
+      "address": "東京都葛飾区金町6-2-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 600,
+        "note": "1時間毎100円、1日最大600円（日替わりAM4:00）"
+      },
+      "capacity": 19,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-1661",
+      "data_note": "集約サイト（NAVITIME）の掲載値。所在地は葛飾区営金町南駐車場と同一住所（金町6-2-1）",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "金町南自転車駐車場",
+      "lat": 35.769266,
+      "lon": 139.874543,
+      "address": "東京都葛飾区金町6-13-5",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。葛飾区公式の原動機付自転車用案内図・料金一覧に掲載（原付の定義には、最高出力を4.0kW以下に制御した総排気量125cc以下の新基準原付を含む）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "一時利用200円（原付）。定期利用なし"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": false,
+      "source_url": "https://www.city.katsushika.lg.jp/planning/1030243/1003619/1020233.html",
+      "data_note": "葛飾区公式の原動機付自転車用料金一覧（画像）で所在地・料金を確認",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "東金町二丁目自転車駐車場",
+      "lat": 35.770915,
+      "lon": 139.866849,
+      "address": "東京都葛飾区東金町2-3-4",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。葛飾区公式の原動機付自転車用案内図・料金一覧に掲載（原付の定義には、最高出力を4.0kW以下に制御した総排気量125cc以下の新基準原付を含む）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用のみ。一般：1ヶ月3,000円／3ヶ月7,500円（原付）"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.city.katsushika.lg.jp/planning/1030243/1003619/1020233.html",
+      "data_note": "葛飾区公式の原動機付自転車用料金一覧（画像）で所在地・料金を確認。座標は街路レベル",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

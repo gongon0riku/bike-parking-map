@@ -1,0 +1,77 @@
+{
+  "station_id": "st0430",
+  "station_name": "亀有",
+  "ward": "葛飾区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "亀有南駐車場（パーキングリリオ）",
+      "lat": 35.766886,
+      "lon": 139.84942,
+      "address": "東京都葛飾区亀有3-26-3",
+      "cc_class": "400",
+      "displacement_note": "車種制限400cc以下と情報源に明記",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "1回200円"
+      },
+      "capacity": 60,
+      "roof": true,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-379",
+      "data_note": "料金・台数・車種制限は集約サイト（NAVITIME、提供：バイクを停めたい）の掲載値。区営駐車場（立体・自走式、タイムズ24運営）であることは葛飾区公式で確認",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "亀有南駐車場（バイク定期）",
+      "lat": 35.767378,
+      "lon": 139.848223,
+      "address": "東京都葛飾区亀有5-34-17",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期（月極）専用。料金は情報源に明記なし"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.city.katsushika.lg.jp/planning/1030243/1003618/1003759.html",
+      "data_note": "葛飾区公式「区営自動車・バイク駐車場」ページで所在地（亀有駅北口交番隣、平面）とバイク定期利用を確認。座標は街路レベル",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "ビーンズ亀有第1バイク駐輪場",
+      "lat": 35.759154,
+      "lon": 139.844408,
+      "address": "東京都葛飾区亀有4丁目",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 120,
+        "base_yen": 220,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降2時間毎220円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2728",
+      "data_note": "集約サイト（NAVITIME、提供：バイクを停めたい）の掲載値。番地不明のため座標は丁目レベル",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

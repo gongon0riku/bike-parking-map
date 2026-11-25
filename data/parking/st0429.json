@@ -1,0 +1,31 @@
+{
+  "station_id": "st0429",
+  "station_name": "お花茶屋",
+  "ward": "葛飾区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "お花茶屋地下自転車駐車場",
+      "lat": 35.747841,
+      "lon": 139.841317,
+      "address": "東京都葛飾区白鳥2-1-1",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ。葛飾区公式の原動機付自転車用案内図・料金一覧に掲載（原付の定義には、最高出力を4.0kW以下に制御した総排気量125cc以下の新基準原付を含む）",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "定期利用のみ。一般：1ヶ月3,000円／3ヶ月7,500円（原付）"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.city.katsushika.lg.jp/planning/1030243/1003619/1020233.html",
+      "data_note": "葛飾区公式の原動機付自転車用料金一覧（画像）で所在地・料金を確認",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

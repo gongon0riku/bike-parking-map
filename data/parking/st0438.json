@@ -1,0 +1,31 @@
+{
+  "station_id": "st0438",
+  "station_name": "柴又",
+  "ward": "葛飾区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "帝釈天有料駐車場",
+      "lat": 35.757679,
+      "lon": 139.876754,
+      "address": "東京都葛飾区柴又7丁目",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 30,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "バイク30分毎200円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "9:00〜（終了時刻は情報源に明記なし）",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00003413&category=0812002",
+      "data_note": "集約サイト（NAVITIME）の掲載値。番地不明のため座標は丁目レベル",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
