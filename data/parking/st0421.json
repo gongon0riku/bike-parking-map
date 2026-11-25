@@ -1,0 +1,31 @@
+{
+  "station_id": "st0421",
+  "station_name": "荒川一中前",
+  "ward": "荒川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "荒川一中前バイク駐車場",
+      "lat": 35.7339278,
+      "lon": 139.788375,
+      "address": "東京都荒川区荒川1-36-6",
+      "cc_class": "unknown",
+      "displacement_note": "対応車両は「オートバイまで」。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "akippaの予約制駐車場。料金は予約ページで確認"
+      },
+      "capacity": 2,
+      "roof": null,
+      "hours": "0:00-23:59",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13118/55047408_akipp/",
+      "data_note": "akippaの掲載情報（マピオン電話帳経由）。台数・営業時間は同ページの値。料金は未掲載",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

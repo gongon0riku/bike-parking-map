@@ -1,0 +1,31 @@
+{
+  "station_id": "st0414",
+  "station_name": "新三河島",
+  "ward": "荒川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "日暮里駅33-22駐車場",
+      "lat": 35.7329831,
+      "lon": 139.7725981,
+      "address": "東京都荒川区西日暮里2-33-22",
+      "cc_class": "unknown",
+      "displacement_note": "対応車両は「ワンボックスまで」でオートバイ駐車可。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "akippaの予約制駐車場。料金は予約ページで確認"
+      },
+      "capacity": 1,
+      "roof": null,
+      "hours": "0:00-23:59",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13118/55029894_akipp/",
+      "data_note": "akippaの掲載情報（マピオン電話帳経由）。同ページの最寄り駅表示は新三河島駅。直線距離では三河島駅の方が近いが、同駅は収録上限（3件）のため本駅に収録。料金は未掲載",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0427",
+  "station_name": "西日暮里",
+  "ward": "荒川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "Parking in 西日暮里バイク",
+      "lat": 35.732532,
+      "lon": 139.766864,
+      "address": "東京都荒川区西日暮里5-38",
+      "cc_class": "unlimited",
+      "displacement_note": "大型バイク（125cc超）区画5台・原付（125cc以下）区画8台",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "大型バイク：8時間まで400円、以降2時間毎100円。原付（125cc以下）：8時間まで200円、以降4時間毎100円"
+      },
+      "capacity": 13,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=07042.830&category=0812",
+      "data_note": "料金・台数はNAVITIMEの駐輪場/バイク駐車場一覧の掲載値。荒川区営・西日暮里自転車置場と同一住所",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

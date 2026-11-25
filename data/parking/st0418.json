@@ -1,0 +1,54 @@
+{
+  "station_id": "st0418",
+  "station_name": "町屋",
+  "ward": "荒川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコステーション21 マークスタワー駐輪場[バイク]",
+      "lat": 35.7419406,
+      "lon": 139.7804728,
+      "address": "東京都荒川区荒川7-46-1",
+      "cc_class": "125",
+      "displacement_note": "車種制限：125cc以下",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 240,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "2時間無料、以降4時間毎200円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00002491&category=0812002&from=view.around.related.category",
+      "data_note": "料金・排気量条件はNAVITIMEのバイク駐車場一覧の掲載値（提供：NCD）",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "サイクルドットコム TSUTAYA町屋店駐輪場[バイク]",
+      "lat": 35.742372,
+      "lon": 139.780068,
+      "address": "東京都荒川区荒川6丁目",
+      "cc_class": "125",
+      "displacement_note": "車種制限：125cc以下",
+      "fees": {
+        "free_minutes": 90,
+        "base_minutes": 240,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "90分無料、以降4時間毎200円"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spt=60502.1905",
+      "data_note": "座標はNAVITIME掲載値（住所は荒川6丁目レベル）。料金・台数はNAVITIME掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "station_id": "st0417",
+  "station_name": "熊野前",
+  "ward": "荒川区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "TOKYO PUBLIC 熊野前【Aブロック】(オートバイ)",
+      "lat": 35.7487164,
+      "lon": 139.7699953,
+      "address": "東京都荒川区東尾久3-37",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "最大料金設定あり（金額は情報源で確認できず）"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=00011.030951106&category=0812",
+      "data_note": "運営は東京都道路整備保全公社。台数・営業時間はNAVITIMEの駐輪場/バイク駐車場一覧の掲載値。座標は街区レベル",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "荒川区東尾久8丁目 月極駐車場",
+      "lat": 35.7515969,
+      "lon": 139.7707758,
+      "address": "東京都荒川区東尾久8丁目",
+      "cc_class": "unknown",
+      "displacement_note": "車室サイズ（2,000mm×1,000mm）からバイク用月極として掲載。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額2,200円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://p-king.jp/detail/649631",
+      "data_note": "集約サイト（日本駐車場検索）の掲載値。所在地は丁目レベル（番地不明）のため座標は丁目の代表点。最寄り駅は同ページ表示（熊野前駅徒歩4分）に従った",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p003",
+      "name": "荒川区東尾久5丁目月極駐車場",
+      "lat": 35.7456358,
+      "lon": 139.7689092,
+      "address": "東京都荒川区東尾久5丁目",
+      "cc_class": "unknown",
+      "displacement_note": "車室サイズ（2,000mm×1,000mm）からバイク用月極として掲載。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額5,500円"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://p-king.jp/detail/599814",
+      "data_note": "集約サイト（日本駐車場検索）の掲載値。所在地は丁目レベルのため座標は代表点（代表点では赤土小学校前駅の方が近いが、同ページの最寄り駅表示＝熊野前駅徒歩3分に従い本駅に収録）",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
