@@ -1,0 +1,31 @@
+{
+  "station_id": "st0431",
+  "station_name": "京成立石",
+  "ward": "葛飾区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "リビングパーク葛飾立石第1",
+      "lat": 35.737609,
+      "lon": 139.845584,
+      "address": "東京都葛飾区立石1-9-6",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "60分100円、入庫後12時間まで400円、24時間まで600円"
+      },
+      "capacity": 3,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00044953&category=0812002",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

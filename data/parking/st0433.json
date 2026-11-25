@@ -1,0 +1,31 @@
+{
+  "station_id": "st0433",
+  "station_name": "京成高砂",
+  "ward": "葛飾区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "サイクルステーション高砂",
+      "lat": 35.750941,
+      "lon": 139.866661,
+      "address": "東京都葛飾区高砂5-28",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 420,
+        "base_yen": 150,
+        "max_yen_per_day": null,
+        "note": "入庫後1時間無料、以降7時間毎150円"
+      },
+      "capacity": 8,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-1440",
+      "data_note": "料金・台数は集約サイト（NAVITIME、提供：バイクを停めたい）の掲載値。座標は住所の街路レベルで取得",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}

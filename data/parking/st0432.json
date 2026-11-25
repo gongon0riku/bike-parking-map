@@ -1,0 +1,54 @@
+{
+  "station_id": "st0432",
+  "station_name": "京成金町",
+  "ward": "葛飾区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "（バイク）葛飾区金町3丁目 月極駐車場",
+      "lat": 35.764683,
+      "lon": 139.87264,
+      "address": "東京都葛飾区金町3丁目",
+      "cc_class": "unknown",
+      "displacement_note": "車室スペックは全長2,500mm×全幅1,000mm×全高2,000mm。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額5,500円（手数料33,000円）"
+      },
+      "capacity": null,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://p-king.jp/detail/576587",
+      "data_note": "集約サイト（日本駐車場検索p-king）の掲載値。番地不明のため座標は丁目レベル。情報源の最寄り駅表記は金町駅（徒歩5分）で、京成金町駅にも至近のため当駅に登録",
+      "checked_date": "2026-11-25"
+    },
+    {
+      "id": "p002",
+      "name": "TMC月極バイク駐車場 葛飾金町第二",
+      "lat": 35.765755,
+      "lon": 139.872507,
+      "address": "東京都葛飾区金町3-3-13",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額5,000〜6,000円"
+      },
+      "capacity": 1,
+      "roof": false,
+      "hours": "不明",
+      "monthly": true,
+      "source_url": "https://www.instagram.com/p/DfVmDWwEmx_/",
+      "data_note": "運営会社（TMCバイク駐車場）の公式Instagram投稿の掲載値",
+      "checked_date": "2026-11-25"
+    }
+  ]
+}
