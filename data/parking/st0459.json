@@ -1,0 +1,31 @@
+{
+  "station_id": "st0459",
+  "station_name": "目白",
+  "ward": "豊島区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "目白駅北自転車駐車場（豊島区立）",
+      "lat": 35.723045,
+      "lon": 139.7069319,
+      "address": "東京都豊島区目白3-16",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ・定期利用のみ",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の定期利用：区内一般2,800円/月・学生1,850円、区外一般3,500円/月・学生2,300円（2014年の区資料）"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "6:00-24:00",
+      "monthly": true,
+      "source_url": "https://adeac.jp/viewitem/toshima-history/viewer/viewer/03_13_H251129/data/03_13_H251129.pdf",
+      "checked_date": "2026-11-25",
+      "data_note": "原付20台・料金・開場時間は豊島区の議会資料（2013〜2014年）に基づく。現行の料金・受入状況はWebで確認できなかった。座標は街区レベル"
+    }
+  ]
+}

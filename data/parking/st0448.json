@@ -1,0 +1,54 @@
+{
+  "station_id": "st0448",
+  "station_name": "巣鴨",
+  "ward": "豊島区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "巣鴨駅南自転車駐車場（豊島区立）",
+      "lat": 35.7329536,
+      "lon": 139.7402617,
+      "address": "東京都豊島区巣鴨1-13-8",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付一時利用：最初2時間無料、以降200円/日。定期利用：原付 区内一般3,750円/月・学生2,500円、区外一般4,500円/月・学生3,000円"
+      },
+      "capacity": 6,
+      "roof": null,
+      "hours": "4:00-翌1:30",
+      "monthly": true,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60522-919",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・原付台数はNAVITIME掲載値（提供：サイカパーキング）"
+    },
+    {
+      "id": "p002",
+      "name": "巣鴨駅北自転車駐車場（豊島区立）",
+      "lat": 35.7348925,
+      "lon": 139.7394978,
+      "address": "東京都豊島区巣鴨2-7-11",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付一時利用：最初2時間無料、以降200円/日。定期利用：原付 区内一般3,750円/月・学生2,500円、区外一般4,500円/月・学生3,000円"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "4:00-翌1:30",
+      "monthly": true,
+      "source_url": "https://www.navitime.co.jp/poi?spt=60522.920",
+      "checked_date": "2026-11-25",
+      "data_note": "原付台数はNAVITIME掲載値（提供：サイカパーキング）で5台。豊島区の資料（2014年）では20台とあり相違する"
+    }
+  ]
+}

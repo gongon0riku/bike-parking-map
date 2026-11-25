@@ -1,0 +1,54 @@
+{
+  "station_id": "st0464",
+  "station_name": "駒込",
+  "ward": "豊島区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "駒込駅北自転車駐車場（豊島区立）",
+      "lat": 35.7371972,
+      "lon": 139.7473381,
+      "address": "東京都豊島区駒込2-2-2",
+      "cc_class": "unknown",
+      "displacement_note": "原付（50cc以下）のみ",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "原付の定期利用：一般3,750円/月（区外4,500円）。一時利用の原付料金は未確認"
+      },
+      "capacity": 11,
+      "roof": null,
+      "hours": "4:00-翌1:15",
+      "monthly": true,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=60018.A2844&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "原付11台はNAVITIME掲載値。定期料金は豊島区議会資料（2014年）の値"
+    },
+    {
+      "id": "p002",
+      "name": "パーキング紅葉園 駒込 バイク専用時間貸駐車場",
+      "lat": 35.7356814,
+      "lon": 139.7466422,
+      "address": "東京都豊島区駒込1-43-13",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 20,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "20分100円。最大料金：8:00-22:00 500円、22:00-8:00 200円"
+      },
+      "capacity": 7,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=60018.A2844&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

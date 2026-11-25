@@ -1,0 +1,77 @@
+{
+  "station_id": "st0458",
+  "station_name": "池袋",
+  "ward": "豊島区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "池袋東口公共地下駐車場（バイク）",
+      "lat": 35.7304194,
+      "lon": 139.7127528,
+      "address": "東京都豊島区南池袋1-29-1",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 330,
+        "max_yen_per_day": null,
+        "note": "2時間まで60分毎330円、以降60分毎290円"
+      },
+      "capacity": 22,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00005947&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。タイムズの同施設案内ではバイク料金60分400円とあり、情報源により異なる。座標は街区レベル"
+    },
+    {
+      "id": "p002",
+      "name": "池袋西口都市計画公共地下駐車場（バイク）",
+      "lat": 35.7305778,
+      "lon": 139.7104167,
+      "address": "東京都豊島区西池袋1-1-30",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "30分毎100円（0:00-6:00は半額）"
+      },
+      "capacity": null,
+      "roof": true,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00055228&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金は集約サイト（NAVITIME）の掲載値。バイクの収容台数は未確認。座標は街区レベル"
+    },
+    {
+      "id": "p003",
+      "name": "池袋北口バイク駐輪場",
+      "lat": 35.7325611,
+      "lon": 139.7114472,
+      "address": "東京都豊島区西池袋1-30",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 300,
+        "max_yen_per_day": null,
+        "note": "1時間毎300円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00005947&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0456",
+  "station_name": "板橋",
+  "ward": "豊島区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "板橋駅自転車駐車場（板橋区営）",
+      "lat": 35.745515,
+      "lon": 139.7181436,
+      "address": "東京都板橋区板橋1-1-2",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "バイク12台の区画あり。バイクの一時利用料金は未確認（自転車は2時間無料・24時間150円）"
+      },
+      "capacity": 12,
+      "roof": null,
+      "hours": "4:30-翌1:30",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60525-NCD05276C",
+      "checked_date": "2026-11-25",
+      "data_note": "バイク台数はNAVITIME掲載値（提供：NCD）。所在地は板橋区。座標は街区レベル"
+    }
+  ]
+}

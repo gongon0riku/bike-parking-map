@@ -1,0 +1,31 @@
+{
+  "station_id": "st0443",
+  "station_name": "千川",
+  "ward": "豊島区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "ライフ千川駅前店駐輪場B",
+      "lat": 35.73954,
+      "lon": 139.6882461,
+      "address": "東京都豊島区要町3-45-4",
+      "cc_class": "125",
+      "displacement_note": "125cc以下（情報源に明記）",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 180,
+        "base_yen": 200,
+        "max_yen_per_day": null,
+        "note": "2時間無料、その後3時間毎200円"
+      },
+      "capacity": 4,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00005148&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数・排気量制限はNAVITIME掲載値。住所は同施設（エコステーション21 ライフ千川駅前店駐輪場）の所在地"
+    }
+  ]
+}
