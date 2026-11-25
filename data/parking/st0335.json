@@ -1,0 +1,31 @@
+{
+  "station_id": "st0335",
+  "station_name": "北参道",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "原宿リビンバイク駐車場",
+      "lat": 35.674598,
+      "lon": 139.707634,
+      "address": "東京都渋谷区神宮前2-35-9",
+      "cc_class": "unknown",
+      "displacement_note": "対応車両はオートバイまでと記載。排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "料金は情報源に明記なし（予約制駐車場）"
+      },
+      "capacity": 2,
+      "roof": false,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.mapion.co.jp/phonebook/M08002/13113/55026432_akipp/",
+      "checked_date": "2026-11-25",
+      "data_note": "集約サイト（マピオン電話帳）の掲載値。akippa等の予約制バイク駐車場"
+    }
+  ]
+}

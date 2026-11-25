@@ -1,0 +1,54 @@
+{
+  "station_id": "st0346",
+  "station_name": "笹塚",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "笹塚東自転車等駐車場（サイカパーク）",
+      "lat": 35.675399,
+      "lon": 139.670583,
+      "address": "東京都渋谷区笹塚1-52",
+      "cc_class": "unlimited",
+      "displacement_note": "定期利用に大型自動二輪（400cc以上）の区画12台あり",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 240,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "バイク一時利用：最初の1時間無料、以降4時間毎110円（IC支払いは103円）。定期利用：原付（50cc以内）月額4,330円〜、自動二輪 月額6,490円〜、大型 月額8,650円〜（いずれも渋谷区内料金）"
+      },
+      "capacity": 145,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60522-401",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値（提供：サイカパーキング株式会社）。バイク145台は一時30台・定期115台の合計"
+    },
+    {
+      "id": "p002",
+      "name": "CYCA park Sasazuka（サイカパーク笹塚駐輪場）",
+      "lat": 35.67349,
+      "lon": 139.666628,
+      "address": "東京都渋谷区笹塚1-46-1",
+      "cc_class": "unknown",
+      "displacement_note": "一時利用のバイクは原付30台と記載。排気量の数値での明記なし",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 360,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "バイク：最初の1時間無料、以降6時間毎100円"
+      },
+      "capacity": 30,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60522-377",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値（提供：サイカパーキング株式会社）"
+    }
+  ]
+}

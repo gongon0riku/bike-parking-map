@@ -1,0 +1,31 @@
+{
+  "station_id": "st0329",
+  "station_name": "代々木",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコステーション21 代々木二丁目自動二輪車等駐車場",
+      "lat": 35.686411,
+      "lon": 139.69947,
+      "address": "東京都渋谷区代々木2-1先",
+      "cc_class": "unknown",
+      "displacement_note": "自動二輪車等駐車場だが、排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 120,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "入庫後30分以内は無料、以降2時間毎100円"
+      },
+      "capacity": 10,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00009098&category=0812002&page=15",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。座標は街区レベル"
+    }
+  ]
+}

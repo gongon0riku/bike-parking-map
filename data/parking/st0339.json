@@ -1,0 +1,31 @@
+{
+  "station_id": "st0339",
+  "station_name": "参宮橋",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコステーション21 参宮橋高架下バイク駐車場",
+      "lat": 35.679505,
+      "lon": 139.69356,
+      "address": "東京都渋谷区代々木4-1先",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 120,
+        "base_minutes": 240,
+        "base_yen": 110,
+        "max_yen_per_day": null,
+        "note": "4時間毎110円（うち2時間無料）"
+      },
+      "capacity": 28,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00009098&category=0812002&page=16",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。座標は街区レベル"
+    }
+  ]
+}

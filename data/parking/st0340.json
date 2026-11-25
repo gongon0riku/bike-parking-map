@@ -1,0 +1,31 @@
+{
+  "station_id": "st0340",
+  "station_name": "幡ヶ谷",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "ニリーン ドゥーエ幡ヶ谷（バイク月極駐車場）",
+      "lat": 35.677377,
+      "lon": 139.675487,
+      "address": "東京都渋谷区幡ヶ谷2-17-1",
+      "cc_class": "unknown",
+      "displacement_note": "区画サイズは全長2,100mm×全幅800mm。入庫可能なバイクの例に大型バイクの記載があるが、排気量の明記なし",
+      "fees": {
+        "free_minutes": null,
+        "base_minutes": null,
+        "base_yen": null,
+        "max_yen_per_day": null,
+        "note": "月額6,600円（税込）。月極専用"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": true,
+      "source_url": "https://bike-parking.jp/parking/1613/?referer=G9532",
+      "checked_date": "2026-11-25",
+      "data_note": "運営会社（ニリーン）公式ページの掲載値。台数は情報源に明記なし"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "station_id": "st0338",
+  "station_name": "原宿",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "エコロパーク原宿通り第2（バイク駐車場）",
+      "lat": 35.669904,
+      "lon": 139.707748,
+      "address": "東京都渋谷区神宮前3-21",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 30,
+        "base_yen": 100,
+        "max_yen_per_day": 700,
+        "note": "30分100円、24時間最大700円"
+      },
+      "capacity": 5,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?spt=02022.1352100&category=0812",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。営業時間は情報源に明記なし"
+    }
+  ]
+}

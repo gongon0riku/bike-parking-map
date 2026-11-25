@@ -1,0 +1,54 @@
+{
+  "station_id": "st0333",
+  "station_name": "代官山",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "NTTル・パルク代官山バイク駐車場",
+      "lat": 35.651612,
+      "lon": 139.703324,
+      "address": "東京都渋谷区猿楽町8-9",
+      "cc_class": "unknown",
+      "displacement_note": "100cc以下のバイクは駐車不可（長さ2.5m以上・幅1m以上の車両、改造バイク、サイドカーも不可）と明記。排気量の上限は明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": 1000,
+        "note": "オールタイム60分100円、駐車後24時間最大1,000円（1回限り）"
+      },
+      "capacity": 11,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00005504&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。営業時間は情報源に明記なし"
+    },
+    {
+      "id": "p002",
+      "name": "代官山T-SITE駐輪場（バイク）",
+      "lat": 35.648879,
+      "lon": 139.69979,
+      "address": "東京都渋谷区猿楽町17-5",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 15,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "15分毎100円"
+      },
+      "capacity": 20,
+      "roof": null,
+      "hours": "不明",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00005504&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値。営業時間外は入出庫不可と情報源に記載"
+    }
+  ]
+}

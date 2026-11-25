@@ -1,0 +1,77 @@
+{
+  "station_id": "st0344",
+  "station_name": "渋谷",
+  "ward": "渋谷区",
+  "checked_date": "2026-11-25",
+  "parkings": [
+    {
+      "id": "p001",
+      "name": "渋谷ストリーム駐輪場（バイク）",
+      "lat": 35.657236,
+      "lon": 139.703071,
+      "address": "東京都渋谷区渋谷3-21-3",
+      "cc_class": "unlimited",
+      "displacement_note": "125cc以下と126cc以上で料金区分があり、大型バイクも利用可",
+      "fees": {
+        "free_minutes": 60,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "最初の1時間無料。以降、126cc以上は1時間毎100円、125cc以下は2時間毎100円"
+      },
+      "capacity": null,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/poi?spot=60502-2933",
+      "checked_date": "2026-11-25",
+      "data_note": "料金は集約サイト（NAVITIME）の掲載値。2026年4月から料金改定の告知あり（無料時間短縮）"
+    },
+    {
+      "id": "p002",
+      "name": "宮下公園南バイク専用駐車場",
+      "lat": 35.661677,
+      "lon": 139.701687,
+      "address": "東京都渋谷区渋谷1-26-5",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 30,
+        "base_minutes": 60,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "最初の30分無料、以降1時間毎100円"
+      },
+      "capacity": 21,
+      "roof": null,
+      "hours": "24時間",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00018469&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    },
+    {
+      "id": "p003",
+      "name": "渋谷フクラス（東急プラザ渋谷）バイク駐車場",
+      "lat": 35.657728,
+      "lon": 139.700157,
+      "address": "東京都渋谷区道玄坂1-2-3",
+      "cc_class": "unknown",
+      "displacement_note": "排気量の上限について情報源に明記なし",
+      "fees": {
+        "free_minutes": 0,
+        "base_minutes": 120,
+        "base_yen": 100,
+        "max_yen_per_day": null,
+        "note": "2時間毎100円"
+      },
+      "capacity": 32,
+      "roof": null,
+      "hours": "7:00-25:00",
+      "monthly": null,
+      "source_url": "https://www.navitime.co.jp/around/category/poi?node=00018469&category=0812002",
+      "checked_date": "2026-11-25",
+      "data_note": "料金・台数は集約サイト（NAVITIME）の掲載値"
+    }
+  ]
+}
